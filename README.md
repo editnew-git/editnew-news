@@ -10,6 +10,6 @@ Static Astro support, training, troubleshooting, and product-update site for Edi
 | `npm run build` | Build the production site into `dist/`. |
 | `npm run preview` | Preview the production build. |
 
-## Publishing resources
+## Content
 
-Published Markdown files in `src/content/news/` automatically become support resources. The GitHub/n8n workflow can keep using its current path and create-or-update behavior. See [the n8n field mapping](docs/n8n-content-fields.md) for the optional documentation metadata and iframe guidance.
+Published Markdown files in `src/content/news/` automatically become support resources.
