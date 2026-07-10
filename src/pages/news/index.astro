@@ -1,68 +1,34 @@
 ---
 import { getCollection } from 'astro:content';
 import SiteLayout from '../../layouts/SiteLayout.astro';
-import { getPublicAsset } from '../../lib/publicAsset';
 
 const posts = (await getCollection('news', ({ data }) => !data.draft))
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
-
-const postsWithImages = posts.map((post) => ({
-  post,
-  image: getPublicAsset(post.data.image),
-}));
-
-const formatDate = (date: string) => new Intl.DateTimeFormat('en-US', {
-  month: 'short',
-  day: '2-digit',
-  year: 'numeric',
-}).format(new Date(`${date}T12:00:00`));
+const categories = ['Getting Started', 'Daily Use', 'Training & Layouts', 'Troubleshooting', 'Product Updates'];
 ---
-
-<SiteLayout title="Resources - Editnew" description="Browse support, training, and product resources from Editnew.">
-  <section class="resource-hero shell">
-    <p class="eyebrow">Support library</p>
-    <h1 class="page-title">Resources for using S.A.M.</h1>
-    <p class="lead">
-      Guides, release notes, embedded signage layouts, troubleshooting references, and client-facing training material.
-    </p>
-  </section>
-
-  <section class="shell" aria-label="All resources">
-    <div class="section-head">
-      <h2>All resources</h2>
-      <span class="meta">{posts.length.toString().padStart(2, '0')} published</span>
-    </div>
-
-    {postsWithImages.length > 0 ? (
-      <div class="resource-list">
-        {postsWithImages.map(({ post, image }) => (
-          <a class="resource-card featured" href={`/news/${post.data.slug}`}>
-            <div>
-              <div class="card-kicker">
-                <span class="meta">{formatDate(post.data.date)}</span>
-                {post.data.location && <span class="meta">{post.data.location}</span>}
-              </div>
-              <h2 class="card-title">{post.data.title}</h2>
-              {post.data.excerpt && <p class="card-excerpt">{post.data.excerpt}</p>}
-              {post.data.tags.length > 0 && (
-                <ul class="tag-list" aria-label="Tags">
-                  {post.data.tags.slice(0, 5).map((tag) => <li class="tag">{tag}</li>)}
-                </ul>
-              )}
-            </div>
-            <div
-              class="card-media"
-              style={image ? `--resource-image: url("${image}")` : undefined}
-              aria-hidden="true"
-            />
-          </a>
-        ))}
-      </div>
-    ) : (
-      <div class="empty-state">
-        <h2>No resources published yet</h2>
-        <p>Published markdown files committed by the current automation will appear here without changing the n8n workflow.</p>
-      </div>
-    )}
-  </section>
+<SiteLayout title="Browse guides | Editnew Support" description="Browse Editnew support guides, training, troubleshooting, and product updates.">
+  <section class="browse-hero"><div class="shell"><p class="eyebrow">Support library</p><h1 class="page-title">Browse guides and answers.</h1><p class="lead">Use search or choose a topic to find the right resource for your role and task.</p></div></section>
+  <section class="shell guide-browser" aria-label="Guide browser"><aside class="filters"><label class="filter-label" for="guide-search">Search resources</label><input class="search-input" id="guide-search" type="search" placeholder="Try “layouts” or “schedule”" autocomplete="off" /><p class="filter-label" style="margin-top: 1.5rem">Filter by topic</p><ul class="filter-list" aria-label="Resource categories"><li><button class="filter-button" type="button" data-category="all" aria-pressed="true">All resources</button></li>{categories.map((category) => <li><button class="filter-button" type="button" data-category={category} aria-pressed="false">{category}</button></li>)}</ul></aside><div><div class="results-head"><h2 class="section-title">Resources</h2><span class="result-count" id="result-count">{posts.length} published</span></div>{posts.length > 0 ? <div class="browse-list" id="guide-results">{posts.map((post) => { const searchable = [post.data.title, post.data.excerpt, post.data.category, post.data.contentType, post.data.audience, ...post.data.tags].filter(Boolean).join(' ').toLowerCase(); return <a class="resource-card" href={`/news/${post.data.slug}`} data-resource data-category={post.data.category} data-search={searchable}><div class="badge-row"><span class="badge">{post.data.category}</span><span class="badge badge--quiet">{post.data.audience}</span><span class="badge badge--quiet">{post.data.contentType}</span></div><h2>{post.data.title}</h2>{post.data.excerpt && <p>{post.data.excerpt}</p>}{post.data.tags.length > 0 && <ul class="tag-list" aria-label="Tags">{post.data.tags.map((tag) => <li class="tag">{tag}</li>)}</ul>}</a>; })}</div> : <div class="empty-state"><h2>No resources published yet</h2><p>Once n8n commits a published Markdown resource, it will appear here automatically.</p></div>}<p class="no-results" id="no-results" hidden>No resources match that search. Try another topic or clear the search.</p></div></section>
 </SiteLayout>
+<script>
+  const search = document.querySelector<HTMLInputElement>('#guide-search');
+  const buttons = [...document.querySelectorAll<HTMLButtonElement>('[data-category]')];
+  const resources = [...document.querySelectorAll<HTMLElement>('[data-resource]')];
+  const count = document.querySelector('#result-count');
+  const noResults = document.querySelector<HTMLElement>('#no-results');
+  let activeCategory = new URLSearchParams(window.location.search).get('category') ?? 'all';
+  function updateResults() {
+    const query = search?.value.trim().toLowerCase() ?? '';
+    let visible = 0;
+    resources.forEach((resource) => {
+      const show = (activeCategory === 'all' || resource.dataset.category === activeCategory) && (!query || resource.dataset.search?.includes(query));
+      resource.hidden = !show;
+      if (show) visible += 1;
+    });
+    buttons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.category === activeCategory)));
+    if (count) count.textContent = `${visible} ${visible === 1 ? 'resource' : 'resources'}`;
+    if (noResults) noResults.hidden = visible !== 0;
+  }
+  buttons.forEach((button) => button.addEventListener('click', () => { activeCategory = button.dataset.category ?? 'all'; const url = new URL(window.location.href); if (activeCategory === 'all') url.searchParams.delete('category'); else url.searchParams.set('category', activeCategory); window.history.replaceState({}, '', url); updateResults(); }));
+  search?.addEventListener('input', updateResults); updateResults();
+</script>

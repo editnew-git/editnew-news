@@ -1,79 +1,20 @@
 ---
 import { getCollection, render } from 'astro:content';
 import SiteLayout from '../../layouts/SiteLayout.astro';
+import { getPublicAsset } from '../../lib/publicAsset';
 
 export async function getStaticPaths() {
   const posts = await getCollection('news', ({ data }) => !data.draft);
-  return posts.map((post) => ({
-    params: { slug: post.data.slug },
-    props: { post },
-  }));
+  return posts.map((post) => ({ params: { slug: post.data.slug }, props: { post } }));
 }
-
 const { post } = Astro.props;
-const { Content } = await render(post);
-const formatDate = (date: string) => new Intl.DateTimeFormat('en-US', {
-  month: 'long',
-  day: 'numeric',
-  year: 'numeric',
-}).format(new Date(`${date}T12:00:00`));
+const { Content, headings } = await render(post);
+const articleImage = getPublicAsset(post.data.image);
+const posts = await getCollection('news', ({ data }) => !data.draft);
+const related = posts.filter((candidate) => candidate.id !== post.id).map((candidate) => ({ post: candidate, score: (candidate.data.category === post.data.category ? 10 : 0) + candidate.data.tags.filter((tag) => post.data.tags.includes(tag)).length })).filter(({ score }) => score > 0).sort((a, b) => b.score - a.score || new Date(b.post.data.date).getTime() - new Date(a.post.data.date).getTime()).slice(0, 3).map(({ post: relatedPost }) => relatedPost);
+const formatDate = (date: string) => new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric' }).format(new Date(`${date}T12:00:00`));
 ---
-
-<SiteLayout title={`${post.data.title} - Editnew Resources`} description={post.data.excerpt}>
-  <article>
-    <header class="article-header">
-      <div class="shell">
-        <p class="eyebrow">Resource</p>
-        <h1 class="article-title">{post.data.title}</h1>
-        {post.data.subheadline && <p class="subheadline">{post.data.subheadline}</p>}
-        <div class="article-meta">
-          <span class="meta">{formatDate(post.data.date)}</span>
-          {post.data.location && <span class="meta">{post.data.location}</span>}
-        </div>
-        {post.data.tags.length > 0 && (
-          <ul class="tag-list" aria-label="Tags">
-            {post.data.tags.map((tag) => <li class="tag">{tag}</li>)}
-          </ul>
-        )}
-      </div>
-    </header>
-
-    <div class="article-layout shell">
-      <div class="article-body">
-        <Content />
-      </div>
-
-      <aside class="support-rail" aria-label="Resource support information">
-        <section class="support-box">
-          <h2>Resource details</h2>
-          <dl class="detail-list">
-            <div>
-              <dt>Published</dt>
-              <dd>{formatDate(post.data.date)}</dd>
-            </div>
-            {post.data.location && (
-              <div>
-                <dt>Location</dt>
-                <dd>{post.data.location}</dd>
-              </div>
-            )}
-            <div>
-              <dt>Format</dt>
-              <dd>Support and training resource</dd>
-            </div>
-          </dl>
-        </section>
-
-        <section class="support-box">
-          <h2>Need help?</h2>
-          <p>Contact Editnew if this resource does not answer the question or if a S.A.M layout needs review.</p>
-          <p><a class="text-link" href="mailto:info@editnew.ca">Contact support</a></p>
-        </section>
-      </aside>
-    </div>
-  </article>
-
-  <div class="shell">
-    <a class="text-link back-link" href="/news/">Back to resources</a>
-  </div>
+<SiteLayout title={`${post.data.title} | Editnew Support`} description={post.data.excerpt ?? `Editnew support resource: ${post.data.title}`}>
+  <article><header class="article-header"><div class="shell"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Support</a><span aria-hidden="true">/</span><a href={`/news/?category=${encodeURIComponent(post.data.category)}`}>{post.data.category}</a><span aria-hidden="true">/</span><span>{post.data.title}</span></nav><div class="badge-row"><span class="badge">{post.data.category}</span><span class="badge badge--quiet">{post.data.audience}</span><span class="badge badge--quiet">{post.data.contentType}</span></div><h1 class="article-title">{post.data.title}</h1>{(post.data.subheadline || post.data.excerpt) && <p class="article-summary">{post.data.subheadline ?? post.data.excerpt}</p>}<div class="article-meta"><span class="badge badge--quiet">Updated {formatDate(post.data.date)}</span></div>{articleImage && <img class="article-cover" src={articleImage} alt="" />}</div></header><div class="shell article-layout"><div class="article-body"><Content /></div><aside class="article-rail" aria-label="Article tools">{headings.length > 0 && <section class="rail-box"><h2>On this page</h2><ol class="toc-list">{headings.map((heading) => <li data-depth={heading.depth}><a href={`#${heading.slug}`}>{heading.text}</a></li>)}</ol></section>}<section class="rail-box"><h2>Need more help?</h2><p>For advanced assistance or issues not covered here, contact Editnew support.</p><p style="margin-top: .8rem"><a class="link" href="mailto:info@editnew.ca">Email support →</a></p></section></aside></div></article>
+  {related.length > 0 && <section class="shell related" aria-labelledby="related-title"><div class="section-head"><div><h2 id="related-title">Related resources</h2></div><a class="link" href="/news/">Browse all →</a></div><div class="resource-grid">{related.map((item) => <a class="resource-card" href={`/news/${item.data.slug}`}><div class="badge-row"><span class="badge">{item.data.category}</span><span class="badge badge--quiet">{item.data.contentType}</span></div><h3>{item.data.title}</h3>{item.data.excerpt && <p>{item.data.excerpt}</p>}<div class="card-footer"><span class="link">Read resource →</span></div></a>)}</div></section>}
 </SiteLayout>

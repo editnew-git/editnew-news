@@ -1,100 +1,20 @@
 ---
 import { getCollection } from 'astro:content';
 import SiteLayout from '../layouts/SiteLayout.astro';
-import { getPublicAsset } from '../lib/publicAsset';
 
 const posts = (await getCollection('news', ({ data }) => !data.draft))
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
-
-const latest = posts[0];
-const recent = posts.slice(1, 5);
-const latestImage = getPublicAsset(latest?.data.image);
-const formatDate = (date: string) => new Intl.DateTimeFormat('en-US', {
-  month: 'short',
-  day: '2-digit',
-  year: 'numeric',
-}).format(new Date(`${date}T12:00:00`));
+const recent = posts.slice(0, 3);
+const categories = [
+  ['Getting Started', 'Set up S.A.M. and learn the essentials.'],
+  ['Daily Use', 'Create, schedule, and manage everyday content.'],
+  ['Training & Layouts', 'Walkthroughs and interactive layout examples.'],
+  ['Troubleshooting', 'Find solutions before escalating an issue.'],
+  ['Product Updates', 'See what is new and what has changed.'],
+] as const;
 ---
-
-<SiteLayout title="Editnew Resource Center" description="Support, training, and product resources for Editnew and S.A.M.">
-  <section class="home-hero shell">
-    <div class="hero-grid">
-      <div>
-        <p class="eyebrow">S.A.M support and training</p>
-        <h1 class="display">Editnew Resource Center</h1>
-        <p class="lead">
-          Practical guides, product notes, embedded screen-layout examples, and support updates for clients using S.A.M and Editnew services.
-        </p>
-      </div>
-      <aside class="hero-panel" aria-label="About S.A.M">
-        <img src="/images/brand/sam-logo.png" alt="S.A.M logo" width="1000" height="1080" />
-        <p>
-          Use this space for nontechnical walkthroughs, client-facing documentation, training records, and technical notes when they help people use the product.
-        </p>
-      </aside>
-    </div>
-  </section>
-
-  <section class="shell" aria-label="Latest resource">
-    <div class="section-head">
-      <h2>Latest resource</h2>
-      <a class="text-link" href="/news/">View all resources</a>
-    </div>
-
-    {latest ? (
-      <a
-        class="resource-card featured"
-        href={`/news/${latest.data.slug}`}
-      >
-        <div>
-          <div class="card-kicker">
-            <span class="meta">{formatDate(latest.data.date)}</span>
-            {latest.data.location && <span class="meta">{latest.data.location}</span>}
-          </div>
-          <h3 class="card-title">{latest.data.title}</h3>
-          {latest.data.excerpt && <p class="card-excerpt">{latest.data.excerpt}</p>}
-          {latest.data.tags.length > 0 && (
-            <ul class="tag-list" aria-label="Tags">
-              {latest.data.tags.slice(0, 4).map((tag) => <li class="tag">{tag}</li>)}
-            </ul>
-          )}
-        </div>
-        <div
-          class="card-media"
-          style={latestImage ? `--resource-image: url("${latestImage}")` : undefined}
-          aria-hidden="true"
-        />
-      </a>
-    ) : (
-      <div class="empty-state">
-        <h2>No resources published yet</h2>
-        <p>When Pressly commits markdown into <code>src/content/news</code>, published resources will appear here automatically.</p>
-      </div>
-    )}
-  </section>
-
-  {recent.length > 0 && (
-    <section class="shell" aria-label="Recent resources">
-      <div class="section-head">
-        <h2>Recent resources</h2>
-      </div>
-      <div class="resource-grid">
-        {recent.map((post) => (
-          <a class="resource-card" href={`/news/${post.data.slug}`}>
-            <div class="card-kicker">
-              <span class="meta">{formatDate(post.data.date)}</span>
-              {post.data.location && <span class="meta">{post.data.location}</span>}
-            </div>
-            <h3 class="card-title">{post.data.title}</h3>
-            {post.data.excerpt && <p class="card-excerpt">{post.data.excerpt}</p>}
-            {post.data.tags.length > 0 && (
-              <ul class="tag-list" aria-label="Tags">
-                {post.data.tags.slice(0, 3).map((tag) => <li class="tag">{tag}</li>)}
-              </ul>
-            )}
-          </a>
-        ))}
-      </div>
-    </section>
-  )}
+<SiteLayout title="Editnew Support Centre" description="Guides, training, troubleshooting, and product updates for Editnew and S.A.M.">
+  <section class="hero"><div class="shell hero-grid"><div><p class="eyebrow">Editnew &amp; S.A.M. support</p><h1 class="display">Clear help for every next step.</h1><p class="lead">Find practical guides, training resources, layout examples, troubleshooting steps, and product updates for using S.A.M. with confidence.</p></div><aside class="product-card" aria-label="S.A.M. product support"><img src="/images/brand/sam-logo.png" alt="S.A.M. Sign Administration & Management" width="1000" height="1080" /><p>Helpful for first-time users, daily content contributors, administrators, resellers, and teams supporting a signage network.</p></aside></div></section>
+  <section class="shell section" aria-labelledby="explore-title"><div class="section-head"><div><h2 id="explore-title">Explore by topic</h2><p>Start with the question you have today.</p></div></div><div class="category-grid">{categories.map(([category, description]) => <a class="category-card" href={`/news/?category=${encodeURIComponent(category)}`}><span class="category-mark" aria-hidden="true"></span><strong>{category}</strong><span>{description}</span></a>)}</div></section>
+  <section class="shell section" aria-labelledby="recent-title"><div class="section-head"><div><h2 id="recent-title">Latest resources</h2><p>New guides and product information from Editnew.</p></div><a class="link" href="/news/">Browse all guides →</a></div>{recent.length > 0 ? <div class="resource-grid">{recent.map((post) => <a class="resource-card" href={`/news/${post.data.slug}`}><div class="badge-row"><span class="badge">{post.data.category}</span><span class="badge badge--quiet">{post.data.contentType}</span></div><h3>{post.data.title}</h3>{post.data.excerpt && <p>{post.data.excerpt}</p>}<div class="card-footer"><span class="link">Read resource →</span></div></a>)}</div> : <div class="empty-state"><h2>Resources are on their way</h2><p>Published support guides will appear here automatically when the Editnew publishing workflow commits their Markdown files.</p></div>}</section>
 </SiteLayout>
