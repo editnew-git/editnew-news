@@ -10,7 +10,7 @@ tags: ["getting-started", "onboarding", "training", "runsam", "layouts", "daily-
 draft: false
 ---
 
-This guide explains how to sign in to S.A.M, check your signs, upload an image, preview it, and schedule when it appears.
+Test This guide explains how to sign in to S.A.M, check your signs, upload an image, preview it, and schedule when it appears.
 
 ## Before you begin
 
