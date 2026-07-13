@@ -1,5 +1,5 @@
 ---
-title: "Petro Canada Showcase Layout 14143"
+title: "Petro Canada Showcase Layout"
 subheadline: "A S.A.M showcase layout for bringing advertising, weather, time, community updates, and location-specific notices together in one branded display."
 date: "2026-07-13"
 location: "Canada"
