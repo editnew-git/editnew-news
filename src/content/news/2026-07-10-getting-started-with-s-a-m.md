@@ -191,6 +191,6 @@ Editnew Inc. is a Canadian federally registered company and British Columbia ext
 
 ## Media Contact
 
-Jeremiah Archembault
+Jeremiah Archambault
 info@editnew.ca
 +1 250 999 9368
