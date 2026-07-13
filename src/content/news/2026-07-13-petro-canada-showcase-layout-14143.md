@@ -27,10 +27,10 @@ This S.A.M layout brings advertising, weather, time, community updates, and loca
 
 ## About EditNew
 
-unknown
+Editnew Inc. is a Canadian federally registered company and British Columbia extra-provincially registered business focused on digital signage, and support systems for S.A.M., reseller, and emergency-notification deployments.
 
 ## Media Contact
 
-unknown
-unknown
-unknown
+Jeremiah Archembault
+info@editnew.ca
++1 250 999 9368
