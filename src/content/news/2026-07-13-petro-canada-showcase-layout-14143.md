@@ -14,16 +14,17 @@ draft: false
 
 This S.A.M layout brings advertising, weather, time, community updates, and location-specific notices together in one clear, professionally branded display. Businesses can promote local services while keeping visitors informed with live information and timely public messaging—all managed from a single platform.
 
-*Ideal for:* fuel stations, retail locations, community centres, transportation hubs, waiting areas, and other high-traffic environments.
-
-*S.A.M makes every screen more useful, relevant, and connected.*
-
 <iframe
  src="https://iframe.wwds.co/?campId=14143"
  title="Petro Canada Showcase layout 14143"
  loading="lazy"
  allowfullscreen>
-</iframe>
+</iframe>*Ideal for:* fuel stations, retail locations, community centres, transportation hubs, waiting areas, and other high-traffic environments.
+
+*S.A.M makes every screen more useful, relevant, and connected.*
+
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://www.runsam.com/layouts/rc/14143/81DC0EAD-8033-41D2-829C-DDAF5EC4CCB3">
 
 ## About EditNew
 
