@@ -187,10 +187,10 @@ Include the device name, layout name, and a description of what you expected to 
 
 ## About EditNew
 
-unknown
+Editnew Inc. is a Canadian federally registered company and British Columbia extra-provincially registered business focused on digital signage, and support systems for S.A.M., reseller, and emergency-notification deployments.
 
 ## Media Contact
 
-unknown
-unknown
-unknown
+Jeremiah Archembault
+info@editnew.ca
++1 250 999 9368
