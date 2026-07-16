@@ -3,7 +3,7 @@ title: "How to Download the Latest S.A.M Operating System"
 subheadline: "Download the latest stable S.A.M operating system image and the USB Writer utility required to create installation media."
 date: "2026-07-16"
 slug: "2026-07-16-how-to-download-the-latest-s-a-m-operating-system"
-image: "/images/news/placeholder.jpg"
+image: "/images/news/2026-07-16-how-to-download-the-latest-s-a-m-operating-system.png"
 excerpt: "Follow these steps to sign in to the S.A.M portal, download the latest stable S.A.M operating system image, and download the USB Writer utility."
 tags: ["training", "runsam", "support", "getting-started"]
 draft: false
