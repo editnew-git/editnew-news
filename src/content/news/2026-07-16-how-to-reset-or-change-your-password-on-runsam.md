@@ -1,28 +1,28 @@
 ---
-title: "How to Reset or Change Your Password on runSAM"
-subheadline: "Reset a forgotten runSAM password or update your password from your account settings."
+title: "How to Reset or Change Your Password on runsam.com"
+subheadline: "Reset a forgotten runsam.com password or update your password from your account settings."
 date: "2026-07-16"
 slug: "2026-07-16-how-to-reset-or-change-your-password-on-runsam"
 image: "/images/news/placeholder.jpg"
-excerpt: "Learn how to reset a forgotten runSAM password, change your password while logged in, and troubleshoot a missing reset email."
+excerpt: "Learn how to reset a forgotten runsam.com password, change your password while logged in, and troubleshoot a missing reset email."
 tags: ["training", "runsam", "support", "troubleshooting"]
 draft: false
 ---
 
-If you forgot your password or need to update it, you can reset it directly from the runSAM login page.
+If you forgot your password or need to update it, you can reset it directly from the [runsam.com](http://runsam.com) login page.
 
 ## Forgot Your Password
 
-1. Go to the runSAM login page at [runsam.co](http://runsam.co).
+1. Go to the login page at [runsam.com](http://runsam.com).
 2. Click **Forgot Password** on the login screen.
-3. Enter the email address connected to your runSAM account.
+3. Enter the email address connected to your runsam.com account.
 4. Check your email inbox for the password reset message.
 5. Open the reset link and create a new password.
 6. Return to the login page and sign in with your updated password.
 
 ## Change Your Password While Logged In
 
-1. Log in to your runSAM account.
+1. Log in to your runsam.com account.
 2. Open your account or profile settings.
 3. Choose the password or security option.
 4. Enter your current password.
@@ -37,7 +37,7 @@ If you are still unable to access your account, contact the [Worldwide Digital S
 
 ## Password Tips
 
-Use a password that is unique to runSAM, avoid reusing passwords from other accounts, and store it somewhere secure.
+Use a password that is unique to runsam.com, avoid reusing passwords from other accounts, and store it somewhere secure.
 
 ## About EditNew
 
