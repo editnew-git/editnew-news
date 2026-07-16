@@ -6,7 +6,7 @@ slug: "2026-07-16-sam-os-reinstallation-and-ticket-resolution-guide"
 image: "/images/news/placeholder.jpg"
 excerpt: "Use this guide to reinstall the SAM operating system on a SAM Stick, verify network connectivity, and complete the security token checks required before closing a support ticket."
 tags: ["troubleshooting", "training", "support", "runsam"]
-draft: false
+draft: true
 ---
 
 This guide explains how to recover a SAM Stick by reinstalling the stable SAM operating system, reconnecting the device to the network, and completing the required post-installation security checks.
