@@ -27,6 +27,9 @@ If you forgot your password or need to update it, you can reset it directly from
 ![runSAM reset password screen showing an email sent confirmation](https://media.wwds.co/u/360a454f-69c7-40d7-96a8-592c387bf2b9.webp)
 
 5. Open the reset link and create a new password.
+
+![runSAM reset password form with email, new password, and confirm password fields](https://media.wwds.co/u/e1cba530-874e-45f9-a7bd-5ac1c4ae73e8.webp)
+
 6. Return to the login page and sign in with your updated password.
 
 ## Change Your Password While Logged In
