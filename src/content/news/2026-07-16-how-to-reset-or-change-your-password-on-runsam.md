@@ -19,6 +19,9 @@ If you forgot your password or need to update it, you can reset it directly from
 
 2. Click **Forgot Password** on the login screen.
 3. Enter the email address connected to your runsam.com account.
+
+![runSAM reset password form with email address field](https://media.wwds.co/u/7c40b9c2-525a-4dad-9a9c-f94c4b61d129.webp)
+
 4. Check your email inbox for the password reset message.
 5. Open the reset link and create a new password.
 6. Return to the login page and sign in with your updated password.
