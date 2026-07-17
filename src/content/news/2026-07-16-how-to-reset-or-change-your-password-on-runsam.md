@@ -9,28 +9,31 @@ tags: ["training", "runsam", "support", "troubleshooting"]
 draft: false
 ---
 
-If you forgot your password or need to update it, you can reset it directly from [runsam.com](http://runsam.com).
+If you forgot your password, you can request a reset link from the [RunSam.com](https://runsam.com) login screen and use that link to create a new password.
 
 ## Forgot Your Password
 
-1. Go to [runsam.com](http://runsam.com).
+1. Go to [RunSam.com](https://runsam.com).
 
-![RunSam password reset page with the Forgot Password button highlighted](https://media.wwds.co/u/4b4a85bc-1a8d-4085-ad77-7786e83a6478.webp)
+![runSAM login screen with email, password, Forgot Password, Register, and Contact buttons](https://media.wwds.co/u/4d34b0dc-6d47-43b1-9f07-13af20cbcc13.webp)
 
 2. Click **Forgot Password** on the login screen.
 3. Enter the email address connected to your runsam.com account.
+4. Click **Reset Password**.
 
-![runSAM reset password form with email address field](https://media.wwds.co/u/7c40b9c2-525a-4dad-9a9c-f94c4b61d129.webp)
+![runSAM reset password page with an email address field and Reset Password button](https://media.wwds.co/u/787f0684-30a2-421b-b24e-0c8eccb031d3.webp)
 
-4. Check your email inbox for the password reset message.
+5. When the confirmation message appears, check your email inbox for the password reset link.
 
-![runSAM reset password screen showing an email sent confirmation](https://media.wwds.co/u/360a454f-69c7-40d7-96a8-592c387bf2b9.webp)
+![runSAM reset password page showing confirmation that a password reset link was emailed](https://media.wwds.co/u/a187493b-8f84-42a0-bd72-df8329c82170.webp)
 
-5. Open the reset link and create a new password.
+6. Open the reset link from the email.
+7. Enter your email address, enter a new password, and confirm the new password.
+8. Click **Reset password**.
 
-![runSAM reset password form with email, new password, and confirm password fields](https://media.wwds.co/u/e1cba530-874e-45f9-a7bd-5ac1c4ae73e8.webp)
+![runSAM reset password form with email, new password, confirm password fields, and Reset password button](https://media.wwds.co/u/10b50bd8-5d2d-415b-a119-dc1f96845af7.webp)
 
-6. Return to the login page and sign in with your updated password.
+9. Return to the login page and sign in with your updated password.
 
 ## If You Do Not Receive the Reset Email
 
