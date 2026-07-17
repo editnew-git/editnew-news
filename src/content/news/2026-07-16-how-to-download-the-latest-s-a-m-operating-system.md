@@ -68,7 +68,7 @@ Keep both files available on the computer you will use to create the bootable US
 
 ## About EditNew
 
-Editnew Inc. is a Canadian technology company specializing in new media, with a focus on digital signage and emergency communication solutions. We help organizations and reseller partners deploy, manage, and support reliable information and notification systems.
+Editnew Inc. is a technology company specializing in new media, with a focus on digital signage and emergency communication solutions. We help organizations and reseller partners deploy, manage, and support reliable information and notification systems.
 
 ## Media Contact
 

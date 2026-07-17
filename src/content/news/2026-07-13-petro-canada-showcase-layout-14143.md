@@ -28,7 +28,7 @@ This S.A.M layout brings advertising, weather, time, community updates, and loca
 
 ## About EditNew
 
-Editnew Inc. is a Canadian federally registered company and British Columbia extra-provincially registered business focused on digital signage, and support systems for S.A.M., reseller, and emergency-notification deployments.
+Editnew Inc. is a technology company specializing in new media, with a focus on digital signage and emergency communication solutions. We help organizations and reseller partners deploy, manage, and support reliable information and notification systems.
 
 ## Media Contact
 
