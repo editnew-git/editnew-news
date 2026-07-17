@@ -6,7 +6,7 @@ slug: "2026-07-17-layout-of-the-day-chinitas-event-venue"
 image: "/images/news/2026-07-17-layout-of-the-day-chinitas-event-venue.png"
 excerpt: "A quick showcase and QR reference for Chinitas event venue layout 14149."
 tags: ["layouts", "runsam", "daily-use", "support"]
-draft: false
+draft: true
 ---
 
 Use this resource to preview and share layout 14149 for Chinitas, an event venue.
