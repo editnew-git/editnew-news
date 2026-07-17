@@ -31,7 +31,7 @@ If you forgot your password, you can request a reset link from the [RunSam.com](
 7. Enter your email address, enter a new password, and confirm the new password.
 8. Click **Reset password**.
 
-![runSAM reset password form with email, new password, confirm password fields, and Reset password button](https://media.wwds.co/u/10b50bd8-5d2d-415b-a119-dc1f96845af7.webp)
+![runSAM reset password form with email, new password, and confirm password fields highlighted](https://media.wwds.co/u/af174a98-8780-4f32-89c6-7f7abe784de8.webp)
 
 9. Return to the login page and sign in with your updated password.
 
