@@ -1,10 +1,10 @@
 ---
-title: "How to Reset or Change Your Password on runsam.com"
-subheadline: "Reset a forgotten runsam.com password or update your password from your account settings."
+title: "How to Reset Your Password on runsam.com"
+subheadline: "Reset a forgotten runsam.com password from the login screen."
 date: "2026-07-16"
 slug: "2026-07-16-how-to-reset-or-change-your-password-on-runsam"
 image: "/images/news/placeholder.jpg"
-excerpt: "Learn how to reset a forgotten runsam.com password, change your password while logged in, and troubleshoot a missing reset email."
+excerpt: "Learn how to reset a forgotten runsam.com password and troubleshoot a missing reset email."
 tags: ["training", "runsam", "support", "troubleshooting"]
 draft: false
 ---
@@ -31,15 +31,6 @@ If you forgot your password or need to update it, you can reset it directly from
 ![runSAM reset password form with email, new password, and confirm password fields](https://media.wwds.co/u/e1cba530-874e-45f9-a7bd-5ac1c4ae73e8.webp)
 
 6. Return to the login page and sign in with your updated password.
-
-## Change Your Password While Logged In
-
-1. Log in to your runsam.com account.
-2. Open your account or profile settings.
-3. Choose the password or security option.
-4. Enter your current password.
-5. Enter and confirm your new password.
-6. Save the changes.
 
 ## If You Do Not Receive the Reset Email
 
