@@ -3,7 +3,7 @@ title: "Layout of the Day: Chinitas Event Venue"
 subheadline: "Preview and share layout 14149 for Chinitas, an event venue."
 date: "2026-07-17"
 slug: "2026-07-17-layout-of-the-day-chinitas-event-venue"
-image: "/images/news/placeholder.jpg"
+image: "/images/news/2026-07-17-layout-of-the-day-chinitas-event-venue.webp"
 excerpt: "A quick showcase and QR reference for Chinitas event venue layout 14149."
 tags: ["layouts", "runsam", "daily-use", "support"]
 draft: false
