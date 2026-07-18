@@ -73,6 +73,8 @@ Use this guide to connect a device to power, connect it to a TV, and bring it on
 
 Sign in to [RunSam.com](https://runsam.com) and check the device status.
 
+![S.A.M Signs page showing online and offline status indicators](https://media.wwds.co/u/1f287599-744e-4bbb-afb4-cb4829e558a1.webp)
+
 - **Green** means the device is online and has successfully connected.
 - **Red** means the device is still offline. Wait another minute and refresh the page. If the status remains red, verify that the hotspot name is **ENS**, the password is **ensdevicego!**, and the hotspot is still enabled.
 
