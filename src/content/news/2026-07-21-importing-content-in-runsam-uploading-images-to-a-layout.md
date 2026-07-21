@@ -21,6 +21,9 @@ Make sure the image you want to upload is available on your device and ready to 
 
 1. Go to **Layouts**.
 2. Select **Create a New Layout**.
+
+![RunSAM Layouts screen with the Layouts menu and New Layout button highlighted](https://media.wwds.co/u/e3988d6d-d5c0-4348-a7f0-aa422abc8483.webp)
+
 3. Choose the layout template you want to use.
 4. Label the layout, then save it.
 5. Select the placeholder image in the layout.
