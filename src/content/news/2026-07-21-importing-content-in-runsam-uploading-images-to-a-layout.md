@@ -29,6 +29,9 @@ Make sure the image you want to upload is available on your device and ready to 
 ![RunSAM layout template selection screen showing available layout templates](https://media.wwds.co/u/853bf97d-6c58-4939-8f3e-2f56a307bd89.webp)
 
 4. Label the layout, then save it.
+
+![RunSAM label dialog with the Label field and Save button highlighted](https://media.wwds.co/u/9408f2f8-87d4-411c-8837-7c63d4948fad.webp)
+
 5. Select the placeholder image in the layout.
 6. Delete the placeholder image.
 7. To add content, go to **Content**.
