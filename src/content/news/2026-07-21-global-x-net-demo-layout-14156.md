@@ -12,7 +12,7 @@ draft: false
 Use this resource to preview and share Global X Net Demo Layout 14156.
 
 <iframe
- src="https://www.runsam.com/layouts/rc/14156/6AF9ED39-F54B-4A38-B405-84DCFCE74F1F"
+ src="https://iframe.wwds.co/?campId=14156"
  title="Global X Net Demo Layout 14156"
  loading="lazy"
  allowfullscreen>
@@ -24,7 +24,7 @@ Use this resource to preview and share Global X Net Demo Layout 14156.
 
 ## Expected Result
 
-The layout link and QR code should open the current Global X Net Demo rendering for layout 14156.
+The layout preview should display the current Global X Net Demo rendering for layout 14156. The remote link and QR code should open the same layout in RunSam.
 
 ## Support Notes
 
