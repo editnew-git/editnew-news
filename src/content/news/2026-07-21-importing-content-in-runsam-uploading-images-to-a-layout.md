@@ -39,7 +39,7 @@ Make sure the image you want to upload is available on your device and ready to 
 
 7. To add content, go to **Content**.
 8. Select the content type you want to add.
-9. Choose **Your Device**.
+9. Choose your image in **Your Device**.
 10. Select the image content you want to upload.
 
 ![RunSAM Add Content dialog showing content type, Upload Image(s), and Your Device controls highlighted](https://media.wwds.co/u/9d72afd3-7eaf-4a27-a5e9-38e96e8f0e8c.webp)
