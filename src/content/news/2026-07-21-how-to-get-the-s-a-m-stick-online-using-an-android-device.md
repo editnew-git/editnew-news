@@ -36,12 +36,24 @@ Use this guide to connect a powered-on S.A.M. Stick device to the internet with 
 ![Android Connections screen with Mobile Hotspot and Tethering highlighted](https://media.wwds.co/u/194efb6c-b90a-4ed8-90ad-a3cfb7ff177c.webp)
 
 4. Turn on **Mobile Hotspot** by tapping the toggle switch.
+
+![Android Mobile Hotspot and Tethering screen with the Mobile Hotspot option highlighted](https://media.wwds.co/u/d8de8b28-02c9-4415-8ce6-9ce74a0e9c4d.webp)
+
 5. Tap **Mobile Hotspot** to configure the hotspot settings.
 6. Tap **Configure**.
+
+![Android Mobile Hotspot screen with the Configure button highlighted](https://media.wwds.co/u/1d791925-2647-4815-b981-2cff39f49611.webp)
+
 7. Set **Hotspot Name (SSID)** to **ENS**.
 8. Set **Password** to **ensdevicego!**.
 9. Tap **Save**.
+
+![Android Configure Mobile Hotspot screen showing network name ENS, password field, and Save button](https://media.wwds.co/u/71afee48-f8c4-4cd0-99c9-a2e221856a71.webp)
+
 10. Verify that **Mobile Hotspot** is turned on.
+
+![Android Mobile Hotspot screen showing hotspot turned on with network name ENS](https://media.wwds.co/u/90de527b-c18e-4182-a40e-6692811c1692.webp)
+
 11. Wait a few minutes while the S.A.M. Stick connects to the hotspot.
 
 ## Confirm the Device Status
