@@ -50,6 +50,8 @@ Make sure the image you want to upload is available on your device and ready to 
 
 12. Save the layout.
 
+![RunSAM layout editor with the Save button highlighted](https://media.wwds.co/u/c470cc1d-0479-447c-b84d-e59b9430546f.webp)
+
 ## Expected result
 
 The layout is saved with your uploaded image content in place of the original placeholder image.
