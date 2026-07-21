@@ -63,6 +63,8 @@ Sign in to your [RunSam.com](https://runsam.com) account and check the device st
 - **Green** means the device is online and has successfully connected.
 - **Red** means the device is still offline. Wait another minute and refresh the page. If the status remains red, verify that the hotspot settings are configured correctly and that Mobile Hotspot is still enabled.
 
+![RunS.A.M. Signs list showing online and offline device status indicators](https://media.wwds.co/u/3a00ad92-e6c1-4ea5-bfff-dd49b25739e9.webp)
+
 ## Expected Result
 
 The Android device remains available as a Mobile Hotspot, and the S.A.M. Stick appears online in RunS.A.M.
