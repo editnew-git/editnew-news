@@ -6,7 +6,7 @@ slug: "2026-07-21-get-the-s-a-m-stick-device-online-using-an-android-hotspot"
 image: "/images/news/placeholder.jpg"
 excerpt: "Learn how to turn on an Android mobile hotspot, set the network name and password, and confirm that a S.A.M. Stick device is online in RunSam.com."
 tags: ["onboarding", "getting-started", "training", "support", "runsam"]
-draft: false
+draft: true
 ---
 
 ## Before You Begin
