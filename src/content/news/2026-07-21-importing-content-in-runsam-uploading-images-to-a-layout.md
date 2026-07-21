@@ -34,6 +34,9 @@ Make sure the image you want to upload is available on your device and ready to 
 
 5. Select the placeholder image in the layout.
 6. Delete the placeholder image.
+
+![RunSAM layout editor showing the selected placeholder image and delete controls](https://media.wwds.co/u/10cdc79e-5ed5-4767-9a20-f01cbdfeedaf.webp)
+
 7. To add content, go to **Content**.
 8. Select the content type you want to add.
 9. Choose **Your Device**.
