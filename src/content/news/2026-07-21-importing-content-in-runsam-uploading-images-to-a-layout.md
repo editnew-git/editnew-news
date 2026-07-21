@@ -45,6 +45,9 @@ Make sure the image you want to upload is available on your device and ready to 
 ![RunSAM Add Content dialog showing content type, Upload Image(s), and Your Device controls highlighted](https://media.wwds.co/u/9d72afd3-7eaf-4a27-a5e9-38e96e8f0e8c.webp)
 
 11. Save the content.
+
+![RunSAM Add Content dialog with the Save button highlighted](https://media.wwds.co/u/7ed0b4fa-289b-4f96-95a5-202aef393a87.webp)
+
 12. Save the layout.
 
 ## Expected result
