@@ -37,6 +37,8 @@ Open the layout you want to update, or create a new layout.
 
 5. After saving, confirm that the new module appears on the right side of the page.
 
+   ![Layout editor showing the newly added Html/Code module on the right side](https://media.wwds.co/u/cafbfe72-929b-49d9-aabf-3eb82e5b5b6f.webp)
+
 ## Expected Result
 
 The selected module is added to your layout and appears on the right side of the page.
