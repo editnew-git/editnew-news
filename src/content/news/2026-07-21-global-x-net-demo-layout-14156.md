@@ -1,6 +1,6 @@
 ---
 title: "Global X Net Demo Layout 14156"
-subheadline: "Preview and share the Global X Net demo layout and remote link."
+subheadline: "Preview the Global X Net demo layout and open the remote from a QR code."
 date: "2026-07-21"
 slug: "2026-07-21-global-x-net-demo-layout-14156"
 image: "/images/news/placeholder.jpg"
@@ -18,13 +18,16 @@ Use this resource to preview and share Global X Net Demo Layout 14156.
  allowfullscreen>
 </iframe>
 
-[Open the Global X Net Demo remote](https://www.runsam.com/layouts/rc/14156/6AF9ED39-F54B-4A38-B405-84DCFCE74F1F)
-
-[![QR code for Global X Net Demo Layout 14156 remote](https://media.wwds.co/u/bcc280df-244f-4e4a-aaf2-558c839a04dc.png)](https://www.runsam.com/layouts/rc/14156/6AF9ED39-F54B-4A38-B405-84DCFCE74F1F)
+<a href="https://www.runsam.com/layouts/rc/14156/6AF9ED39-F54B-4A38-B405-84DCFCE74F1F">
+  <img
+   src="https://media.wwds.co/u/bcc280df-244f-4e4a-aaf2-558c839a04dc.png"
+   alt="QR code for Global X Net Demo Layout 14156 remote"
+   width="180">
+</a>
 
 ## Expected Result
 
-The layout preview should display the current Global X Net Demo rendering for layout 14156. The remote link and QR code should open the same layout in RunSam.
+The layout preview should display the current Global X Net Demo rendering for layout 14156. The QR code should open the same layout in RunSam.
 
 ## Support Notes
 
