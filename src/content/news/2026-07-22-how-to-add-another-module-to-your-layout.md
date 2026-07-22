@@ -32,6 +32,9 @@ Open the layout you want to update, or create a new layout.
    ![Module Manager dialog with the module selection menu expanded](https://media.wwds.co/u/e97b5e5f-1530-46d2-aa5f-ff48560e6ee2.webp)
 
 4. Select **Add Module**, then select **Save**.
+
+   ![Module Manager dialog highlighting the Add Module and Save buttons](https://media.wwds.co/u/bb8a91ed-119b-4546-9d9b-8604ea046180.webp)
+
 5. After saving, confirm that the new module appears on the right side of the page.
 
 ## Expected Result
