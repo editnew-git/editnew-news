@@ -20,6 +20,9 @@ Open the layout you want to update, or create a new layout.
 ## Add a Module
 
 1. Create a new layout or open an existing layout.
+
+   ![S.A.M. Layouts page showing the New Layout button and an existing layout selection](https://media.wwds.co/u/1576e03c-1b3a-4cac-93d3-01cb10542bef.webp)
+
 2. Select the **Gear** button, then select **Module Manager**.
 3. Choose the module you want to add to your layout.
 4. Select **Add Module**, then select **Save**.
