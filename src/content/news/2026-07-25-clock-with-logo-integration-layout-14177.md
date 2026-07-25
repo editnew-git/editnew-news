@@ -27,8 +27,8 @@ This resource showcases layout 14177 and provides quick access to its [RunSam.co
     <img
       src="https://media.wwds.co/u/0cc6fbc7-963a-4306-8fa9-03fc65ac2efa.png"
       alt="QR code for the layout 14177 RunSam control page"
-      width="120"
-      height="120">
+      width="150"
+      height="150">
   </a>
 </p>
 
