@@ -18,6 +18,13 @@ Use this resource to preview and share Shane's Demo Presentation, layout 14160.
  allowfullscreen>
 </iframe>
 
+<iframe
+ src="https://www.runsam.com/layouts/rc/14160/DFCCF041-C2DD-4AB9-ADD7-9471B969E493/new"
+ title="Remote control for Shane's Demo Presentation, layout 14160"
+ loading="lazy"
+ allowfullscreen>
+</iframe>
+
 <a href="https://www.runsam.com/layouts/rc/14160/DFCCF041-C2DD-4AB9-ADD7-9471B969E493/new">
   <img
    src="https://media.wwds.co/u/8d709bbe-11ab-4307-bd82-4c2ba6279714.png"
@@ -27,11 +34,11 @@ Use this resource to preview and share Shane's Demo Presentation, layout 14160.
 
 ## Expected Result
 
-The layout iframe should display the current rendering for layout 14160. The QR code placed beneath it should open the supplied RunSam link.
+The layout iframe should display the current rendering for layout 14160. The remote control beneath it should load the supplied RunSam controls, and the QR code should open the same remote-control link.
 
 ## Support Notes
 
-- Use the QR code to open the layout quickly from a phone during the demo presentation.
+- Use the embedded remote control beneath the layout, or scan the QR code to open the same controls on a phone during the demo presentation.
 - If the rendering does not load, confirm that layout 14160 is active and publicly available in RunSam.
 - If the visible content is outdated, refresh the source layout in S.A.M. and allow the display cache to update.
 
