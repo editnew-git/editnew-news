@@ -18,13 +18,6 @@ Use this resource to preview and share Shane's Demo Presentation, layout 14160.
  allowfullscreen>
 </iframe>
 
-<iframe
- src="https://www.runsam.com/layouts/rc/14160/DFCCF041-C2DD-4AB9-ADD7-9471B969E493/new"
- title="Remote control for Shane's Demo Presentation, layout 14160"
- loading="lazy"
- allowfullscreen>
-</iframe>
-
 <a href="https://www.runsam.com/layouts/rc/14160/DFCCF041-C2DD-4AB9-ADD7-9471B969E493/new">
   <img
    src="https://media.wwds.co/u/8d709bbe-11ab-4307-bd82-4c2ba6279714.png"
