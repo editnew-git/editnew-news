@@ -1,15 +1,15 @@
 ---
-title: "Shane's Demo Presentation"
-subheadline: "Preview Shane's demo presentation and open the layout from a QR code."
+title: "Royal Roads University Demo Clock Presentation"
+subheadline: "Preview the Royal Roads University demo clock presentation and open the layout from a QR code."
 date: "2026-07-23"
 slug: "2026-07-23-shane-s-demo-presentation"
 image: "/images/news/placeholder.jpg"
-excerpt: "A quick showcase and QR reference for Shane's Demo Presentation, layout 14160."
+excerpt: "A quick showcase and QR reference for the Royal Roads University Demo Clock Presentation."
 tags: ["layouts", "runsam", "training"]
 draft: false
 ---
 
-Use this resource to preview and share Shane's Demo Presentation.
+Use this resource to preview and share the Royal Roads University Demo Clock Presentation.
 
 <iframe
  src="https://iframe.wwds.co/?campId=14190"
@@ -27,11 +27,11 @@ Use this resource to preview and share Shane's Demo Presentation.
 
 ## Expected Result
 
-The layout iframe should display the current rendering for Shane's layout. The remote control beneath it should load the supplied RunSam controls, and the QR code should open the same remote-control link.
+The layout iframe should display the current rendering for the Royal Roads University demo clock presentation. The remote control beneath it should load the supplied RunSam controls, and the QR code should open the same remote-control link.
 
 ## Support Notes
 
-- Use the embedded remote control beneath the layout, or scan the QR code to open the same controls on a phone during the demo presentation.
+- Use the embedded remote control beneath the layout, or scan the QR code to open the same controls on a phone during the Royal Roads University demo clock presentation.
 - If the rendering does not load, confirm that the layout is active and publicly available in RunSam.
 - If the visible content is outdated, refresh the source layout in S.A.M. and allow the display cache to update.
 
