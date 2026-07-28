@@ -1,15 +1,15 @@
 ---
 title: "How to Create a Clock Layout Using a Template in S.A.M."
-subheadline: "Create a clock layout from a template and replace the default logo with your own."
+subheadline: "Create an Emergency Alert Clock layout from a template and replace the default logo with your own."
 date: "2026-07-25"
 slug: "2026-07-25-how-to-create-a-clock-layout-using-a-template-in-s-a-m"
 image: "/images/news/placeholder.jpg"
-excerpt: "Learn how to create a clock layout from the Clock Layout with Logo Integration template in S.A.M. and upload your own logo."
+excerpt: "Learn how to create a clock layout from the Emergency Alert Clock template in S.A.M. and upload your own logo."
 tags: ["training", "layouts", "runsam"]
 draft: false
 ---
 
-This guide walks you through creating a new clock layout in [RunSam.com](https://runsam.com) using the **Clock Layout with Logo Integration** template, then replacing the default logo with your own.
+This guide walks you through creating a new clock layout in [RunSam.com](https://runsam.com) using the **Emergency Alert Clock** template, then replacing the default logo with your own.
 
 ## Before you begin
 
@@ -41,9 +41,9 @@ You will need:
 
    ![Clock category highlighted in the S.A.M. template menu](https://media.wwds.co/u/48ce9626-b24c-44ad-89d8-2335735d0abc.webp)
 
-6. Locate the **Clock Layout with Logo Integration** template and click it to continue.
+6. Locate the **Emergency Alert Clock** template and click it to continue.
 
-   ![Clock Layout with Logo Integration template highlighted in S.A.M.](https://media.wwds.co/u/c284136e-d1e6-495c-9180-acf85f19ba20.webp)
+   ![Emergency Alert Clock template highlighted in S.A.M.](https://media.wwds.co/u/c284136e-d1e6-495c-9180-acf85f19ba20.webp)
 
 7. Enter a name for your layout, then click **Save**.
 
@@ -53,29 +53,29 @@ You will need:
 
 8. Click **Add Your Logo** to open the logo settings.
 
-   ![Add Your Logo control in the clock layout editor](https://media.wwds.co/u/6416ad0f-c828-4f07-b825-b1e2118f128c.webp)
+   ![Add Your Logo option highlighted in the S.A.M. layout editor](https://media.wwds.co/u/682fb6da-a136-42cd-9da7-8cd477d76779.webp)
 
 9. Click the **gear** icon on the existing logo, then select **Delete**.
 
-   ![Gear icon for the existing logo in the clock layout editor](https://media.wwds.co/u/f592477c-7ef2-4b00-b213-66844fd468b7.webp)
+   ![Gear icon highlighted for the existing logo in S.A.M.](https://media.wwds.co/u/2fb67b22-2ed0-47c8-afae-2145bad642e7.webp)
 
 10. Click **Content** to open the content library.
 
     Before uploading your logo, make sure the image is 650 × 650 pixels and has a transparent background. Use a PNG file for the best display quality.
 
-    ![Content option for adding a logo in S.A.M.](https://media.wwds.co/u/86557316-810b-4052-bb02-2cc160dfedc0.webp)
+    ![Content button highlighted for uploading a logo in S.A.M.](https://media.wwds.co/u/c1d53bfb-4d66-489a-a2d6-b540f1634af4.webp)
 
 11. Click **Your Device** to upload a logo from your computer.
 
-    ![Your Device upload source in the S.A.M. content library](https://media.wwds.co/u/8d2b1fe1-866c-4f39-85d6-16f5d50fd498.webp)
+    ![Your Device upload option highlighted in S.A.M.](https://media.wwds.co/u/c5b831c2-87ad-4a25-97c5-8cd663c14084.webp)
 
 12. Select your logo file and upload it.
 
-    ![Logo file selected for upload in S.A.M.](https://media.wwds.co/u/a4269847-a987-485a-9fc2-815e05a38fc5.webp)
+    ![Logo file chooser open for selecting a file to upload](https://media.wwds.co/u/0f1ddb4b-178c-440c-b331-362a0a3028dd.webp)
 
 13. Click **Save** to apply your changes to the layout.
 
-    ![Save button for applying logo changes in S.A.M.](https://media.wwds.co/u/d577403e-0202-43dc-972c-5411a8e344a3.webp)
+    ![Save button highlighted after adding logo content in S.A.M.](https://media.wwds.co/u/bb748d70-c2a0-4e29-ade7-223dae6b0259.webp)
 
 ## Expected result
 
