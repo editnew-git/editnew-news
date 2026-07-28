@@ -25,7 +25,12 @@ See how the Emergency Clock appears on screen, then use the remote control below
 2. Use the controls to interact with the Emergency Clock.
 3. Return to the showcase to see the result.
 
-[![QR code for the Emergency Clock remote control](https://media.wwds.co/u/39bb6606-31a4-48df-8d81-9647521f4a32.png)](https://www.runsam.com/layouts/rc/14199/1B7B9B2F-3258-4CA9-B7E2-30EB04A97126)
+<a href="https://www.runsam.com/layouts/rc/14199/1B7B9B2F-3258-4CA9-B7E2-30EB04A97126">
+  <img
+    src="https://media.wwds.co/u/39bb6606-31a4-48df-8d81-9647521f4a32.png"
+    alt="QR code for the Emergency Clock remote control"
+    width="180">
+</a>
 
 ## Expected result
 
