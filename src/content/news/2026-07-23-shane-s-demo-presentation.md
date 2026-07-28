@@ -18,7 +18,7 @@ Use this resource to preview and share the Royal Roads University Demo Clock Pre
  allowfullscreen>
 </iframe>
 
-<a href="https://www.runsam.com/layouts/rc/14160/DFCCF041-C2DD-4AB9-ADD7-9471B969E493/new">
+<a href="https://www.runsam.com/layouts/rc/14190/3FA6D9AE-782D-48C4-967F-0DD7CF19D443">
   <img
    src="https://media.wwds.co/u/8d709bbe-11ab-4307-bd82-4c2ba6279714.png"
    alt="QR code for Shane's Demo Presentation"
@@ -33,7 +33,7 @@ The layout iframe should display the current rendering for the Royal Roads Unive
 
 - Use the embedded remote control beneath the layout, or scan the QR code to open the same controls on a phone during the Royal Roads University demo clock presentation.
 - If the rendering does not load, confirm that the layout is active and publicly available in RunSam.
-- If the visible content is outdated, refresh the source layout in S.A.M. and allow the display cache to update.
+- If the visible content is outdated, refresh the source layout in S.A.M. and allow the display cache to update.https://www.runsam.com/layouts/rc/14190/3FA6D9AE-782D-48C4-967F-0DD7CF19D443
 
 ## About EditNew
 
