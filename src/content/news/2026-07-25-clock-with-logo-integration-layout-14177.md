@@ -6,7 +6,7 @@ slug: "2026-07-25-clock-with-logo-integration-layout-14177"
 image: "/images/news/placeholder.jpg"
 excerpt: "A live showcase of layout 14177 with quick QR access to its RunSam control page."
 tags: ["layouts", "runsam", "training"]
-draft: false
+draft: true
 ---
 
 ## Clock with Logo Integration
