@@ -6,7 +6,7 @@ slug: "2026-07-23-shane-s-demo-presentation"
 image: "/images/news/placeholder.jpg"
 excerpt: "A quick showcase and QR reference for the Royal Roads University Demo Clock Presentation."
 tags: ["layouts", "runsam", "training"]
-draft: false
+draft: true
 ---
 
 Use this resource to preview and share the Royal Roads University Demo Clock Presentation.
