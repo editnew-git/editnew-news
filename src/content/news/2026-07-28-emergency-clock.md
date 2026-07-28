@@ -1,5 +1,5 @@
 ---
-title: "Emergency Clock"
+title: "Emergency Clock Showcase"
 date: "2026-07-28"
 slug: "2026-07-28-emergency-clock"
 image: "/images/news/placeholder.jpg"
