@@ -1,5 +1,5 @@
 ---
-title: "Emergency Clock Showcase"
+title: "Emergency Clock"
 date: "2026-07-28"
 slug: "2026-07-28-emergency-clock"
 image: "/images/news/placeholder.jpg"
@@ -7,8 +7,6 @@ excerpt: "Explore the Emergency Clock showcase and use the remote control to int
 tags: ["layouts", "runsam", "training"]
 draft: false
 ---
-
-See how the Emergency Clock appears on screen, then use the remote control below to interact with the showcase.
 
 ## Explore the Emergency Clock
 
@@ -19,22 +17,12 @@ See how the Emergency Clock appears on screen, then use the remote control below
  allowfullscreen>
 </iframe>
 
-## Use the remote control
-
-1. Open the remote control by selecting the QR code below.
-2. Use the controls to interact with the Emergency Clock.
-3. Return to the showcase to see the result.
-
 <a href="https://www.runsam.com/layouts/rc/14199/1B7B9B2F-3258-4CA9-B7E2-30EB04A97126">
   <img
     src="https://media.wwds.co/u/39bb6606-31a4-48df-8d81-9647521f4a32.png"
     alt="QR code for the Emergency Clock remote control"
     width="180">
 </a>
-
-## Expected result
-
-The Emergency Clock responds to selections made through the remote control.
 
 ## About EditNew
 
