@@ -1,5 +1,5 @@
 ---
-title: "Seven World Media Demo Showcase"
+title: "HPMC Demo Showcase"
 subheadline: "Explore the showcase and open its remote control from your phone."
 date: "2026-07-28"
 slug: "2026-07-28-seven-world-media-demo-showcase"
