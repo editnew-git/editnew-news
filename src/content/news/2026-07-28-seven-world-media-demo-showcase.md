@@ -19,15 +19,15 @@ This interactive Seven World Media demo lets you view the showcase and open its 
 - A phone or tablet with a camera to scan the QR code
 
 <iframe
- src="https://iframe.wwds.co/?campId=14203"
+ src="https://iframe.wwds.co/?campId=14205"
  title="Seven World Media demo showcase"
  loading="lazy"
  allowfullscreen>
 </iframe>
 
-<a href="https://www.runsam.com/layouts/rc/14203/2269EEB3-EFBA-462E-BF21-1D67C2753508" aria-label="Open the Seven World Media demo remote control">
+<a href="https://www.runsam.com/layouts/rc/14205/009B10BB-38BA-4469-8370-76909B175969" aria-label="Open the Seven World Media demo remote control">
   <img
-    src="https://media.wwds.co/u/0d47112d-76fb-4b27-bea3-eee8ac681496.png"
+    src="https://media.wwds.co/u/1fe3843a-eeaa-44a3-9173-1cd0baeda884.png"
     alt="QR code linking to the Seven World Media demo remote control"
     width="150"
     height="150">
