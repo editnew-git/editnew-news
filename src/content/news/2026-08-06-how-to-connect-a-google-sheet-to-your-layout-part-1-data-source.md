@@ -76,25 +76,37 @@ Select and add both of these modules:
 - **Data Source**
 - **Data Table**
 
+![S.A.M. module type menu with Data Source and Data Table highlighted](https://media.wwds.co/u/4ab05248-763d-41b4-bf1a-2adce26a1cdc.webp)
+
 ## 10. Save the modules
 
 Select **Add Module** for each module. Once both modules have been added, select **Save**.
+
+![S.A.M. Module Manager with Add Module and Save controls highlighted](https://media.wwds.co/u/99c7004d-f241-4a73-9ea6-faae9894320a.webp)
 
 ## 11. Open the Data Source module
 
 Select the **Data Source** module.
 
+![S.A.M. Layout Editor with the Data Source module highlighted](https://media.wwds.co/u/3faf259d-4fba-4404-b4ef-a47f8045a5a6.webp)
+
 ## 12. Name the module
 
 Enter a clear name for your Data Source module.
+
+![S.A.M. Data Source module name field highlighted](https://media.wwds.co/u/a13f62fb-0d48-41cd-8b96-4851dca615c0.webp)
 
 ## 13. Choose a connector
 
 Select the **Connector** field to choose a data source.
 
+![S.A.M. Data Source settings with the Connector field highlighted](https://media.wwds.co/u/14bb6b25-f4cb-4a1e-9f99-fc4f9c5b3125.webp)
+
 ## 14. Select Google Docs
 
 From the available connectors, select **Google Docs**.
+
+![S.A.M. Connector menu with Google Docs highlighted](https://media.wwds.co/u/6ca40014-60fd-42d4-b371-c6d80a95b633.webp)
 
 ## 15. Copy the Google Spreadsheet ID
 
@@ -106,9 +118,13 @@ For example, in this URL:
 
 Copy only `SPREADSHEET_ID`.
 
+![Google Sheets Publish to the web dialog with the spreadsheet identifier highlighted](https://media.wwds.co/u/59bd0258-b623-466d-a704-64ad3f7ebf25.webp)
+
 ## 16. Paste the Spreadsheet ID
 
 Return to your layout and paste the copied Spreadsheet ID into the **Google Document ID String** field.
+
+![S.A.M. Data Source settings with the Google Document ID String field highlighted](https://media.wwds.co/u/dba7afeb-2fcb-4abe-9e9a-ce61709966c2.webp)
 
 ## 17. Copy the Google Sheet GID
 
