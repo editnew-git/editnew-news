@@ -130,13 +130,19 @@ Return to your layout and paste the copied Spreadsheet ID into the **Google Docu
 
 Go back to your Google Sheet and find the `gid` value in the browser address bar. For example, if the URL ends with `gid=0`, copy only `0`.
 
+![Google Sheets address bar with the gid value highlighted](https://media.wwds.co/u/ee57d412-9c06-48ca-acc3-a15a2685558b.webp)
+
 ## 18. Enter the GID
 
 Paste the number into the **Google Sheet GID #** field, then select **Save**.
 
+![S.A.M. Data Source settings with the Google Sheet GID field highlighted](https://media.wwds.co/u/07e61771-cf5c-4781-80d3-1f4531511785.webp)
+
 ## 19. Verify the connection
 
 Confirm that your spreadsheet data appears in the Data Source module. If it does, the Google Sheet is connected successfully.
+
+![S.A.M. Data Source module displaying imported Google Sheet data](https://media.wwds.co/u/11380fe4-0246-4702-bc76-44075182936e.webp)
 
 ## 20. Customize your Data Table
 
