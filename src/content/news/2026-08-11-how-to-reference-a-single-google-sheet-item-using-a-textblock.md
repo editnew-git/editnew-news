@@ -75,9 +75,13 @@ Choose the specific Google Sheet item you want the TextBlock to display.
 
 Select **Insert Field** to add the chosen item to the TextBlock editor.
 
+![TextBlock settings with the Insert Field button highlighted after a Google Sheet item is selected](https://media.wwds.co/u/86a60aff-c553-44f8-9236-0ae0e18dd8ef.webp)
+
 ### 10. Save your changes
 
 Select **Save** to confirm the TextBlock settings.
+
+![S.A.M. TextBlock settings with the Save button highlighted](https://media.wwds.co/u/3ba34bd4-ee95-4bda-9cda-b72691953294.webp)
 
 ## Expected result
 
