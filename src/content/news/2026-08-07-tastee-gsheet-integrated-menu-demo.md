@@ -4,7 +4,7 @@ date: "2026-08-07"
 slug: "2026-08-07-tastee-gsheet-integrated-menu-demo"
 image: "/images/news/placeholder.jpg"
 tags: ["layouts", "runsam"]
-draft: false
+draft: true
 ---
 
 ## Tastee GSheet-Integrated Menu Demo
