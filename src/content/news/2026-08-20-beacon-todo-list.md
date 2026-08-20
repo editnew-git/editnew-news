@@ -1,5 +1,5 @@
 ---
-title: "Beacon TODO List"
+title: "Ethan's Beacon TODO list"
 date: "2026-08-20"
 slug: "2026-08-20-beacon-todo-list"
 image: "/images/news/placeholder.jpg"
