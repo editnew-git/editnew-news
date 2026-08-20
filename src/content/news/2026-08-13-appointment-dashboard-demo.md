@@ -8,7 +8,7 @@ draft: false
 ---
 
 <iframe
- src="https://iframe.wwds.co/?campId=14243&orientation=portrait"
+ src="https://iframe.wwds.co/?campId=14243"
  title="Appointment Dashboard Demo"
  loading="lazy"
  allowfullscreen>
