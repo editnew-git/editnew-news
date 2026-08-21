@@ -4,7 +4,7 @@ date: "2026-08-20"
 slug: "2026-08-20-beacon-todo-list"
 image: "/images/news/placeholder.jpg"
 tags: ["layouts", "runsam"]
-draft: false
+draft: true
 ---
 
 ## Beacon TODO List
