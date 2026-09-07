@@ -10,7 +10,7 @@ draft: false
 # Trouble Ticket Dashboard
 
 <iframe
- src="https://www.runsam.com/layouts/rc/14269/3B864568-08CF-43B3-AD4C-9C48265E88BC"
+ src="https://iframe.wwds.co/?campId=14269"
  title="Trouble Ticket Dashboard"
  loading="lazy"
  allowfullscreen>
