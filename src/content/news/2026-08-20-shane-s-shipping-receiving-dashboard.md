@@ -16,7 +16,7 @@ draft: false
  allowfullscreen>
 </iframe>
 
-[![QR code for Sabrina's Shipping & Receiving Dashboard remote control](https://media.wwds.co/u/f221f5ec-984a-42f9-92d5-51ae1015c4f1.png)](https://www.runsam.com/layouts/rc/14319/CA0C5BF3-1EAC-4271-BE05-99B367397855)
+<a href="https://www.runsam.com/layouts/rc/14319/CA0C5BF3-1EAC-4271-BE05-99B367397855"><img src="https://media.wwds.co/u/f221f5ec-984a-42f9-92d5-51ae1015c4f1.png" alt="QR code for Sabrina's Shipping & Receiving Dashboard remote control" width="150" height="150"></a>
 
 ## About EditNew
 
