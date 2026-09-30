@@ -71,15 +71,21 @@ Select **Your Device** to upload a file from your computer. You can also choose 
 
 After selecting the file, select the green **Save** button to attach it to the presentation section.
 
+![Add Content window with the green Save button highlighted](https://media.wwds.co/u/pressly-pr-en-20260930-001-9e48398fea273e2fd54161c9f35319511252584792a1a3b600e70e9552373490.webp)
+
 ## Configure the schedule
 
 ### 10. Open the scheduling options
 
 Select the calendar icon next to the uploaded item to open its scheduling options.
 
+![Presentation content list with the calendar scheduling icon highlighted](https://media.wwds.co/u/pressly-pr-en-20260930-001-2036880cccb402450fd3e7bf77fe43d14489c882a4bd072d5bac4b285bc9f396.webp)
+
 ### 11. Adjust the schedule and save
 
 Choose the active days or schedule settings you need. To clear the day selection, select **Select None**. Then select the green **SAVE** button in the upper-right corner to finish.
+
+![Schedule settings with Select None and the Save button highlighted](https://media.wwds.co/u/pressly-pr-en-20260930-001-2e4e48e1805e11b04028cf60235ad84dd0b47109f82c9f34ca22cd692d205da6.webp)
 
 ## Expected result
 
