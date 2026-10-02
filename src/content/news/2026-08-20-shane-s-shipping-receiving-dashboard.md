@@ -1,5 +1,5 @@
 ---
-title: "Sabrina's Shipping & Receiving Dashboard"
+title: "Shipping and Receiving Dashboard"
 date: "2026-08-20"
 slug: "2026-08-20-shane-s-shipping-receiving-dashboard"
 image: "/images/news/placeholder.jpg"
