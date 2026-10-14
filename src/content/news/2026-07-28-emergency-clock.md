@@ -11,17 +11,18 @@ draft: false
 ## Explore the Emergency Clock
 
 <iframe
- src="https://iframe.wwds.co/?campId=14199"
+ src="https://iframe.wwds.co/?campId=14426"
  title="Emergency Clock interactive showcase"
  loading="lazy"
  allowfullscreen>
 </iframe>
 
-<a href="https://www.runsam.com/layouts/rc/14199/1B7B9B2F-3258-4CA9-B7E2-30EB04A97126">
+<a href="https://www.runsam.com/layouts/rc/14426/21627D73-AC35-46D0-B415-D66B8417A1B7">
   <img
-    src="https://media.wwds.co/u/39bb6606-31a4-48df-8d81-9647521f4a32.png"
+    src="https://media.wwds.co/u/a7d4b6b7-f863-4a20-8edc-2ba03ff79661.png"
     alt="QR code for the Emergency Clock remote control"
-    width="180">
+    width="150"
+    height="150">
 </a>
 
 ## About EditNew
