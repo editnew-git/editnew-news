@@ -1,5 +1,5 @@
 ---
-title: "Agila The Fallen Warrior"
+title: "Agila"
 date: "2026-10-21"
 slug: "2026-10-21-agila-the-fallen-warrior"
 image: "/images/news/placeholder.jpg"
@@ -7,11 +7,11 @@ tags: ["layouts", "runsam"]
 draft: false
 ---
 
-## Agila The Fallen Warrior
+## Agila
 
 <iframe
- src="https://iframe.wwds.co/?campId=14485"
- title="Agila The Fallen Warrior"
+ src="https://iframe.wwds.co/?campId=14484"
+ title="Agila"
  loading="lazy"
  allowfullscreen>
 </iframe>
