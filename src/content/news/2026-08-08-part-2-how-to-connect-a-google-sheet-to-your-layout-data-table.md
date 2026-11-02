@@ -13,7 +13,7 @@ Use the Data Table module in [RunSam.com](https://runsam.com) to control how dat
 
 ## Before you begin
 
-Make sure your Google Sheet is already connected to the layout through a Data Source module and that its fields are available in S.A.M.
+Make sure your Google Sheet is already connected through the intended Data Source and loads the expected rows. Use only data approved for public access. Hiding a Data Table field does not restrict access to the underlying spreadsheet.
 
 ## 1. Open the Data Table module
 
@@ -43,13 +43,13 @@ When you finish configuring the Basic controls, select **Save**.
 
 ## 4. Verify the data connection
 
-If the Google Sheet fields appear under **Included Fields**, the Data Table and Data Source modules are connected successfully.
+After selecting the intended Source, save and reopen Data Table. Check that real column names appear under **Included Fields**. Their appearance is a useful checkpoint; also verify nonempty rows from the intended Sheet in Preview before considering the connection complete.
 
 ![Included Fields section showing a Google Sheet field available in the Data Table module.](https://media.wwds.co/u/f644aa17-5fc3-4b99-a3b2-8fc7e337900b.webp)
 
 ## 5. Enable fields and open Advanced settings
 
-Turn on each field you want to display in the layout. Then select **Advanced** to open additional customization options.
+Explicitly turn on each field you want to display. Do not use an all-Off selection as a way to hide all data. Save and reopen the module to confirm the selection persists, then select **Advanced** for additional customization.
 
 ![Included field enabled and Advanced button highlighted in the Data Table module.](https://media.wwds.co/u/d8173933-fbc3-402a-ab26-61d10a83c1f5.webp)
 
@@ -80,6 +80,12 @@ The Data Table module provides three levels of customization:
 - **Expert controls:** Use CSS for more advanced customization.
 
 Save your changes, then use **Preview** to confirm that the data displays correctly in the layout.
+
+## Verify the displayed data
+
+Reload Preview and check both the wanted columns and the absence of unwanted columns. Compare actual rows with the intended public Sheet. If the table uses frames, observe later frames too: rows per frame is not the total record count.
+
+If fields or rows remain missing, contact support with the layout identity, selected source, expected fields and warning text. Keep private data and access-bearing links out of public support messages.
 
 ## About EditNew
 
