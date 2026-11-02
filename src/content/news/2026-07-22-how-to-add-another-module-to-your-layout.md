@@ -15,7 +15,7 @@ This guide explains how to add another module to a new or existing layout.
 
 ## Before You Begin
 
-Open the layout you want to update, or create a new layout.
+Open the layout you want to update, or create a new layout. Confirm its ID and your editing permission. Inspect existing module types first: a custom name or Set Label entry does not establish that the required module is absent.
 
 ## Add a Module
 
@@ -44,6 +44,10 @@ Open the layout you want to update, or create a new layout.
 The selected module is added to your layout and appears on the right side of the page.
 
 For more training and support resources, visit [EditNew Support](https://support.editnew.ca).
+
+## Check the saved module
+
+Reopen the editor and Module Manager to confirm the intended type was added once. A new module may still need its own configuration before it displays useful content. If the sidebar label is generic, use its type and ID to identify it. Contact support if the saved module is missing or its identity is unclear.
 
 ## About EditNew
 
