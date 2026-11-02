@@ -38,7 +38,7 @@ Under **Page CSS Properties**, select the **+** button to add two fields:
 
 ## 4. Set the layout resolution and orientation
 
-Enter the dimensions for your preferred orientation. Include `px` after each value.
+Enter the dimensions required by your layout. Include `px` after each value. The following Full HD values are examples, not the only supported layout dimensions:
 
 - **Landscape:** width `1920px`, height `1080px`
 - **Vertical (Portrait):** width `1080px`, height `1920px`
@@ -57,7 +57,7 @@ Select **Save** to apply the orientation, resolution, and background settings.
 
 ![Global Settings Save button highlighted](https://media.wwds.co/u/c45ac161-a28d-4b32-a033-7e6c21d80836.webp)
 
-## Quick reference
+## Full HD examples
 
 | Orientation | Width | Height |
 | --- | ---: | ---: |
@@ -67,6 +67,10 @@ Select **Save** to apply the orientation, resolution, and background settings.
 ## Expected result
 
 Your S.A.M. layout uses the selected landscape or vertical dimensions, and the uploaded background appears at the configured resolution.
+
+## Verify after saving
+
+Reopen Global Settings and confirm the saved width and height. Reload Preview and check the background, module positions and content fit. Verify the physical display separately. Layout dimensions do not by themselves establish panel rotation or resolve overscan. Contact support if the saved dimensions or physical result differ from the intended setup.
 
 ## About EditNew
 
