@@ -39,11 +39,15 @@ If you forgot your password, you can request a reset link from the [RunSam.com](
 
 Check your spam or junk folder first. If the email still does not arrive, confirm that you are using the correct account email.
 
-If you are still unable to access your account, contact the [Worldwide Digital Signage](https://wwds.co) team for support.
+If you are still unable to access your account, contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
 
 ## Password Tips
 
 Use a password that is unique to runsam.com, avoid reusing passwords from other accounts, and store it somewhere secure.
+
+## When to contact support
+
+Use this process for your own account. If you cannot access the account email, the reset link fails, or sign-in still fails, contact support. Account ownership transfers require a separate process. Do not include passwords or password-reset links in your support report. Successful sign-in to the intended account confirms completion.
 
 ## About EditNew
 
