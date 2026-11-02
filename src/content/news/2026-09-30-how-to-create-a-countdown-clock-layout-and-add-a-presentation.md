@@ -83,13 +83,17 @@ Select the calendar icon next to the uploaded item to open its scheduling option
 
 ### 11. Adjust the schedule and save
 
-Choose the active days or schedule settings you need. To clear the day selection, select **Select None**. Then select the green **SAVE** button in the upper-right corner to finish.
+Choose the active days and schedule settings required for this presentation. **Select None** clears the day selection; do not assume that an empty selection means unrestricted playback. If that behavior or the form's timezone is unclear, have support confirm it for your template before changing the schedule. Select the green **SAVE** button in the upper-right corner to save the intended settings.
 
 ![Schedule settings with Select None and the Save button highlighted](https://media.wwds.co/u/pressly-pr-en-20260930-001-2e4e48e1805e11b04028cf60235ad84dd0b47109f82c9f34ca22cd692d205da6.webp)
 
 ## Expected result
 
 The new clock layout is saved with the selected presentation media attached and its schedule configured.
+
+## Verify content and scheduling separately
+
+Reopen Presentation and confirm the intended file is present after processing. Reopen the schedule and check the saved dates, days and displayed timezone labels. Verify the intended activation and display window separately; a saved attachment does not prove a remote command can trigger it or that it has played on the physical display. Contact support with the layout identity, field labels and intended display window if these checks disagree.
 
 ## About EditNew
 
