@@ -108,7 +108,11 @@ From the available connectors, select **Google Docs**.
 
 ![S.A.M. Connector menu with Google Docs highlighted](https://media.wwds.co/u/6ca40014-60fd-42d4-b371-c6d80a95b633.webp)
 
-## 15. Copy the Google Spreadsheet ID
+## 15. Confirm the connector identifier format
+
+The instructions below describe the editable Spreadsheet ID form. Other documented Google Docs connector screens use a published identifier beginning with `2PACX-`. These identifiers are different; do not substitute one for the other. Have support confirm the form required by your connector before entering or changing it. Keep the exact field labels and connector identity available for that check.
+
+### Editable Spreadsheet ID form
 
 Return to your Google Sheet and copy the Spreadsheet ID from the browser address bar. The Spreadsheet ID is the text between `/d/` and `/edit` in the URL.
 
@@ -118,13 +122,13 @@ For example, in this URL:
 
 Copy only `SPREADSHEET_ID`.
 
-![Google Sheets Publish to the web dialog with the spreadsheet identifier highlighted](https://media.wwds.co/u/59bd0258-b623-466d-a704-64ad3f7ebf25.webp)
+
 
 ## 16. Paste the Spreadsheet ID
 
-Return to your layout and paste the copied Spreadsheet ID into the **Google Document ID String** field.
+Once the editable-ID form has been confirmed for your connector, paste that Spreadsheet ID into **Google Document ID String**. If your form requires a published identifier, obtain its matching instructions from support instead of following this editable-ID step.
 
-![S.A.M. Data Source settings with the Google Document ID String field highlighted](https://media.wwds.co/u/dba7afeb-2fcb-4abe-9e9a-ce61709966c2.webp)
+
 
 ## 17. Copy the Google Sheet GID
 
@@ -159,6 +163,10 @@ These options will be covered in **Part 2: How to Connect a Google Sheet to Your
 ## Expected result
 
 Your published Google Sheet data appears in the S.A.M. Data Source module and is ready to be formatted through the Data Table module.
+
+## If the connection does not load rows
+
+Confirm the intended Sheet tab, heading row, connector and exact field labels. Reopen the saved Data Source and compare its values. The document identifier and tab GID are separate values. Stop if the expected identifier format is uncertain; do not alternate formats or broaden sharing permissions by guesswork. A Save confirmation does not by itself establish data loading or physical-display playback.
 
 ## About EditNew
 
