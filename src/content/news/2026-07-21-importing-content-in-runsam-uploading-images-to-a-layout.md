@@ -1,60 +1,57 @@
 ---
-title: "Importing Content in RunSAM: Uploading Images to a Layout"
-subheadline: "A step-by-step guide for adding image content to a new RunSAM layout."
+title: "Upload an image to a S.A.M. layout"
+subheadline: "Add image content through Media and verify the saved upload."
 date: "2026-07-21"
 slug: "2026-07-21-importing-content-in-runsam-uploading-images-to-a-layout"
 image: "/images/news/placeholder.jpg"
-excerpt: "Learn how to create a RunSAM layout, remove the placeholder image, upload image content from your device, and save the completed layout."
-tags: ["training", "layouts", "runsam"]
+excerpt: "Add an image through Media and verify the saved item and its appearance in Preview."
+tags: ["training", "layouts", "runsam", "daily-use"]
 draft: false
 ---
 
-## Importing content in RunSAM, starting with image uploads
+Add an image through Media, then check the saved item and its appearance in Preview.
 
-Use this guide when you need to create a new layout in [RunSam.com](https://runsam.com), remove the default placeholder image, and upload image content from your device.
+## When this applies
 
-## Before you start
+Use the desktop Media upload form with **Upload Image(s)** and **Your Device**. The editor may show the entry button as **+** or **Content**.
 
-Make sure the image you want to upload is available on your device and ready to add to the layout.
+## Before you begin
 
-## Steps
+Have your image file ready and open the correct layout's Media module. Check the layout ID and make sure you are authorized to change its content.
 
-1. Go to **Layouts**.
-2. Select **Create a New Layout**.
+## Upload the image
 
-![RunSAM Layouts screen with the Layouts menu and New Layout button highlighted](https://media.wwds.co/u/e3988d6d-d5c0-4348-a7f0-aa422abc8483.webp)
+1. Open **Add Content**. If the entry is unclear, identify the Media module by its type in Module Manager before continuing.
+2. Select **Upload Image(s)**, then **Your Device**.
+3. Choose the image in your computer's file picker.
 
-3. Choose the layout template you want to use.
+   ![Add Content dialog with Upload Image(s) and Your Device controls](https://media.wwds.co/u/9d72afd3-7eaf-4a27-a5e9-38e96e8f0e8c.webp)
+4. Review the selected file in the upload dialog and select its **Save**.
 
-![RunSAM layout template selection screen showing available layout templates](https://media.wwds.co/u/853bf97d-6c58-4939-8f3e-2f56a307bd89.webp)
+   ![Save button in the Add Content upload dialog](https://media.wwds.co/u/7ed0b4fa-289b-4f96-95a5-202aef393a87.webp)
+5. Allow processing to finish. **Finishing up** is an intermediate message.
+6. Reopen Media and confirm the new image is present. Check its position, duration and schedule rather than assuming where it was inserted.
 
-4. Label the layout, then save it.
+## Verify the result
 
-![RunSAM label dialog with the Label field and Save button highlighted](https://media.wwds.co/u/9408f2f8-87d4-411c-8837-7c63d4948fad.webp)
+Open the layout's **Preview** and reload it. Wait for the image's place in the playlist and check the actual picture, not just the thumbnail. Check the assigned physical display separately before declaring a live update complete.
 
-5. Select the placeholder image in the layout.
-6. Delete the placeholder image.
+## If the upload does not finish
 
-![RunSAM layout editor showing the selected placeholder image and delete controls](https://media.wwds.co/u/10cdc79e-5ed5-4767-9a20-f01cbdfeedaf.webp)
+Reopen Media before retrying, in case the item was already created. Record the error, file type, file size and image dimensions for support. Do not rename a file extension to force it through the picker.
 
-7. To add content, go to **Content**.
-8. Select the content type you want to add.
-9. Choose your image in **Your Device**.
-10. Select the image content you want to upload.
+## When to contact support
 
-![RunSAM Add Content dialog showing content type, Upload Image(s), and Your Device controls highlighted](https://media.wwds.co/u/9d72afd3-7eaf-4a27-a5e9-38e96e8f0e8c.webp)
+Stop if the file remains in processing, the saved item is absent, or the image will not appear in a fresh Preview. Ask support about the applicable file and account limits; a successful small upload does not establish a maximum size.
 
-11. Save the content.
+## Related guides
 
-![RunSAM Add Content dialog with the Save button highlighted](https://media.wwds.co/u/7ed0b4fa-289b-4f96-95a5-202aef393a87.webp)
+- [How to Add Another Module to Your Layout](https://support.editnew.ca/news/2026-07-22-how-to-add-another-module-to-your-layout/)
 
-12. Save the layout.
 
-![RunSAM layout editor with the Save button highlighted](https://media.wwds.co/u/c470cc1d-0479-447c-b84d-e59b9430546f.webp)
+Uploading an image does not require deleting an existing item. If you also intend to remove a placeholder, identify that item separately and preserve anything you need before confirming deletion.
 
-## Expected result
-
-The layout is saved with your uploaded image content in place of the original placeholder image.
+Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
 
 ## About EditNew
 
