@@ -6,7 +6,7 @@
     const enhanceChat = () => {
       const launcher = document.getElementById('anything-llm-embed-chat-button');
       if (launcher) {
-        launcher.setAttribute('aria-label', 'Ask Editnew AI');
+        launcher.setAttribute('aria-label', 'Ask Sam AI');
         if (returnFocus) {
           launcher.focus();
           returnFocus = false;
@@ -15,7 +15,10 @@
       const panel = document.getElementById('anything-llm-chat');
       if (!panel) return;
       panel.setAttribute('role', 'region');
-      panel.setAttribute('aria-label', 'Editnew AI support');
+      panel.setAttribute('aria-label', 'Sam AI support');
+      panel.querySelectorAll('img[src$="/images/brand/sam-ai-icon.png"]').forEach((icon) => {
+        icon.setAttribute('alt', 'Sam AI');
+      });
       const composer = panel.querySelector('textarea');
       if (composer) {
         composer.maxLength = 1500;
@@ -49,10 +52,10 @@
   data-button-color="#1473aa"
   data-user-bg-color="#1473aa"
   data-assistant-bg-color="#f0f7fc"
-  data-brand-image-url="https://support.editnew.ca/images/brand/sam-logo.png"
-  data-assistant-icon="https://support.editnew.ca/images/brand/sam-logo.png"
-  data-assistant-name="Editnew AI"
-  data-greeting="Hi! I’m Editnew’s AI guide assistant. Ask me about S.A.M. or RunSam. I answer from our published guides and can make mistakes. Please don’t share passwords or private account details."
+  data-brand-image-url="https://support.editnew.ca/images/brand/sam-ai-icon.png"
+  data-assistant-icon="https://support.editnew.ca/images/brand/sam-ai-icon.png"
+  data-assistant-name="Sam AI"
+  data-greeting="Hi! I’m Sam AI, Editnew’s AI guide assistant. Ask me about S.A.M. or RunSam. I answer from our published guides and can make mistakes. Please don’t share passwords or private account details."
   data-default-messages="How do I reset my RunSam password?,How do I connect S.A.M. to Wi-Fi?"
   data-send-message-text="Ask about S.A.M. or RunSam…"
   data-support-email="info@editnew.ca"
@@ -67,11 +70,21 @@
 <style is:global>
   #anything-llm-embed-chat-button {
     gap: .6rem;
-    padding: .95rem 1.2rem;
+    padding: .65rem 1.2rem .65rem .8rem;
     box-shadow: 0 5px 24px rgba(20, 115, 170, .25);
   }
+  /* The widget only supports preset launcher icons; use the original Runsam mark. */
+  #anything-llm-embed-chat-button > svg { display: none; }
+  #anything-llm-embed-chat-button::before {
+    content: '';
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #fff url('/images/brand/sam-ai-icon.png') center / 32px 32px no-repeat;
+  }
   #anything-llm-embed-chat-button::after {
-    content: 'Ask Editnew AI';
+    content: 'Ask Sam AI';
     font: 700 .9rem 'DM Sans', Arial, sans-serif;
   }
   #anything-llm-embed-chat-container { pointer-events: none; }
@@ -84,11 +97,11 @@
   #anything-llm-chat a[href^='mailto:'] { color: #1473aa !important; }
   #anything-llm-header > div:first-child { justify-content: flex-start; gap: .65rem; padding-left: 1.25rem; }
   #anything-llm-header > div:first-child::after {
-    content: 'Editnew AI support';
+    content: 'Sam AI';
     color: #17202a;
     font: 700 .95rem 'DM Sans', Arial, sans-serif;
   }
-  #anything-llm-header img { width: 32px; height: 36px; object-fit: contain; }
+  #anything-llm-header img { width: 40px; height: 40px; object-fit: contain; }
   #anything-llm-chat textarea { font-size: 16px; }
   #anything-llm-chat button:focus-visible,
   #anything-llm-embed-chat-button:focus-visible { outline: 3px solid #4aa4d7; outline-offset: 3px; }
