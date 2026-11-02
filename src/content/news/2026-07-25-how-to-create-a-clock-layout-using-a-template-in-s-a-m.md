@@ -17,7 +17,7 @@ You will need:
 
 - Access to your S.A.M. account
 - A logo file saved on your computer
-- For best display quality, a 650 × 650 pixel PNG logo with a transparent background
+- For this template, the documented logo recommendation is a 650 × 650 pixel PNG with a transparent background; it is not a platform-wide image requirement
 
 ## Create the clock layout
 
@@ -80,6 +80,10 @@ You will need:
 ## Expected result
 
 Your new clock layout is saved with your uploaded logo in place of the template logo.
+
+## Check the result
+
+Reopen the saved layout, verify that the intended default logo was replaced, and reload Preview to check the image and transparency. Check physical output separately. If the template or named controls are unavailable, contact support for instructions matching your account and template. Creating an Emergency Alert Clock layout does not establish that emergency-message integrations are configured or verified.
 
 ## About EditNew
 
