@@ -1,4 +1,5 @@
 ---
+import SupportChat from '../components/SupportChat.astro';
 interface Props { title: string; description?: string; }
 const { title, description = 'Support, training, and product resources for Editnew and S.A.M.' } = Astro.props;
 ---
@@ -17,6 +18,7 @@ const { title, description = 'Support, training, and product resources for Editn
   </div></header>
   <main><slot /></main>
   <footer class="site-footer"><div class="shell footer-inner"><div><strong>Editnew Support Centre</strong><span>Practical resources for S.A.M.</span></div><a href="mailto:info@editnew.ca">Contact Editnew support</a><span>© {new Date().getFullYear()} Editnew Inc.</span></div></footer>
+  <SupportChat />
 </body></html>
 
 <style is:global>

@@ -1,0 +1,102 @@
+<!-- This is a public embed ID, not an administrator API key. -->
+<script is:inline>
+  (() => {
+    let focusComposer = false;
+    let returnFocus = false;
+    const enhanceChat = () => {
+      const launcher = document.getElementById('anything-llm-embed-chat-button');
+      if (launcher) {
+        launcher.setAttribute('aria-label', 'Ask Editnew AI');
+        if (returnFocus) {
+          launcher.focus();
+          returnFocus = false;
+        }
+      }
+      const panel = document.getElementById('anything-llm-chat');
+      if (!panel) return;
+      panel.setAttribute('role', 'region');
+      panel.setAttribute('aria-label', 'Editnew AI support');
+      const composer = panel.querySelector('textarea');
+      if (composer) {
+        composer.maxLength = 1500;
+        composer.setAttribute('aria-label', 'Your support question');
+        if (focusComposer) {
+          composer.focus();
+          focusComposer = false;
+        }
+      }
+    };
+    new MutationObserver(enhanceChat).observe(document.body, { childList: true, subtree: true });
+    document.addEventListener('click', (event) => {
+      if (!(event.target instanceof Element)) return;
+      if (event.target.closest('#anything-llm-embed-chat-button')) focusComposer = true;
+      if (event.target.closest('#anything-llm-header button[aria-label="Close"]')) returnFocus = true;
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        document.querySelector('#anything-llm-header button[aria-label="Close"]')?.click();
+      }
+    });
+  })();
+</script>
+<script
+  is:inline
+  defer
+  src="https://ai.support.editnew.ca/embed/anythingllm-chat-widget.min.js"
+  data-embed-id="86c54a7e-8c04-48f8-b17c-9a4fe247ef24"
+  data-base-api-url="https://ai.support.editnew.ca/api/embed"
+  data-chat-icon="chatBubble"
+  data-button-color="#1473aa"
+  data-user-bg-color="#1473aa"
+  data-assistant-bg-color="#f0f7fc"
+  data-brand-image-url="https://support.editnew.ca/images/brand/sam-logo.png"
+  data-assistant-icon="https://support.editnew.ca/images/brand/sam-logo.png"
+  data-assistant-name="Editnew AI"
+  data-greeting="Hi! I’m Editnew’s AI guide assistant. Ask me about S.A.M. or RunSam. I answer from our published guides and can make mistakes. Please don’t share passwords or private account details."
+  data-default-messages="How do I reset my RunSam password?,How do I connect S.A.M. to Wi-Fi?"
+  data-send-message-text="Ask about S.A.M. or RunSam…"
+  data-support-email="info@editnew.ca"
+  data-sponsor-text="Need a person? Email Editnew support"
+  data-sponsor-link="mailto:info@editnew.ca"
+  data-position="bottom-right"
+  data-window-width="400px"
+  data-window-height="min(680px, calc(100dvh - 32px))"
+  data-language="en"
+></script>
+
+<style is:global>
+  #anything-llm-embed-chat-button {
+    gap: .6rem;
+    padding: .95rem 1.2rem;
+    box-shadow: 0 5px 24px rgba(20, 115, 170, .25);
+  }
+  #anything-llm-embed-chat-button::after {
+    content: 'Ask Editnew AI';
+    font: 700 .9rem 'DM Sans', Arial, sans-serif;
+  }
+  #anything-llm-embed-chat-container { pointer-events: none; }
+  #anything-llm-chat { pointer-events: auto; width: calc(100vw - 32px); }
+  #anything-llm-chat,
+  #anything-llm-chat .allm-font-sans,
+  #anything-llm-chat button,
+  #anything-llm-chat textarea { font-family: 'DM Sans', Arial, sans-serif; }
+  #anything-llm-chat p.allm-text-slate-400 { color: #5c6876; padding: 1rem; line-height: 1.55; }
+  #anything-llm-chat a[href^='mailto:'] { color: #1473aa !important; }
+  #anything-llm-header > div:first-child { justify-content: flex-start; gap: .65rem; padding-left: 1.25rem; }
+  #anything-llm-header > div:first-child::after {
+    content: 'Editnew AI support';
+    color: #17202a;
+    font: 700 .95rem 'DM Sans', Arial, sans-serif;
+  }
+  #anything-llm-header img { width: 32px; height: 36px; object-fit: contain; }
+  #anything-llm-chat textarea { font-size: 16px; }
+  #anything-llm-chat button:focus-visible,
+  #anything-llm-embed-chat-button:focus-visible { outline: 3px solid #4aa4d7; outline-offset: 3px; }
+  #anything-llm-chat .allm-reply a { color: #1473aa; text-decoration: underline; }
+  @media (max-width: 440px) {
+    #anything-llm-chat { width: calc(100vw - 16px); margin-right: 8px; margin-bottom: 8px; max-height: calc(100dvh - 16px) !important; }
+    #anything-llm-header > div:first-child { padding-left: .85rem; }
+    #anything-llm-header > div:first-child::after { font-size: .88rem; }
+    .site-footer { padding-bottom: 4.5rem; }
+  }
+</style>
