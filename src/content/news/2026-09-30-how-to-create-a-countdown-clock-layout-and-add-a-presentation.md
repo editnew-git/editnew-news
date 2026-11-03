@@ -1,99 +1,44 @@
 ---
-title: "How to Create a Countdown/Clock Layout and Add a Presentation"
+title: "Add presentation media to an Emergency Alert clock layout"
 date: "2026-09-30"
 slug: "2026-09-30-how-to-create-a-countdown-clock-layout-and-add-a-presentation"
 image: "/images/news/placeholder.jpg"
-excerpt: "Create a S.A.M. countdown or clock layout, add presentation media, and configure its schedule."
+excerpt: "Find Presentation, upload content and verify its schedule separately from triggers and physical playback."
 tags: ["training", "layouts", "runsam", "daily-use"]
 draft: false
 ---
 
-This guide explains how to create a countdown or clock layout in S.A.M., add presentation media, and configure when that content is active.
+The **Emergency Alert** clock template contains a **Presentation** Media module. Adding content there and configuring its eligibility are separate from proving a countdown, remote trigger or physical-display result.
 
-## Before you begin
+## Create or identify the matching layout
 
-- Sign in to S.A.M.
-- Have the presentation image, video, or other supported media file ready on your device or in your connected library.
+For a new layout, open **Layouts → New Layout**. Select **Layout Templates** and the **Clock** style, then **Emergency Alert — Clock Layout with Emergency Alert**. Enter a distinctive Label and Save. Record the new layout ID and check Attached Devices.
 
-## Create the clock layout
+For an existing layout, confirm its ID and template before changing it. In the right sidebar, select the **house tab**, expand **Media** and select **Presentation**. This is separate from Add Your Logo, Alert and Clock Buttons.
 
-### 1. Go to Layouts
+![Clock layout sidebar with Media expanded and the Presentation entry visible](https://media.wwds.co/u/pressly-pr-en-20260725-002-692d0f192014ca91c6d093210fd7f45b8a77d0c7ca181cfcc6cd30bebfe92310.webp)
 
-From the left navigation menu, select **Layouts**.
+[Open the clock-navigation screenshot at full size](https://media.wwds.co/u/pressly-pr-en-20260725-002-692d0f192014ca91c6d093210fd7f45b8a77d0c7ca181cfcc6cd30bebfe92310.webp).
 
-![S.A.M. navigation with the Layouts option highlighted](https://media.wwds.co/u/pressly-pr-en-20260930-001-0d677830e6c4ee87f274a342fcb7cef7474b3fbaf840f5a0c093db9bb1e6c09b.webp)
+## Add the presentation media
 
-### 2. Create a new layout
+1. Inspect the existing list. The template can include sample media; it need not start empty.
+2. Select the blue **Content** button.
+3. Choose the matching content type. For an image, use **Upload Image(s) → Your Device**.
+4. Select the file, wait for its selected-file state and use the dialog's green **Save**.
+5. Wait for processing, reopen Presentation and verify the intended item before uploading again. Inspect order and duration separately.
 
-On the Layouts page, select **+ New Layout**.
+Video uses **Upload Video(s)** and exposes processing/audio options. Do not apply the image example as proof that every presentation-file format is supported.
 
-![Layouts page with the New Layout button highlighted](https://media.wwds.co/u/pressly-pr-en-20260930-001-b68dd089275b7e8288e22f4391395ded518c15a66882c7fe3df68eb9f84856f6.webp)
+## Inspect eligibility separately
 
-### 3. Choose the Clock template
+Use the intended item's **calendar control** or **wrench → Config/Schedule**. Read the actual field labels before changing dates or times. In the inspected Media schedule form, start/end bounds are marked **UTC** and the weekly grid uses **Device Local Time**.
 
-Open the **Layout Templates** menu, select **Clock**, and choose the clock style you want to use.
+Preserve the template's intended schedule unless a change is authorized. **Select None** clears a selection; it is not a universal command to make content unrestricted or remotely triggerable. Save the intended settings in that form, then reopen it and verify them.
 
-![New Layout page with Clock selected in the Layout Templates menu](https://media.wwds.co/u/pressly-pr-en-20260930-001-a1302ea8290863132f212de80224411cb91fc42f5a6eaac0e69f3fcd0bdee1af.webp)
+Reload Preview and inspect the intended content and activation window. A saved attachment or schedule does not prove that a remote command triggers it, that a countdown behaves correctly, or that it played on a physical display. Have the template owner confirm any trigger procedure before relying on it.
 
-### 4. Name and save the layout
-
-In the **Confirm layout creation** window, enter a descriptive name in the **Label** field, then select **Save**.
-
-![Confirm layout creation window with the Label field and Save button highlighted](https://media.wwds.co/u/pressly-pr-en-20260930-001-bd9e159db1fc54e31776d705a127340531ca974a0c5d9aaeab1065346b8fe0ec.webp)
-
-## Add presentation content
-
-### 5. Select the Presentation section
-
-In the layout editor, select **PRESENTATION** from the panel on the right.
-
-![Layout editor with the Presentation section highlighted in the right panel](https://media.wwds.co/u/pressly-pr-en-20260930-001-ee6c50f9bfc9bc3716de6fcce72d2d66280bbc38fc43aca2bba82a94bbcfde0e.webp)
-
-### 6. Select Content
-
-Select **+ Content** in the top menu bar.
-
-![Presentation editor with the Content button highlighted](https://media.wwds.co/u/pressly-pr-en-20260930-001-2b2271b3eb048ab1c7ebd1c9a1209354b31dff57016f6655b3091596d9825dfc.webp)
-
-### 7. Select the content type
-
-In the **Add Content** window, choose the media type you want from the **Content Type** menu, such as **Upload Image(s)**.
-
-![Add Content window showing media choices in the Content Type menu](https://media.wwds.co/u/pressly-pr-en-20260930-001-c7e670a2da8fe6d8937ddebde651c3e30cc0742553d6106747e4f1459ce9c1ac.webp)
-
-### 8. Choose the file location
-
-Select **Your Device** to upload a file from your computer. You can also choose **Library** or **Dropbox** when appropriate.
-
-![Add Content window with Your Device highlighted as the upload source](https://media.wwds.co/u/pressly-pr-en-20260930-001-dc3ec18c7bd1c5e70a6149a332b8c414cdddda4a05272d9ebd1c6c32b9714e40.webp)
-
-### 9. Save the uploaded content
-
-After selecting the file, select the green **Save** button to attach it to the presentation section.
-
-![Add Content window with the green Save button highlighted](https://media.wwds.co/u/pressly-pr-en-20260930-001-9e48398fea273e2fd54161c9f35319511252584792a1a3b600e70e9552373490.webp)
-
-## Configure the schedule
-
-### 10. Open the scheduling options
-
-Select the calendar icon next to the uploaded item to open its scheduling options.
-
-![Presentation content list with the calendar scheduling icon highlighted](https://media.wwds.co/u/pressly-pr-en-20260930-001-2036880cccb402450fd3e7bf77fe43d14489c882a4bd072d5bac4b285bc9f396.webp)
-
-### 11. Adjust the schedule and save
-
-Choose the active days and schedule settings required for this presentation. **Select None** clears the day selection; do not assume that an empty selection means unrestricted playback. If that behavior or the form's timezone is unclear, have support confirm it for your template before changing the schedule. Select the green **SAVE** button in the upper-right corner to save the intended settings.
-
-![Schedule settings with Select None and the Save button highlighted](https://media.wwds.co/u/pressly-pr-en-20260930-001-2e4e48e1805e11b04028cf60235ad84dd0b47109f82c9f34ca22cd692d205da6.webp)
-
-## Expected result
-
-The new clock layout is saved with the selected presentation media attached and its schedule configured.
-
-## Verify content and scheduling separately
-
-Reopen Presentation and confirm the intended file is present after processing. Reopen the schedule and check the saved dates, days and displayed timezone labels. Verify the intended activation and display window separately; a saved attachment does not prove a remote command can trigger it or that it has played on the physical display. Contact support with the layout identity, field labels and intended display window if these checks disagree.
+Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca) with the layout/item identity, saved schedule labels and intended display window if the results disagree.
 
 ## About EditNew
 
