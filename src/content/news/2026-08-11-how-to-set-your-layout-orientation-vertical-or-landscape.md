@@ -1,76 +1,42 @@
 ---
-title: "How to Set Your Layout Orientation: Vertical or Landscape"
-subheadline: "Configure a S.A.M. layout for landscape or portrait display and add a matching background image."
+title: "Check layout dimensions and display orientation"
+subheadline: "Confirm the intended canvas size and verify layout shape separately from physical display rotation."
 date: "2026-08-11"
 slug: "2026-08-11-how-to-set-your-layout-orientation-vertical-or-landscape"
 image: "/images/news/placeholder.jpg"
-excerpt: "Learn how to set the width, height, and background image for a landscape or vertical S.A.M. layout."
+excerpt: "Confirm the content canvas dimensions and verify layout shape separately from physical display rotation."
 tags: ["training", "layouts"]
 draft: false
 ---
 
-Set the content dimensions of your S.A.M. layout for a landscape or vertical display, then add a matching background. These layout settings are separate from the player or screen settings that rotate the physical output.
+Layout dimensions describe the content canvas. Physical display rotation is a separate player or screen setting.
 
-## Before you begin
+## Confirm the required canvas
 
-Open the intended layout from your Layout Dashboard with permission to edit it. Confirm the required content width and height in pixels with your administrator or installer, especially for a custom LED display or video wall. Have a matching background image ready if you plan to use one.
+Open the intended layout and confirm its ID and attached signs. Ask the layout administrator for the required content width and height in pixels. A custom LED display, video wall or partial-screen region may use different dimensions from a standard monitor.
 
-Check which signs use the layout before saving changes. If the same content will appear on screens with different shapes, confirm the layout plan for each screen.
+| Example canvas | Width | Height |
+| --- | --- | --- |
+| Full HD landscape | 1920px | 1080px |
+| Full HD portrait | 1080px | 1920px |
 
-## 1. Open Layout Settings
+These are examples, not defaults for every installation. Prepare any background artwork for the confirmed canvas shape and preserve a verified layout copy before changing the design.
 
-From the Layout Dashboard, open the layout you want to configure, then select the **Settings** gear icon.
+## Locate the layout settings
 
-## 2. Open Global Settings
+Select the **gear tab at the top of the right sidebar**, then **Global Settings — Body CSS & Misc**.
 
-In the Settings menu, select **Global Settings**.
+The fields inside Global Settings can differ by editor version. If the dialog is empty or does not expose the expected dimension controls, close it and ask support for the procedure matching that layout. Do not add guessed CSS fields or change several device and layout settings together to make the picture fit.
 
-## 3. Add the width and height fields
+This article does not prescribe a universal width/height editing sequence or promise that changing CSS resizes every template correctly. Have the administrator verify the applicable fields and save action on a separate copy first.
 
-Under **Page CSS Properties**, select the **+** button to add two fields:
+## Verify the result
 
-- `width`
-- `height`
+After an authorized dimension change, reopen the relevant settings and confirm the saved values. Reload Preview and check text, background, module positions and all four edges. Inspect the physical display separately at an authorized time.
 
-## 4. Set the layout resolution and orientation
+If Preview has the intended portrait shape but the display is upside down, have an authorized administrator check the target sign's orientation settings. Swapping layout width and height alone does not establish the correct physical rotation.
 
-Enter the confirmed content width and height for the target display. These are pixel dimensions, not the screen's physical measurements. Include `px` after each value. Use the installation's confirmed canvas dimensions for custom LED displays or video walls rather than assuming a Full HD size.
-
-The following Full HD values are examples:
-
-- **Landscape:** width `1920px`, height `1080px`
-- **Vertical (Portrait):** width `1080px`, height `1920px`
-
-## 5. Set the layout background
-
-To use a custom background, choose a file in the **Background Image** field. For the best visual result, use an image with the same resolution and orientation as the layout.
-
-## 6. Save your changes
-
-Select **Save** to apply the layout dimensions and background settings.
-
-## Full HD examples
-
-| Orientation | Width | Height |
-| --- | ---: | ---: |
-| Landscape | 1920px | 1080px |
-| Vertical (Portrait) | 1080px | 1920px |
-
-## Expected result
-
-Your S.A.M. layout uses the confirmed landscape or vertical dimensions, and the background fits the configured layout.
-
-## 7. Verify the saved layout and physical display
-
-Reopen **Global Settings** and confirm the saved width and height. Reload **Preview** and check the background, module positions, text, and content edges.
-
-At an authorized time, check the layout on the intended physical display. Confirm that the full content fits, text is readable, and the top of the content is at the intended top of the screen. Record any cropping, stretching, or inverted output.
-
-## If portrait output is upside down
-
-Changing the layout's width and height does not by itself correct the player or screen's rotation. If Preview has the intended portrait shape but the physical display is upside down, ask an authorized administrator or [EditNew Support](https://support.editnew.ca) to check the target sign's orientation settings.
-
-Provide the layout and sign identity, saved width and height, and a photo of the physical result. Avoid changing several layout and device settings at once; use the instructions confirmed for that installation.
+Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca) with the layout/sign identity, intended canvas size and a photo of the result.
 
 ## About EditNew
 
