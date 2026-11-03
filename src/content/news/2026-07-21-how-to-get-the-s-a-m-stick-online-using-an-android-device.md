@@ -1,73 +1,38 @@
 ---
 title: "How to Get the S.A.M. Stick Online Using an Android Device"
-subheadline: "Use Android Mobile Hotspot settings to connect a powered-on S.A.M. Stick device to the internet."
+subheadline: "Use an approved Android hotspot to bring your S.A.M. Stick online and complete setup before disconnecting."
 date: "2026-07-21"
 slug: "2026-07-21-how-to-get-the-s-a-m-stick-online-using-an-android-device"
 image: "/images/news/placeholder.jpg"
-excerpt: "Follow these steps to enable Mobile Hotspot on an Android device, set the required hotspot name and password, and confirm that the S.A.M. Stick is online in RunS.A.M."
+excerpt: "Prepare an approved Android hotspot, confirm your player is online, and coordinate synchronization and the move to its site network."
 tags: ["getting-started", "training", "runsam", "support"]
 draft: false
 ---
 
-Use this guide to connect a powered-on S.A.M. Stick device to the internet with Mobile Hotspot on an Android device.
+An Android phone can provide a temporary internet connection during a supported S.A.M. Stick setup. Keep that connection available until the player has received the configuration and content it needs.
 
-## Before You Begin
+## Before you begin
 
-1. Plug in and power on the S.A.M. Stick device.
-2. Verify that the blue indicator light on the device is illuminated. This confirms that the device is powered on.
-3. Once the device is powered on, follow the steps below.
+Have your player’s setup instructions and the approved hotspot details from your administrator or [EditNew Support](https://support.editnew.ca). Confirm that this Android phone and hotspot setup are suitable for your player. You also need a working mobile internet connection and access to the intended player in [RunSam.com](https://runsam.com), or support assistance to check its status.
 
-![S.A.M. Quick Start Guide showing power, blue light, and internet connection setup](https://media.wwds.co/u/8b509421-ec5e-4b7c-a1ab-212d1ce012a8.webp)
+Use the power connection specified for your player. If your instructions or hardware differ from the setup you were given, ask support to confirm the procedure before continuing.
 
-![S.A.M. Quick Start Guide showing power, HDMI extender, TV input, and troubleshooting tips](https://media.wwds.co/u/3a424daf-b462-402b-b2e7-dab0b1d82d9f.webp)
+## Connect using Android Mobile Hotspot
 
-## Connect With Android Mobile Hotspot
+1. Power the player according to its setup instructions and keep the phone nearby.
+2. On the Android phone, open **Settings** and find **Mobile Hotspot**. Use your phone’s instructions if you cannot locate it; menu names and placement can vary.
+3. Configure the hotspot with the setup details supplied for your player, then enable it. Use those details exactly. Keep passwords out of support screenshots and public messages.
+4. Check the intended player’s online status in RunSam.com, or ask support to confirm the connection. If it stays offline, check that the phone itself has internet access and that the hotspot is still enabled. Ask support to verify the setup details before trying further changes.
+5. Leave the hotspot available while the authorized administrator or support team completes any required network configuration and content synchronization. A saved network profile alone does not confirm that the player has received it.
+6. If the player will use site Wi-Fi, have support or your administrator confirm that it is ready to move to that network. Disconnect the temporary hotspot only after that confirmation, then verify that the player is online through its intended site connection and displaying the expected content.
 
-1. Open **Settings** on the Android device.
+## Expected result
 
-![Android app screen with the Settings app highlighted](https://media.wwds.co/u/5c7985aa-a6e2-4478-b20a-95a3d5338ee5.webp)
+The player is online through the approved connection and has received its required setup and content. If you moved it to site Wi-Fi, it remains online after the phone hotspot is turned off.
 
-2. Tap **Connections**.
+## If the player does not connect
 
-![Android Settings screen with Connections highlighted](https://media.wwds.co/u/bf29b188-e085-4574-bec7-390f72863f4f.webp)
-
-3. Tap **Mobile Hotspot and Tethering**.
-
-![Android Connections screen with Mobile Hotspot and Tethering highlighted](https://media.wwds.co/u/194efb6c-b90a-4ed8-90ad-a3cfb7ff177c.webp)
-
-4. Turn on **Mobile Hotspot** by tapping the toggle switch.
-
-![Android Mobile Hotspot and Tethering screen with the Mobile Hotspot option highlighted](https://media.wwds.co/u/d8de8b28-02c9-4415-8ce6-9ce74a0e9c4d.webp)
-
-5. Tap **Mobile Hotspot** to configure the hotspot settings.
-6. Tap **Configure**.
-
-![Android Mobile Hotspot screen with the Configure button highlighted](https://media.wwds.co/u/1d791925-2647-4815-b981-2cff39f49611.webp)
-
-7. Set **Hotspot Name (SSID)** to **ENS**.
-8. Set **Password** to **ensdevicego!**.
-9. Tap **Save**.
-
-![Android Configure Mobile Hotspot screen showing network name ENS, password field, and Save button](https://media.wwds.co/u/71afee48-f8c4-4cd0-99c9-a2e221856a71.webp)
-
-10. Verify that **Mobile Hotspot** is turned on.
-
-![Android Mobile Hotspot screen showing hotspot turned on with network name ENS](https://media.wwds.co/u/90de527b-c18e-4182-a40e-6692811c1692.webp)
-
-11. Wait a few minutes while the S.A.M. Stick connects to the hotspot.
-
-## Confirm the Device Status
-
-Sign in to your [RunSam.com](https://runsam.com) account and check the device status.
-
-- **Green** means the device is online and has successfully connected.
-- **Red** means the device is still offline. Wait another minute and refresh the page. If the status remains red, verify that the hotspot settings are configured correctly and that Mobile Hotspot is still enabled.
-
-![RunS.A.M. Signs list showing online and offline device status indicators](https://media.wwds.co/u/3a00ad92-e6c1-4ea5-bfff-dd49b25739e9.webp)
-
-## Expected Result
-
-The Android device remains available as a Mobile Hotspot, and the S.A.M. Stick appears online in RunS.A.M.
+Contact support with the player name or ID, Android phone model, the step that failed, and whether the phone has internet access. Say whether the player was never online or went offline only after the hotspot was disconnected. Include a photo of any on-screen error without exposing passwords.
 
 ## About EditNew
 
