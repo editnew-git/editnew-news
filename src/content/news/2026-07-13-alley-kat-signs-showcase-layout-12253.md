@@ -1,24 +1,24 @@
 ---
 title: "Alley Kat Signs Showcase Layout 12253"
-subheadline: "A S.A.M showcase layout for Alley Kat Signs."
+subheadline: "RunSAM layout 12253"
 date: "2026-07-13"
 location: "Canada"
 slug: "2026-07-13-alley-kat-signs-showcase-layout-12253"
 image: "/images/news/placeholder.jpg"
-excerpt: "A S.A.M showcase layout iframe for Alley Kat Signs."
+excerpt: "Reference for RunSAM layout 12253. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam", "support", "alley-kat-signs"]
 draft: false
 ---
 
-<iframe
- src="https://iframe.wwds.co/?campId=12253"
- title="Alley Kat Signs showcase layout 12253"
- loading="lazy"
- allowfullscreen>
-</iframe>
+Reference for [RunSam.com](https://runsam.com) layout **12253**.
 
+## Preview temporarily unavailable
 
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://www.runsam.com/layouts/rc/12253/019083E8-1E3C-4479-A529-5960E7D60CA3">
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **12253**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 
