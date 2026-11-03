@@ -8,7 +8,7 @@ tags: ["training", "layouts", "runsam", "daily-use"]
 draft: false
 ---
 
-Choose the module according to what the content needs to do. A module's display label can be customized, so confirm its type before editing it.
+Choose a module according to the content's purpose. A module's display label can be changed, so identify its type and ID before editing it.
 
 | Content task | Module to inspect |
 | --- | --- |
@@ -16,23 +16,27 @@ Choose the module according to what the content needs to do. A module's display 
 | Keep a message in a fixed text region | Text Block |
 | Show scrolling custom text or RSS headlines | Ticker |
 | Display a city forecast | Weather |
-| Connect a supported external data source | Data Source |
+| Connect an external data source | Data Source |
 | Present connected rows and selected fields | Data Table |
 | Maintain custom markup as an advanced author | Html/Code |
 
-This is a guide to documented uses, not a guarantee that every module is available to every account or that every content format is supported.
+These are intended uses. Availability and supported formats depend on the account and module; a module name alone does not confirm that a particular feed, file or integration works.
 
-## Check before adding
+## Find the module type and ID
 
 1. Open the intended layout and confirm its ID.
-2. Open the Settings gear and **Module Manager**.
-3. Inspect the complete list of existing types and IDs. A label such as Set Label does not mean a module is missing.
-4. Close without changes if you only need to identify a module.
-5. If a module is genuinely needed, follow the module-creation guide and then its own configuration procedure.
+2. Select the **gear tab at the top of the right sidebar**, then **Module Manager — Add/Remove Modules**.
+3. Inspect the existing module tiles. Each tile identifies a type and an ID. Review the complete list before adding anything.
+4. Close the dialog with its **X** when you are only inspecting. Selecting an existing tile exposes removal controls; it is not the way to open that module's content.
+5. Use the **house tab at the top of the right sidebar** to return to the module panel. A module may appear under the default **Set Label** heading with its type underneath.
 
-Data Source and Data Table have different responsibilities: establishing a connection does not finish the table's field selection or formatting. Likewise, a fixed Text Block differs from a Text/HTML item rotating in Media.
+![Add/Remove Modules dialog showing the type selector and existing module type and ID tiles](https://media.wwds.co/u/pressly-pr-en-20260722-001-26e9eb3dd69c0132fdfc6ea5d00324daaeb1f9420f4b71c486b663ae02e91e3b.webp)
 
-Ask support when the module type, account availability or required content behavior is unclear.
+The screenshot illustrates the current controls; its module IDs are examples, not targets to enter in your layout.
+
+Data Source establishes a connection. Data Table has its own source, field-selection and formatting controls. A fixed Text Block is also different from a Text/HTML item that rotates inside Media.
+
+If you need a new module, follow the module-creation procedure and then that module's configuration procedure. Ask support when the required type or behavior is unclear.
 
 Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
 
