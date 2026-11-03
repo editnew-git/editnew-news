@@ -8,33 +8,35 @@ tags: ["training", "layouts", "runsam", "daily-use"]
 draft: false
 ---
 
-Edit a fixed text region and check its saved content in Preview.
+Use **Text Block** for a fixed text region. A rotating Text/HTML announcement belongs in Media instead.
 
-## When this applies
+## Identify the module
 
-Use an existing **Text Block** module. This differs from a Text/HTML item that rotates through a Media playlist.
+Open the correct layout and confirm its ID. Select **gear tab → Module Manager** and identify the Text Block by type and ID. Return with the **house tab**, then open that module's sidebar entry. It may have a custom name or the default **Set Label**.
 
-## Before you begin
-
-Open the correct layout and confirm the module type. Have the message ready and preserve any content you need to retain.
+Preserve the current text before editing. Even a newly added module can expose retained source content, so inspect the editor rather than assuming it is blank.
 
 ## Edit and save
 
-1. Open **Text Block**.
-2. Edit the message in its text editor. If you use **Source code**, select the source dialog's **Save** when finished.
-3. Select the module's main **SAVE** to commit the change.
-4. Reopen Text Block and confirm the saved words and formatting.
-5. Reload the layout Preview and find the message in its fixed region.
+1. Enter the message in the rich-text editor and apply readable formatting.
+2. For HTML, open **Tools → Source code** or the **Source code** toolbar button. Select the source dialog's **Save** when finished.
+3. Select the module's main green **SAVE** at the top right.
+4. Reopen the Text Block and confirm the saved words and formatting.
+5. Open the layout's **Preview** from the outer editor's house tab and reload it.
 
-## Verify the result
+The source-dialog Save and the module's main SAVE are separate actions. The text editor's own Preview button is also separate from the complete layout Preview.
 
-Check readable contrast, placement and overlap as well as the words. Saved text can be present but obscured by another module. Use dimensions appropriate to your layout; example positioning values are not universal defaults.
+![Text Block Source Code dialog with a synthetic message and its Save button at the lower right](https://media.wwds.co/u/pressly-pr-en-20261102-008-f38047e4483da6cf5d93353e2882b438cb23fb023e60cb7348fa0eb9900b8546.webp)
 
-## When to contact support
+[Open the Source Code dialog screenshot at full size](https://media.wwds.co/u/pressly-pr-en-20261102-008-f38047e4483da6cf5d93353e2882b438cb23fb023e60cb7348fa0eb9900b8546.webp). This Save returns to the text editor; use the main SAVE afterward.
 
-Stop if text does not persist, remains hidden or you cannot identify the correct module. Provide the layout/module identity and a screenshot without private content. Verify physical-display output separately.
+![Text Block editor showing the saved synthetic message and main green SAVE at the top right](https://media.wwds.co/u/pressly-pr-en-20261102-008-9e7138eebd1ec3bf3c9d7a72fa384fb2676a14d601ed2e16a2f63debaaf1cfc5.webp)
 
-Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
+[Open the Text Block editor screenshot at full size](https://media.wwds.co/u/pressly-pr-en-20261102-008-9e7138eebd1ec3bf3c9d7a72fa384fb2676a14d601ed2e16a2f63debaaf1cfc5.webp).
+
+Check contrast, placement, clipping and overlap. Saved text can exist while another module obscures it; example positioning values are not universal defaults. Verify physical-display output separately.
+
+Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca) if the text does not persist or you cannot identify its region. Include the layout/module identity and a screenshot with private content removed.
 
 ## About EditNew
 
