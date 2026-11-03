@@ -1,53 +1,41 @@
 ---
 title: "S.A.M. Quick Start Guide"
-subheadline: "Connect your S.A.M. device to power, the internet, and your TV."
+subheadline: "Connect your player, confirm its account setup, and check the content on your screen."
 date: "2026-09-29"
 slug: "2026-09-29-s-a-m-quick-start-guide"
 image: "/images/news/placeholder.jpg"
-excerpt: "A quick setup guide for powering your S.A.M. device, connecting it to the internet, and displaying it on a TV."
+excerpt: "Identify your player, use its approved power and network connections, complete the appropriate account setup, and verify physical playback."
 tags: ["getting-started", "runsam"]
 draft: false
 ---
 
-Get your S.A.M. device online and connected to a TV.
+Get your S.A.M. player connected and confirm that your screen shows the intended content. Some players arrive ready for registration; others are already configured for an account or replacement installation. Use the setup instructions supplied for your player.
 
 ## What you need
 
-- S.A.M. device and power cable
-- Internet connection by Ethernet or a configured ENS Wi-Fi hotspot
-- HDMI extender
-- TV with an available HDMI port and its remote control
+- The player and its supplied or approved power equipment.
+- The display connection and accessories specified for that player.
+- An approved internet connection for the site, or a temporary connection arranged with support.
+- Access to the intended account, or help from its administrator.
 
-## 1. Set up power and network access
+If you are missing setup instructions or are unsure which player or accessories you received, contact [EditNew Support](https://support.editnew.ca) before connecting it.
 
-1. Connect the device to a wall outlet using the power cable.
-2. Check the front of the device for a solid or blinking blue light.
-3. Connect the device to the internet using one of these options:
-   - **Ethernet:** Connect an Ethernet cable directly from the device to your router.
-   - **Wi-Fi:** Enable the configured ENS hotspot on your phone or computer and wait for the device to connect.
+## Set up the player
 
-![S.A.M. Quick Start Guide page one showing power, indicator light, Ethernet, and Wi-Fi setup](https://media.wwds.co/u/pressly-pr-en-20260929-002-d55da51ae6e7f3b6fd47b6033915aca969a85c98908e1efe7133e2cec25b205f.webp)
-
-## 2. Connect the device to your TV
-
-1. Keep the device connected to power.
-2. Plug the short HDMI extender into the device's HDMI port.
-3. Insert the free end of the extender into an available HDMI port on the TV.
-4. Use the TV remote to select the corresponding HDMI input, such as HDMI 1.
-
-![S.A.M. Quick Start Guide page two showing power, HDMI, TV input, and troubleshooting steps](https://media.wwds.co/u/pressly-pr-en-20260929-002-05abb33a5ca78bd79f57415882508eeb08c79a8bf994aa212a55657fbdd37dcd.webp)
+1. **Identify the player.** Note the player name or ID from its label or setup paperwork. Confirm which screen and account it belongs to, especially for a replacement or a site with several screens.
+2. **Connect power and the display.** Follow the supplied hardware instructions. For an HDMI setup, connect the approved cable or extender to the intended display input and select that input with the display’s controls. Follow any installation sequence given by support.
+3. **Connect to the approved network.** Use the Ethernet connection and any adapter confirmed for your model, or the Wi-Fi setup supplied by support. If a phone will provide temporary access, follow the relevant [Android hotspot guide](https://support.editnew.ca/news/2026-07-21-how-to-get-the-s-a-m-stick-online-using-an-android-device/) or [iOS Personal Hotspot guide](https://support.editnew.ca/news/2026-07-18-how-to-connect-a-device-to-the-internet-using-an-ios-device/).
+4. **Confirm the appropriate account setup.** If the screen asks you to register the player, use the registration instructions supplied for it and the intended account. Ask support to confirm the registration address or account if either is unclear. If the player was supplied as preconfigured, have your administrator confirm that its ID is already in the correct account. If a preconfigured replacement unexpectedly asks for registration, contact support before proceeding.
+5. **Confirm online status and synchronization.** Check the intended player in [RunSam.com](https://runsam.com), or ask support to confirm it is online and has received its required configuration and content. Keep a temporary hotspot available until support or your administrator confirms it can be disconnected. After moving to the site network, check that the player remains online.
+6. **Check the physical screen.** Confirm that it shows the expected content and orientation. An online player still needs this playback check. Ask your administrator or support to confirm the assigned content if the screen shows something unexpected.
 
 ## Expected result
 
-The device has power, is connected to the internet, and displays through the selected HDMI input on the TV.
+The intended player is in the correct account, is connected through its approved network, and shows the expected content on the physical screen.
 
-## Troubleshooting
+## If setup stops at a step
 
-- **No blue light:** Check the power cable, connections, and wall outlet.
-- **The TV shows “No Signal”:** Confirm the HDMI extender is securely connected and select the correct HDMI input.
-- **Wi-Fi does not connect:** Confirm the ENS hotspot name and configured access details, and make sure the hotspot remains active on your phone or computer.
-
-For more setup and training resources, visit [EditNew Support](https://support.editnew.ca).
+For **No Signal**, check the selected display input and the accessible display connections against your hardware instructions. For an offline status, registration message, or unexpected content, contact support with the player name or ID, the step that failed, and a photo of what the screen shows. Keep passwords and registration codes out of public messages.
 
 ## About EditNew
 
