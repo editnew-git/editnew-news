@@ -1,92 +1,38 @@
 ---
 title: "How to Connect a Device to the Internet Using an iOS Device"
-subheadline: "Set up power, TV connection, and an iPhone or iPad Personal Hotspot so the device can connect to the internet."
+subheadline: "Bring your player online with an approved iOS Personal Hotspot and verify its final connection."
 date: "2026-07-18"
 slug: "2026-07-18-how-to-connect-a-device-to-the-internet-using-an-ios-device"
 image: "/images/news/placeholder.jpg"
-excerpt: "Follow these steps to power on the device, connect it to a TV, configure the required iOS hotspot name and password, and confirm the device is online in RunS.A.M."
-tags: ["onboarding", "training", "runsam", "troubleshooting", "support"]
+excerpt: "Use approved Personal Hotspot settings, confirm the player is online, and complete synchronization before moving to the site network."
+tags: ["getting-started", "onboarding", "training", "runsam", "troubleshooting", "support"]
 draft: false
 ---
 
-Use this guide to connect a device to power, connect it to a TV, and bring it online with Personal Hotspot on an iOS device.
+Use an approved iPhone or cellular iPad Personal Hotspot to provide temporary internet access during player setup. Your administrator or [EditNew Support](https://support.editnew.ca) can then help complete configuration and move the player to its intended site network.
 
-## Before You Begin
+## Before you begin
 
-1. Plug in the device and keep it powered on.
-2. Check the front of the device for a solid or blinking blue light.
-3. If you are using Wi-Fi, have an iPhone or iPad with cellular data available.
-4. If you are using Ethernet instead, plug an Ethernet cable directly from the device to the router.
+Have the player’s setup instructions, its name or ID, and the hotspot details approved for your installation. Confirm with support that your iOS device and hotspot settings are suitable. The phone or tablet needs a working cellular data connection.
 
-![S.A.M. quick start guide page showing power, blue indicator light, Ethernet, and Wi-Fi hotspot setup](https://media.wwds.co/u/a9d2e049-71d2-430e-84f5-69c364e3679a.webp)
+Connect the player to power and its display as directed in its hardware guide. Select the matching input on the display. If you are bringing the player online before connecting the display, follow the sequence supplied by support.
 
-## Connect the Device to Your TV
+## Connect using Personal Hotspot
 
-1. Keep the device connected to power.
-2. Plug the short HDMI extender into the device's HDMI port.
-3. Insert the free end of the extender into an available HDMI port on the TV.
-4. Use the TV remote to switch to the matching HDMI input, such as **HDMI 1**.
+1. On the iOS device, open **Settings** and find **Personal Hotspot**. Use the phone or tablet’s instructions if the controls differ from your setup guide or are unavailable.
+2. Apply the hotspot setup details provided for your player. If those instructions require a particular device name, note the current name before changing it and follow the approved instructions. Keep passwords out of screenshots and public messages.
+3. Enable Personal Hotspot and keep the iOS device near the player. Confirm that the phone or tablet itself can access the internet using cellular data.
+4. Sign in to [RunSam.com](https://runsam.com) and check the intended player’s status, or ask support to confirm that it is online. If it does not connect, keep the hotspot available while support checks the setup.
+5. Leave the hotspot enabled until support or your authorized administrator confirms that the required network settings and content have synchronized. The time depends on the setup and connection; an online status alone does not confirm that every download has finished.
+6. If the player will use site Wi-Fi, have support or your administrator confirm the intended network and when to disconnect the hotspot. After disconnecting it, verify that the player is online through the site connection and that the physical screen shows the expected content.
 
-![S.A.M. quick start guide page showing HDMI extender, TV connection, input selection, and troubleshooting tips](https://media.wwds.co/u/98f87379-cde6-4342-aec3-567356731bc4.webp)
+## Expected result
 
-## Set Up the iOS Personal Hotspot
+The player connects through the approved hotspot and receives its required configuration and content. After a site-network handoff, it remains online without relying on the phone or tablet.
 
-1. Open **Settings** on the iOS device.
+## If the player remains offline
 
-![iPhone home screen with the Settings app highlighted](https://media.wwds.co/u/047b9e15-8770-4a0c-997e-ceeba8143e79.webp)
-
-2. Tap **General**.
-
-![iPhone Settings screen with General highlighted](https://media.wwds.co/u/fe643ead-87d7-4501-9f59-3e488d7339dc.webp)
-
-3. Tap **About**.
-
-![iPhone General settings screen with About highlighted](https://media.wwds.co/u/3b8d655d-100a-499f-b36f-737d9eaf841e.webp)
-
-4. Tap **Name**.
-
-![iPhone About screen with Name highlighted](https://media.wwds.co/u/5e341e61-d58c-4518-8735-3b0a171bc760.webp)
-
-5. Change the device name to **ENS**, then tap **Done**.
-
-![iPhone Name screen with ENS entered](https://media.wwds.co/u/5f2cf3be-43ad-493f-9245-acb560100d56.webp)
-
-6. Turn **Cellular Data** on.
-
-![iPhone Settings screen with Cellular highlighted](https://media.wwds.co/u/f1513f27-384a-406c-b682-3096a8ea5be6.webp)
-
-7. Return to **Settings**, then tap **Personal Hotspot**.
-
-![iPhone Settings screen with Personal Hotspot highlighted](https://media.wwds.co/u/203d8c45-4879-4f25-9a82-e12928798df3.webp)
-
-8. Turn on **Allow Others to Join**, then tap **Wi-Fi Password**.
-
-![iPhone Personal Hotspot screen showing Allow Others to Join and Wi-Fi Password](https://media.wwds.co/u/84face33-97c7-4ad4-a469-2ff5beb4a6d2.webp)
-
-9. Change the Wi-Fi password to **ensdevicego!**, then save your changes.
-
-![iPhone Wi-Fi Password screen with ensdevicego entered](https://media.wwds.co/u/8e791ce9-34dd-4708-9534-b72e8573e194.webp)
-
-10. Keep the hotspot enabled and wait a few minutes while the device connects to the ENS signal.
-
-## Confirm the Device Status
-
-Sign in to [RunSam.com](https://runsam.com) and check the device status.
-
-![S.A.M Signs page showing online and offline status indicators](https://media.wwds.co/u/1f287599-744e-4bbb-afb4-cb4829e558a1.webp)
-
-- **Green** means the device is online and has successfully connected.
-- **Red** means the device is still offline. Wait another minute and refresh the page. If the status remains red, verify that the hotspot name is **ENS**, the password is **ensdevicego!**, and the hotspot is still enabled.
-
-## Troubleshooting
-
-- If no blue light is visible, check the power cable and wall outlet.
-- If the TV shows **No Signal**, confirm the HDMI extender is securely connected and the TV is set to the correct HDMI input.
-- If the device does not come online over Wi-Fi, double-check the hotspot name and password, then confirm the iOS hotspot is still active.
-
-## Expected Result
-
-The device remains powered on, displays through the selected TV input, and appears online in RunS.A.M.
+Contact support with the player name or ID, iOS device model, the step that failed, and whether cellular internet is working. Include any screen message and say whether the problem began before or after the hotspot was disconnected. If site Wi-Fi requires a browser sign-in or agreement page, tell support and your site’s IT contact so they can confirm a suitable connection.
 
 ## About EditNew
 
