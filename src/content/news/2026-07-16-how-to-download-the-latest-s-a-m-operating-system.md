@@ -1,70 +1,42 @@
 ---
-title: "How to Download the Latest S.A.M Operating System"
-subheadline: "Download the latest stable S.A.M operating system image and the USB Writer utility required to create installation media."
+title: "Download a S.A.M. OS image with support guidance"
+subheadline: "Download the image approved for your exact player before a separate support-guided recovery procedure."
 date: "2026-07-16"
 slug: "2026-07-16-how-to-download-the-latest-s-a-m-operating-system"
 image: "/images/news/2026-07-16-how-to-download-the-latest-s-a-m-operating-system.png"
-excerpt: "Follow these steps to sign in to the S.A.M portal, download the latest stable S.A.M operating system image, and download the USB Writer utility."
-tags: ["training", "runsam", "support", "getting-started"]
+excerpt: "Have support identify your player and approved OS image, download the matching files, and confirm them before preparing installation media."
+tags: ["training", "runsam", "support", "troubleshooting"]
 draft: false
 ---
 
-Use this guide to download the latest stable S.A.M operating system image and the USB Writer utility required to create a bootable USB drive.
+Use this guide when [EditNew Support](https://support.editnew.ca) has asked you to prepare an operating-system download for a specific player. Downloading the file prepares you for the next step; writing installation media and reinstalling the player require separate instructions for that hardware.
 
-## Before You Begin
+## Before you begin
 
-You need an authorized S.A.M portal account before you can access the download page.
+Ask support to confirm:
 
-## 1. Log In to the S.A.M Portal
+- The player name or ID and exact hardware model.
+- The image category, version, and filename approved for that player.
+- Whether you need a writing tool, and which tool is approved for the computer you will use.
 
-Go to [RunSam.com](https://runsam.com) and sign in with your authorized account credentials.
+You need an authorized [RunSam.com](https://runsam.com) account and permission to download the required files on your computer. Follow your organization’s software approval requirements.
 
-![S.A.M portal login page with email, password, and sign-in controls](https://media.wwds.co/u/75755f8b-09a5-49e6-9535-2102d001850a.webp)
+## Download the approved files
 
-## 2. Open the Stable Branch Downloads Page
+1. Sign in to RunSam.com with your authorized account.
+2. Open the [Stable Branch downloads page](https://runsam.com/download/stable), or the download location supplied by support. If you cannot access it, ask support to check your access.
+3. Locate the exact image category and filename support identified. **Intel 64 Bit UEFI** and **ARM64** identify different hardware requirements; select only the category confirmed for your player. Do not choose an image just because it is the newest or carries a familiar product name.
+4. Download the approved image and let the download finish. Compare its filename and version with support’s instructions.
+5. If support requested a writing tool, download the specified tool from the approved location. Confirm that it is intended for your computer and allowed by your organization before running it.
+6. Keep the files together and confirm with support that they are the correct ones. Continue to media preparation or installation only with the separate procedure supplied for your player.
 
-After logging in, open the Stable Branch downloads page:
+## Expected result
 
-[runsam.com/download/stable](https://runsam.com/download/stable)
+You have the approved OS image and any requested writing tool ready for the next support-guided step. The player’s operating system has not changed during this download procedure.
 
-![S.A.M downloads page at runsam.com/download/stable showing stable branch download options](https://media.wwds.co/u/72514712-9853-4184-8153-6118852eb933.webp)
+## If a file or option does not match
 
-## 3. Download the Latest S.A.M OS Image
-
-Under **Intel 64 Bit UEFI (SAMStick)**, locate the newest available revision and click the linked filename for the latest S.A.M operating system image.
-
-Always download the latest stable release unless your support contact instructs you to use a different version.
-
-![Stable Branch downloads page with the Intel 64 Bit UEFI S.A.MStick row highlighted](https://media.wwds.co/u/f735dcf7-fc0c-4399-b264-6acc81ad4e6a.webp)
-
-## 4. Open the Download Category Menu
-
-On the Downloads page, click the **Show** dropdown menu and select **Tools**.
-
-![Downloads page with the Show dropdown menu opened and Tools selected](https://media.wwds.co/u/373d1216-7b33-4d43-8266-41966221b251.webp)
-
-## 5. Download USB Writer
-
-On the Tools page, locate **USBWriter.exe** and click the linked filename to download it.
-
-USB Writer is required to create a bootable USB drive for reinstalling the S.A.M operating system.
-
-![S.A.M tools download page with USBWriter.exe highlighted](https://media.wwds.co/u/ab18101d-08ce-48e3-b4a9-6d63ce0ef651.webp)
-
-## 6. Confirm the Stable OS Image
-
-Return to the Stable Branch page if needed and confirm that the Intel 64 Bit UEFI (SAMStick) image is the operating system image you downloaded.
-
-![Stable Branch downloads page with the latest Intel 64 Bit UEFI S.A.MStick image row highlighted](https://media.wwds.co/u/d0860669-635d-424d-ade2-8fc697d5366e.webp)
-
-## Expected Result
-
-You should have both required files downloaded:
-
-1. The latest stable S.A.M operating system image.
-2. The USB Writer utility.
-
-Keep both files available on the computer you will use to create the bootable USB drive.
+Stop and contact support if the approved image is missing, the category or version differs, the download fails, or your organization blocks the tool. Send the player name or ID, the filename you see, and the error message. Support can confirm the appropriate files and next step.
 
 ## About EditNew
 
