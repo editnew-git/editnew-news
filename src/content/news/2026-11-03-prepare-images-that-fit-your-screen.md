@@ -8,31 +8,28 @@ tags: ["daily-use", "runsam"]
 draft: false
 ---
 
-Prepare images for the actual area where they will appear in your S.A.M. layout. Matching the artwork to that area's dimensions and orientation helps avoid distorted text, stretched pictures, and unwanted empty space.
+Prepare artwork for the actual Media region in the layout. That region may fill the screen or occupy only part of it.
 
-## Before you start
+## Prepare the image
 
-Have the original artwork and the target media area's width, height, and orientation. A media area may occupy only part of the display. Ask your layout administrator or support to confirm the dimensions if they are unclear.
+1. Confirm the layout ID and the intended **Media** module. A customized module label does not identify its size.
+2. Obtain that region's width, height and orientation from the layout administrator. Use the confirmed canvas dimensions for custom LED displays and video walls.
+3. Prepare artwork with matching proportions. Rearrange the design if the original has a different orientation; resizing alone cannot make a landscape notice read well in a narrow portrait area.
+4. Keep essential content clear of the edges and check text at a realistic viewing size.
 
-## Prepare and check the image
+## Upload and inspect
 
-1. **Confirm the target area.** Identify the active layout and the media area that will display the image. Use that area's actual dimensions. Do not assume that every landscape screen, portrait screen, or custom LED installation uses the same size.
+Open Media, select the blue **Content** button, choose **Upload Image(s)** and **Your Device**, then select the file and the dialog's green **Save**. Reopen the Content view and locate the saved image before retrying an upload.
 
-2. **Create artwork in the matching orientation.** Use landscape artwork for a landscape area and portrait artwork for a portrait area. If the original has the wrong proportions, rearrange the design or request a suitable version from its creator.
+![Media toolbar with the blue Content button beside Stretch](https://media.wwds.co/u/pressly-pr-en-20261102-001-e72375dd21ae45d48530e0173142cfb32f88d175d875d25501d98d9be9e477ba.webp)
 
-3. **Check readability.** Keep essential text and images clear of the edges and review the design at a realistic viewing size. Make sure text remains readable and nothing important is cut off.
+[Open the toolbar screenshot at full size](https://media.wwds.co/u/pressly-pr-en-20261102-001-e72375dd21ae45d48530e0173142cfb32f88d175d875d25501d98d9be9e477ba.webp).
 
-4. **Upload to the intended media area.** Use your normal authorized image-upload workflow, then save the change. Confirm that you are working in the active layout rather than an unused copy.
+The inspected Media toolbar includes **Stretch** and **Scale** controls. Check which images and module settings they affect in your layout before changing them, then compare the saved result in Preview. Their presence does not establish the same fit behavior for every template, and neither control redesigns artwork for a different orientation.
 
-5. **Compare Scale and Stretch where available.** **Scale** preserves the image's proportions and may leave unused space when the proportions differ. **Stretch** fills the area by changing the image's proportions and can distort the design. Choose the suitable setting and save. Neither option redesigns landscape artwork into a well-composed portrait notice.
+Inspect the entire image for clipped edges, distorted logos, unwanted empty space and unreadable text. Check the physical display separately after the update. Correct the artwork if the design still does not suit the region.
 
-6. **Preview and inspect the display.** Check the image in Preview and on the physical screen. Look for stretched faces or logos, unreadable text, unwanted borders, and clipped edges. Correct the original artwork if the design still does not fit.
-
-## Expected result
-
-The image suits the intended media area and remains readable on the actual screen.
-
-If the area dimensions or orientation are uncertain, see [How to Set Your Layout Orientation: Vertical or Landscape](https://support.editnew.ca/news/2026-08-11-how-to-set-your-layout-orientation-vertical-or-landscape/) or contact support through your agreed account route. Include the layout name, image dimensions, and a photo showing the mismatch.
+Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca) with the layout/module identity, image dimensions and a photo of the mismatch if the region's dimensions or fit controls are unclear.
 
 ## About EditNew
 
