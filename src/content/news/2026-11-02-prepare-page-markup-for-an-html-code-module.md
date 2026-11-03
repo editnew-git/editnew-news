@@ -1,46 +1,33 @@
 ---
-title: "Prepare page markup for an Html/Code module"
+title: "Check custom content in the Html/Code module"
 date: "2026-11-02"
 slug: "2026-11-02-prepare-page-markup-for-an-html-code-module"
 image: "/images/news/placeholder.jpg"
-excerpt: "Adapt trusted page markup to the documented Code-module boundary while preserving its CSS, body content and scripts."
+excerpt: "Identify the Html/Code editor, preserve the source and investigate rendering with a minimal example."
 tags: ["training", "layouts", "runsam", "daily-use"]
 draft: false
 ---
 
-For advanced authors, the documented Code-module input uses the style and body portions of page markup rather than a complete HTML document wrapper.
+Use **Html/Code** for advanced custom content in an authorized test layout. Keep the original code and confirm the module type and ID before editing it.
 
-## Before you begin
+## Open the correct code editor
 
-Work in an authorized test layout or a verified copy. Keep the original code. Use only code you understand and are authorized to run; the presence of Try or Save does not establish that unknown scripts are harmless or sanitized.
+1. Confirm the layout ID.
+2. Select **gear tab → Module Manager** and identify **Html/Code** by type and ID.
+3. Return with the **house tab** and open that module's sidebar entry.
+4. The inspected editor says **Paste code into text window** and has a main green **SAVE**. Do not confuse it with the Source code dialog inside a Media or Text Block editor.
 
-## Adapt the document structure
+Start with a small, understood example on a separate copy. Preserve the existing code before changing it. After saving, reopen the editor to inspect the saved source, then reload the layout Preview and check the visible result.
 
-1. Identify the intended **Html/Code** module by type and layout ID.
-2. Preserve the original CSS, visible body markup and required JavaScript.
-3. Remove the document-level `<!DOCTYPE html>`, opening `<html>` and `<head>` wrappers, head-only metadata such as `<meta>` and `<title>`, and the corresponding closing wrappers.
-4. Retain the CSS in `<style>` and the page content in `<body>`. Keep the required script inside the body, before `</body>`.
-5. Use the resulting structure in the Code module and verify the intended rendering in the test layout.
+## If only the background appears
 
-```html
-<style>
-  /* Your existing CSS */
-</style>
-<body>
-  <!-- Your existing page content -->
-  <script>
-    // Your existing JavaScript, if required
-  </script>
-</body>
-```
+Compare a minimal version with the full content. Check the visible markup, CSS positioning, asset requests and any script error separately. An empty or background-only result does not by itself identify a document-wrapper problem.
 
-## If only the background renders
+There is no universal instruction here to remove `html`, `head` or metadata, retain a `body` wrapper, or relocate scripts. The required structure depends on the template and code; a blanket rewrite can change its behavior. Have an advanced author or support verify the expected structure for that module before replacing working content.
 
-Check for a leftover full-document wrapper before rewriting the page's inner logic. A background-only result can have other causes; this check does not establish that all scripts, libraries, browser games or remote controls are supported.
+The presence of a code editor does not certify arbitrary scripts, libraries, games, remote controls or physical-player support. Do not paste code you do not understand or are not authorized to run.
 
-Contact support with the layout identity and a sanitized, minimal reproduction if the intended content still fails. Browser rendering and physical-player behavior require separate verification.
-
-Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
+Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca) with the layout/module identity and a sanitized minimal reproduction if the result remains wrong.
 
 ## About EditNew
 
