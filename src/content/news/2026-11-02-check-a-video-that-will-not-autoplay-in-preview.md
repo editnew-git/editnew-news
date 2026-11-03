@@ -8,33 +8,27 @@ tags: ["troubleshooting", "runsam", "support"]
 draft: false
 ---
 
-Check whether the file is present, whether Preview is paused and whether browser interaction changes the result.
+When a saved video appears paused in browser Preview, check the browser session and the Media configuration before assuming the file is corrupt.
 
-## When this applies
+## Check the correct item
 
-Use this guide for a video in a Media module with Autoplay enabled that does not start in browser Preview. It does not cover missing, inaccessible, corrupt or unsupported media.
+Confirm the layout ID, Media module and saved video. Check that its schedule allows it to play. A thumbnail shows that an image was generated; it does not prove the video advances.
 
-## Before you begin
+Open the layout's **Preview** from the **house tab** in the outer editor, reload it and wait for the video's turn. Record any playback error and whether the frame remains paused.
 
-Confirm that the uploaded item exists in the correct layout and is eligible to play. Know whether its audio must remain enabled.
+## Test normal browser interaction
 
-## Check playback
+If Preview requests interaction, click once in a harmless area and observe the next video cycle. If playback then advances, record that it required interaction in that browser session. This is a diagnostic observation, not a guaranteed fix.
 
-1. Reload the layout Preview and wait for the video's turn.
-2. Record any playback error and whether a frame is visible but paused.
-3. If the browser requests interaction, click once in a harmless area of Preview and watch the next video cycle. This can help identify a browser-session restriction; it is not a guaranteed fix.
-4. If audio is unnecessary and the matching Media form has **Advanced → Mute Audio**, turn it **On**, save, and reopen Preview to test again.
-5. Observe advancing video rather than treating a thumbnail as success.
+If the video should be silent, inspect the matching Media form's **Advanced → Mute Audio** control. Confirm its scope, save the intended setting, reopen it and test a fresh Preview. Muting a whole Media module can affect more than one item. Do not mute content that requires audio merely to make a test pass.
 
-## Expected result
+Watch advancing motion and, when required, listen for the intended audio. Do not infer autoplay from a single screenshot or from an enabled control alone.
 
-The video advances automatically in the tested browser session. If it starts only after interaction, record that distinction.
+## Browser Preview and physical displays
 
-## When to contact support
+Browser autoplay behavior can depend on interaction and audio. A successful Preview workaround does not establish the physical player's configuration or guarantee the same behavior after a new session.
 
-Stop if the video remains stalled after these checks or if audio must remain enabled and the available playback controls are unclear. Provide the browser, error, file properties and observed behavior. Do not disable browser security or apply Preview workarounds as physical-player configuration instructions.
-
-Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
+If playback still fails, contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca) with the browser, exact error, file properties, saved audio settings and whether interaction changed the result. Do not disable browser security to work around the problem.
 
 ## About EditNew
 
