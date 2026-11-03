@@ -12,7 +12,9 @@ async function mockAPI(page, options = {}) {
     const request = route.request();
     if (request.method() === 'POST') {
       requests.push(request.postDataJSON());
-      if (options.failFirst && requests.length === 1) return route.fulfill({ status: 429, headers, json: { error: 'Too many requests' } });
+      if (options.quota) return route.fulfill({ status: 429, headers, json: options.quota });
+      if (options.failFirst && requests.length === 1) return route.fulfill({ status: 429,
+        headers: { ...headers, 'retry-after': '2', 'access-control-expose-headers': 'Retry-After' }, body: 'Too Many Requests' });
       return route.fulfill({ headers, contentType: 'text/event-stream', body: sse(options.answer || answer) });
     }
     if (request.method() === 'DELETE') {
@@ -66,7 +68,8 @@ test('a retry preserves the question and session without duplicating the user bu
   const requests = await mockAPI(page, { failFirst: true });
   await open(page);
   await page.getByRole('button', { name: 'Reset password', exact: true }).click();
-  await expect(page.getByRole('alert')).toContainText('reply limit');
+  await expect(page.getByRole('alert')).toContainText('Messages are arriving too quickly');
+  await expect(page.locator('[data-retry]')).toBeDisabled();
   await expect(page.locator('.chat-user-text')).toHaveCount(1);
   await page.getByRole('button', { name: 'Retry reply' }).click();
   await expect(page.locator('[data-status]')).toHaveText('Reply ready.');
@@ -75,6 +78,23 @@ test('a retry preserves the question and session without duplicating the user bu
   expect(requests).toHaveLength(2);
   expect(requests[1]).toEqual(requests[0]);
 });
+
+for (const [name, quota, expected] of [
+  ['session', { error: 'Your quota for this chat has been reached. Try again later or contact the site owner.' }, 'browser session'],
+  ['site-wide', { error: 'Rate limit exceeded', errorMsg: 'The quota for this chat has been reached. Try again later or contact the site owner.' }, 'site-wide'],
+]) {
+  test(`${name} quota explains the rolling limit without an ineffective retry button`, async ({ page }) => {
+    const requests = await mockAPI(page, { quota });
+    await open(page);
+    await page.getByRole('button', { name: 'Reset password', exact: true }).click();
+    await expect(page.getByRole('alert')).toContainText(expected);
+    await expect(page.getByRole('alert')).toContainText('24 hours');
+    await expect(page.locator('[data-retry]')).toBeHidden();
+    await expect(page.locator('.chat-user-text')).toHaveCount(1);
+    await expect(page.getByRole('button', { name: 'Email support ↗', exact: true })).toBeEnabled();
+    expect(requests).toHaveLength(1);
+  });
+}
 
 test('existing widget sessions restore and reset only after confirmation', async ({ page }) => {
   await page.addInitScript(() => localStorage.setItem('allm_86c54a7e-8c04-48f8-b17c-9a4fe247ef24_session_id', 'existing-session'));

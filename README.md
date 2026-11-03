@@ -23,6 +23,10 @@ uses the existing public AnythingLLM embed endpoint and retains the original
 session storage key, so existing conversations can resume. Server-side origin,
 request, session, and daily limits remain authoritative; the browser never sends
 prompt or model overrides. No administrator credentials are shipped to the site.
+Quota errors distinguish the rolling session allowance from the site-wide daily
+cap. Temporary proxy limits use a manual retry countdown (honoring `Retry-After`
+when available); exhausted quotas direct customers to support instead of an
+immediate retry. Resetting history does not renew the server's rolling allowance.
 
 `src/lib/supportChat.js` handles session history, streaming, retry, keyboard and
 mobile behavior, follow-up choices, and editable support-email drafts. Reset

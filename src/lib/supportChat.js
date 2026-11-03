@@ -1,5 +1,6 @@
 import DOMPurify from 'dompurify';
 import { createMessageRenderer, readChatStream, visibleAnswer } from './chatMessages.js';
+import { chatResponseError, classifyChatError } from './chatErrors.js';
 
 const storage = {
   get(key) { try { return localStorage.getItem(key); } catch { return null; } },
@@ -30,6 +31,8 @@ export function initializeSupportChat(root) {
   const render = createMessageRenderer(JSON.parse(root.dataset.guides));
   let messages = [], busy = false, historyReady = false, loadingHistory = false;
   let followTail = true, retryAction = null, lastFailed = null, frame = 0;
+  let cooldownUntil = 0, cooldownTimer = null, retryLabel = 'Retry reply';
+  const cooldownRemaining = () => Math.max(0, Math.ceil((cooldownUntil - Date.now()) / 1000));
 
   const announce = text => { status.textContent = text; };
   const updateInput = () => {
@@ -37,21 +40,36 @@ export function initializeSupportChat(root) {
     input.style.height = `${Math.min(input.scrollHeight, 104)}px`;
     find('count').hidden = input.value.length < 1200;
     find('count').textContent = `${input.value.length}/1500`;
-    find('send').disabled = busy || !historyReady || !input.value.trim();
+    find('send').disabled = busy || Boolean(cooldownRemaining()) || !historyReady || !input.value.trim();
   };
   const setBusy = value => {
     busy = value;
     find('reset').disabled = value;
-    root.querySelectorAll('[data-question], [data-choices], [data-resolved], [data-explain]').forEach(button => { button.disabled = value || !historyReady; });
+    const remaining = cooldownRemaining();
+    root.querySelectorAll('[data-question], [data-choices], [data-resolved], [data-explain]').forEach(button => { button.disabled = value || Boolean(remaining) || !historyReady; });
+    find('retry').disabled = value || Boolean(remaining);
+    find('retry').textContent = remaining ? `Retry in ${remaining}s` : retryLabel;
     updateInput();
   };
   const hideError = () => { errorBox.hidden = true; retryAction = null; };
-  const showError = (text, retry, label = 'Retry reply') => {
+  const showError = (text, retry, label = 'Retry reply', delay = 0) => {
     find('error-text').textContent = text;
     errorBox.hidden = false;
     retryAction = retry;
     find('retry').hidden = !retry;
-    find('retry').textContent = label;
+    retryLabel = label;
+    if (delay > 0) {
+      cooldownUntil = Date.now() + delay * 1000;
+      clearInterval(cooldownTimer);
+      cooldownTimer = setInterval(() => {
+        setBusy(busy);
+        if (!cooldownRemaining()) {
+          clearInterval(cooldownTimer);
+          if (retryAction) announce('You can retry now.');
+        }
+      }, 250);
+    }
+    setBusy(busy);
     announce('Something went wrong. Your conversation is still here.');
   };
   const atBottom = () => scroll.scrollHeight - scroll.scrollTop - scroll.clientHeight < 50;
@@ -149,7 +167,7 @@ export function initializeSupportChat(root) {
   };
   const send = async (text, retry = false) => {
     text = text.trim();
-    if (!text || text.length > 1500 || busy || !historyReady) return;
+    if (!text || text.length > 1500 || busy || cooldownRemaining() || !historyReady) return;
     if (!retry) {
       input.value = '';
       addMessage('user', text);
@@ -174,18 +192,9 @@ export function initializeSupportChat(root) {
         method: 'POST', headers: { 'Content-Type': 'text/plain;charset=UTF-8', Accept: 'text/event-stream' },
         body: JSON.stringify({ message: text, sessionId }), signal: controller.signal,
       });
-      if (!response.ok) {
-        let detail = '';
-        try { const payload = await response.json(); detail = String(payload.error || payload.errorMsg || ''); } catch { /* Proxies may return plain text. */ }
-        const error = new Error(response.status === 429 ? 'The chat is busy or has reached its reply limit. Please wait a moment, then retry, or email support.'
-          : /limit|maximum|exceed/i.test(detail) ? 'This chat has reached its reply limit. Please email support for more help.'
-          : response.status === 401 || response.status === 403 ? 'The chat is unavailable right now. Please email support or try again later.'
-          : 'Sam AI could not reply. Please try again.');
-        throw error;
-      }
+      if (!response.ok) throw await chatResponseError(response);
       await readChatStream(response, event => {
-        if (event.error || event.type === 'abort') throw new Error(/limit|maximum|exceed/i.test(String(event.error || event.errorMsg))
-          ? 'This chat has reached its reply limit. Please email support for more help.' : 'Sam AI could not finish this reply. Please try again.');
+        if (event.error || event.type === 'abort') throw classifyChatError(200, event);
         if (typeof event.textResponse === 'string') {
           if (event.type === 'textResponse') answer.content = event.textResponse;
           else answer.content += event.textResponse;
@@ -206,7 +215,8 @@ export function initializeSupportChat(root) {
       lastFailed = answer;
       showError(error.name === 'AbortError' ? 'The reply took too long. Please try again.'
         : error instanceof TypeError ? 'The connection was lost. Check your connection and retry.'
-        : error instanceof SyntaxError ? 'Sam AI could not finish this reply. Please try again.' : error.message, () => send(text, true));
+        : error instanceof SyntaxError ? 'Sam AI could not finish this reply. Please try again.' : error.message,
+        error.retryable === false ? null : () => send(text, true), 'Retry reply', error.retryAfterSeconds || 0);
     } finally { clearTimeout(timeout); setBusy(false); }
   };
   form.addEventListener('submit', event => { event.preventDefault(); send(input.value); });
