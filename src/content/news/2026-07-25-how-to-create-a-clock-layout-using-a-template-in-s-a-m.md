@@ -1,89 +1,47 @@
 ---
 title: "How to Create a Clock Layout Using a Template in S.A.M."
-subheadline: "Create an Emergency Alert Clock layout from a template and replace the default logo with your own."
+subheadline: "Create a clock layout from the Emergency Alert template and locate its Add Your Logo module."
 date: "2026-07-25"
 slug: "2026-07-25-how-to-create-a-clock-layout-using-a-template-in-s-a-m"
 image: "/images/news/placeholder.jpg"
-excerpt: "Learn how to create a clock layout from the Emergency Alert Clock template in S.A.M. and upload your own logo."
+excerpt: "Create a layout from the Emergency Alert template and update its Add Your Logo Media module."
 tags: ["training", "layouts", "runsam"]
 draft: false
 ---
 
-This guide walks you through creating a new clock layout in [RunSam.com](https://runsam.com) using the **Emergency Alert Clock** template, then replacing the default logo with your own.
+Create a separate clock layout from the **Emergency Alert** template, then update its **Add Your Logo** Media module. Other clock templates can have different modules and controls.
 
-## Before you begin
+## Create and identify the layout
 
-You will need:
+1. Open **Layouts → New Layout**.
+2. Keep the category at **Layout Templates** and choose **Clock** in the style selector. Clock is a style filter, not a module type.
+3. Select **Emergency Alert**, described as **Clock Layout with Emergency Alert**.
+4. In **Confirm layout creation**, enter a distinct **Label** and select **Save**.
+5. Record the new layout ID. Check **Attached Devices** using the display-shaped sidebar tab before making test changes.
 
-- Access to your S.A.M. account
-- A logo file saved on your computer
-- For this template, the documented logo recommendation is a 650 × 650 pixel PNG with a transparent background; it is not a platform-wide image requirement
+## Find the logo module
 
-## Create the clock layout
+Select the **house tab** at the top of the right sidebar. Expand the **Media** group, then select **Add Your Logo**. In the inspected template, this is a Media module separate from Alert and Presentation.
 
-1. Go to [RunSam.com](https://runsam.com) and sign in to your S.A.M. account.
+![Clock layout sidebar with Media expanded and Add Your Logo and Presentation visible](https://media.wwds.co/u/pressly-pr-en-20260725-002-692d0f192014ca91c6d093210fd7f45b8a77d0c7ca181cfcc6cd30bebfe92310.webp)
 
-   ![S.A.M. sign-in page](https://media.wwds.co/u/8b4c5546-e2d6-4470-8b8a-a378fa67c6fb.webp)
+[Open the clock-navigation screenshot at full size](https://media.wwds.co/u/pressly-pr-en-20260725-002-692d0f192014ca91c6d093210fd7f45b8a77d0c7ca181cfcc6cd30bebfe92310.webp).
 
-2. From the main menu, click **Layouts**.
+The supplied logo example is **650 × 650 pixels**. This is an example asset size, not a platform-wide requirement. Prepare artwork with proportions suitable for the actual logo region. Use a PNG with transparent areas when that is part of the design, then check the result in Preview.
 
-   ![Layouts option highlighted in the S.A.M. main menu](https://media.wwds.co/u/32cc87d8-9bf3-490e-aa22-f7951b45dc8b.webp)
+## Upload and replace carefully
 
-3. Click **New Layout** to create a new layout.
+1. In **Add Your Logo**, select the blue **Content** button.
+2. Choose **Upload Image(s) → Your Device**, select your image, then use the dialog's green **Save**.
+3. Reopen the module and verify the new image before removing the old one.
+4. Identify the old item by its thumbnail and content. Use that item's **wrench menu → Delete**, review the red confirmation and confirm only that item.
+5. Reopen the list and verify the intended logo remains. Confirmed Media-item deletion is not undone by leaving without main SAVE.
 
-   ![New Layout button highlighted on the S.A.M. Layouts page](https://media.wwds.co/u/f28d36d0-b764-4f3c-913e-51413ec134ce.webp)
+An item can itself be named **Delete**; its label is not the deletion command. Replacing an image by adding and deleting items also does not preserve every old item setting automatically.
 
-4. In the upper-right corner of the page, click the **template category** drop-down menu.
+Reload the layout Preview and check fit, transparency and unwanted rotation between multiple logos. Verify the physical display separately. Creating this template does not configure or certify emergency-message integrations.
 
-   ![Template category menu highlighted on the S.A.M. New Layout page](https://media.wwds.co/u/04401710-3a7d-4989-b0eb-0138bde1b562.webp)
-
-5. From the drop-down menu, select **Clock** to display all available clock templates.
-
-   ![Clock category highlighted in the S.A.M. template menu](https://media.wwds.co/u/48ce9626-b24c-44ad-89d8-2335735d0abc.webp)
-
-6. Locate the **Emergency Alert Clock** template and click it to continue.
-
-   ![Emergency Alert Clock template highlighted in S.A.M.](https://media.wwds.co/u/c284136e-d1e6-495c-9180-acf85f19ba20.webp)
-
-7. Enter a name for your layout, then click **Save**.
-
-   ![Layout name field and Save button highlighted in S.A.M.](https://media.wwds.co/u/37632ff3-2c7c-43f8-bf2c-455f5ddb5734.webp)
-
-## Replace the default logo
-
-8. Click **Add Your Logo** to open the logo settings.
-
-   ![Add Your Logo option highlighted in the S.A.M. layout editor](https://media.wwds.co/u/682fb6da-a136-42cd-9da7-8cd477d76779.webp)
-
-9. Click the **gear** icon on the existing logo, then select **Delete**.
-
-   ![Gear icon highlighted for the existing logo in S.A.M.](https://media.wwds.co/u/2fb67b22-2ed0-47c8-afae-2145bad642e7.webp)
-
-10. Click **Content** to open the content library.
-
-    Before uploading your logo, make sure the image is 650 × 650 pixels and has a transparent background. Use a PNG file for the best display quality.
-
-    ![Content button highlighted for uploading a logo in S.A.M.](https://media.wwds.co/u/c1d53bfb-4d66-489a-a2d6-b540f1634af4.webp)
-
-11. Click **Your Device** to upload a logo from your computer.
-
-    ![Your Device upload option highlighted in S.A.M.](https://media.wwds.co/u/c5b831c2-87ad-4a25-97c5-8cd663c14084.webp)
-
-12. Select your logo file and upload it.
-
-    ![Logo file chooser open for selecting a file to upload](https://media.wwds.co/u/0f1ddb4b-178c-440c-b331-362a0a3028dd.webp)
-
-13. Click **Save** to apply your changes to the layout.
-
-    ![Save button highlighted after adding logo content in S.A.M.](https://media.wwds.co/u/bb748d70-c2a0-4e29-ade7-223dae6b0259.webp)
-
-## Expected result
-
-Your new clock layout is saved with your uploaded logo in place of the template logo.
-
-## Check the result
-
-Reopen the saved layout, verify that the intended default logo was replaced, and reload Preview to check the image and transparency. Check physical output separately. If the template or named controls are unavailable, contact support for instructions matching your account and template. Creating an Emergency Alert Clock layout does not establish that emergency-message integrations are configured or verified.
+Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca) if the template or named modules differ from your account.
 
 ## About EditNew
 
