@@ -3,32 +3,41 @@ title: "Return from Settings to the module list or Layouts library"
 date: "2026-11-02"
 slug: "2026-11-02-return-from-settings-to-the-module-list-or-layouts-library"
 image: "/images/news/placeholder.jpg"
-excerpt: "Use the matching desktop navigation controls while preserving unsaved edits."
+excerpt: "Use the house tab to return to modules and the Layouts breadcrumb to return to the library."
 tags: ["training", "layouts", "runsam", "daily-use"]
 draft: false
 ---
 
-Choose the destination before leaving the current editor: the module list and the Layouts library are different places.
+The desktop layout editor has separate controls for returning to the module panel and returning to the layout library.
 
-## Before navigating
+## Return to the module panel
 
-Check for unsaved work. Decide whether to complete the appropriate Save action before leaving. Do not navigate away or discard an edit merely to find a control.
+1. Finish or deliberately cancel the form you are editing. Do not navigate away while an upload or save is still running.
+2. If a dialog covers the editor, close it using its own close control after deciding what to do with its changes.
+3. Select the **house-shaped tab at the top of the right sidebar**. It is the leftmost of the house, display and gear tabs.
+4. The sidebar returns to **Preview**, **Remote Control** and the layout's module entries. A module may show **Set Label** with its type underneath.
 
-## Return to the module list
+The house tab changes the sidebar panel. It does not return to the library or save changes in an open form.
 
-In the documented desktop layout editor, select the small house-shaped tab above the right sidebar. This returns from Settings to the normal navigation/module pane. Identify the required module by its type, even when its display label is customized.
+![The house tab selected above Preview, Remote Control and a Media module in the right sidebar](https://media.wwds.co/u/pressly-pr-en-20261102-026-5f87c3ab61682a1c1b2c7cffdf2567904a77cb1185f14675a67ffd2d0e550925.webp)
 
-## Return to the Layouts library
+[Open the sidebar screenshot at full size](https://media.wwds.co/u/pressly-pr-en-20261102-026-5f87c3ab61682a1c1b2c7cffdf2567904a77cb1185f14675a67ffd2d0e550925.webp).
 
-Use the **Layouts** breadcrumb at the upper left of the layout editor. Confirm that you have reached the library of layouts before choosing a different layout. Keep the intended layout ID available so that similarly named copies are not confused.
+## Return to the layout library
 
-## If the sidebar is absent
+Select **Layouts** in the breadcrumb above the editor. The current desktop editor returns to the **Layouts** library at `/layouts`.
 
-A standalone module form does not include the outer layout editor's sidebar. If the originating layout-editor tab is still open, return to that tab after resolving unsaved work. Otherwise, ask support for the navigation path matching your current screen. Do not assume a hidden sidebar toggle or a universal Back button exists.
+![Layouts breadcrumb above the layout canvas, showing the route back to the layout library](https://media.wwds.co/u/pressly-pr-en-20261102-026-92b91b070b576ef53a3ff3f174eb57db8b01d86a16f8d69a26eed11d366a9b08.webp)
 
-For assistance, provide a cropped screenshot with private account details hidden and explain whether you want the current layout's module list or the overall Layouts library.
+[Open the breadcrumb screenshot at full size](https://media.wwds.co/u/pressly-pr-en-20261102-026-92b91b070b576ef53a3ff3f174eb57db8b01d86a16f8d69a26eed11d366a9b08.webp).
 
-Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
+Before opening another layout, confirm its name and ID. Similar labels can belong to different layouts.
+
+## If these controls are absent
+
+A standalone content form or a separately opened preview may not contain the outer editor's sidebar and breadcrumb. Return to the original layout-editor tab if it is still open. Do not assume every form contains a universal Back button or that closing a browser tab saves the form.
+
+Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca) with the page title and layout ID if you cannot locate the original editor.
 
 ## About EditNew
 
