@@ -8,41 +8,30 @@ tags: ["training", "layouts", "runsam", "daily-use"]
 draft: false
 ---
 
-Upload a video to Media and verify that it plays, rather than stopping at a generated thumbnail.
+Upload a video through the Media form, then verify processing, saved content and advancing playback separately.
 
-## When this applies
+## Select and upload the file
 
-Use the desktop Media form that offers **Upload Video(s)**. Browser Preview and the physical player require separate checks.
+1. Confirm the layout ID and Media module. Use **gear tab → Module Manager** if a custom sidebar label makes the type unclear, then return with the **house tab**.
+2. Open Media and select its blue **Content** button.
+3. In **Add Content**, choose **Upload Video(s)**.
+4. Review **Resize Video** and **Include Audio** before selecting the file. These are upload-processing controls; use the settings approved for your display and content.
+5. Select **Your Device** and choose the video. Wait for its selected-file state, then select the dialog's green **Save**.
+6. Wait for processing, reopen Media and check for the item before uploading again. Inspect order, duration and schedule separately.
 
-## Before you begin
+The inspected Resize Video selector offers named VP9 processing choices and **Bypass**. Their presence does not certify every source codec, file size or physical player. Do not choose Bypass merely to avoid an unexplained processing error.
 
-Open the correct layout's Media module. Have the video file ready and know whether the content requires audio. The upload form may offer **Resize Video** and **Include Audio**; confirm the required settings before submitting.
+![Media Add Content dialog with Upload Video(s), Resize Video, Include Audio and Your Device controls](https://media.wwds.co/u/pressly-pr-en-20261102-002-863599b49fa46ed5b4b690952cc9b364983b07fce5ccbb5ca206bd20def49af4.webp)
 
-## Upload
+[Open the video upload controls at full size](https://media.wwds.co/u/pressly-pr-en-20261102-002-863599b49fa46ed5b4b690952cc9b364983b07fce5ccbb5ca206bd20def49af4.webp).
 
-1. Open Add Content and choose **Upload Video(s)**.
-2. Review the processing and audio controls. If you are unsure which settings your display requires, ask support before continuing.
-3. Select **Your Device** and choose the file.
-4. Select the upload dialog's **Save** and wait for processing to finish.
-5. Reopen Media and confirm the item appears. Check order, duration and schedule.
+## Verify playback
 
-## Verify
+Reload the layout's Preview and wait for the video's turn. Watch motion advance over time; a thumbnail or one decoded frame is not proof of playback. Check audio separately if it is required, then verify the physical display.
 
-Reload the layout's Preview and wait for the video's turn. Watch for advancing motion over time. A thumbnail or single decoded frame does not confirm playback. If audio is intended, check it separately. Verify the physical display separately as well.
+If Preview appears paused, record the playback message and whether normal browser interaction changes the result. A paused first frame alone does not establish file corruption. If processing appears stalled, check the saved Media list before retrying to avoid duplicates.
 
-## Troubleshooting
-
-If processing appears stuck, check whether Media already contains the item before submitting it again. If the item is present but Preview is paused, record any playback message and whether manual interaction starts it. Do not conclude that the file is corrupt from a paused first frame alone.
-
-## When to contact support
-
-Provide the file extension, size, duration, dimensions, error text and selected upload settings. Stop if the required audio or processing option is unclear, or playback still fails. File-picker options do not certify every codec or physical player.
-
-## Related guides
-
-- [Importing Content in RunSAM: Uploading Images to a Layout](https://support.editnew.ca/news/2026-07-21-importing-content-in-runsam-uploading-images-to-a-layout/)
-
-Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
+Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca) with the file extension, size, duration, dimensions, selected processing/audio settings and exact error.
 
 ## About EditNew
 
