@@ -8,29 +8,28 @@ tags: ["training", "layouts", "runsam", "daily-use"]
 draft: false
 ---
 
-Uploading a retained image can recreate its visible content as a new Media item. It is not an exact undo of the deleted item.
+Re-uploading a retained image creates a Media item containing that image. It is not an exact undo of the deleted item.
 
-## Before you begin
+## Re-add the retained file
 
-Have the original image file and any record of the previous item's position, duration and schedule. Confirm the intended layout. If the original item identity or exact settings must be restored, contact support before assuming a re-upload will meet that requirement.
+1. Confirm the layout ID and intended Media module. Keep any record of the old item's label, order, duration and schedule.
+2. Open Media and select the blue **Content** button in its toolbar.
+3. In **Add Content**, choose **Upload Image(s)**, then **Your Device** and the retained image file.
+4. Wait for the file selection to appear, then select the dialog's green **Save**.
+5. Let processing finish. Reopen Media's Content view and locate the new image before retrying the upload.
+6. Compare its actual position, duration and schedule with your record. Do not assume the old identity or position was restored, or that every upload is appended at the end.
 
-## Re-add the image
+![Image-upload dialog with the green Save button after selecting a file](https://media.wwds.co/u/pressly-pr-en-20260721-001-645d5a088c55115cd105b61097ab10ec766652fc8f1f3efa540c229f79e8add0.webp)
 
-1. Open the correct layout's Media module.
-2. Select **Add Content**, then **Upload Image(s)**.
-3. Choose **Your Device** and select the retained file.
-4. Select the upload dialog's **Save** and wait for processing to finish.
-5. Reopen Media and confirm that the new image item exists.
-6. Compare its placement, duration and schedule with your baseline. Do not assume it was inserted at the end or restored to its old position.
-7. Reload Preview and observe the image at its expected point in the playlist.
+For this image-upload flow, the dialog's Save is the upload commit. The separate Source code Save/main SAVE sequence applies to text editors.
+
+Reload the layout Preview and observe the image during its expected turn. Verify physical-display output separately.
 
 ## Recovery limits
 
-A layout backup is a separate layout with its own ID. Neither a backup copy nor a re-upload establishes automatic restoration into the original item ID, all previous settings or device assignments. This procedure also does not establish an in-place video replacement workflow.
+A layout copy has its own ID. Neither a copy nor a re-upload establishes automatic recovery into the original item ID, restoration of every setting, or recovery of device assignments. This procedure does not establish an in-place video replacement workflow.
 
-Contact support if the original file is unavailable, the required settings are unknown, or you need restoration beyond recreating the image content.
-
-Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
+Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca) if the original file is missing, settings are unknown or exact restoration is required.
 
 ## About EditNew
 
