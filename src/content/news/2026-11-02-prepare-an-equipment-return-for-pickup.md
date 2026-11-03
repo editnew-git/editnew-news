@@ -4,39 +4,35 @@ date: "2026-11-02"
 slug: "2026-11-02-prepare-an-equipment-return-for-pickup"
 image: "/images/news/placeholder.jpg"
 excerpt: "Confirm the return contents, packaging details and pickup readiness with support."
-tags: ["support", "returns"]
+tags: ["troubleshooting", "support", "returns"]
 draft: false
 ---
 
-Confirm the return contents and pickup arrangements with support before sending equipment.
+When support has authorized an equipment return after a fault or replacement, confirm the contents and pickup instructions before sending the parcel.
 
-## When this applies
+## Before you begin
 
-Use this checklist after support has authorized a return and identified the equipment. It does not establish warranty eligibility, a return address or a promised carrier service.
-
-## Before packing
-
-Obtain the exact list of devices and accessories to return. For a replacement, confirm whether the old device and its matching power supply are both required. Do not assume that receiving a replacement completes the return.
+Have the return authorization or support reference and the exact equipment list. Confirm whether the old player, its matching power supply and any other accessories are required. Replacement delivery and the old equipment's return may have separate arrangements.
 
 ## Prepare the return
 
-1. Confirm the equipment identity and quantity with support.
-2. Confirm the sender, pickup address, recipient and available pickup times through the support workflow.
-3. Use suitable protective packaging and include each accessory on the agreed list.
-4. Measure the packed parcel and record its weight. Provide those actual values rather than estimates copied from another shipment.
-5. Use the approved label supplied for this return. Check the destination, print it and attach it securely.
-6. Confirm that packing and label attachment are complete so support can coordinate the pickup window.
-7. Retain the actual carrier handoff or acceptance evidence and tracking details.
+1. Confirm the equipment identifiers and quantity with support. If you cannot identify the old player or its matching power supply, pause packing and ask for help.
+2. Confirm the pickup address, onsite contact, recipient and available pickup times through your existing support conversation.
+3. Follow the supplied packing instructions. Include each accessory on the agreed list and use protective packaging suitable for the equipment.
+4. If support needs parcel measurements or weight to arrange the shipment, provide the actual packed values.
+5. Use the label approved for this return. Check the destination against the supplied instructions, print the label and attach it securely.
+6. Tell support when the parcel is packed and labelled so the pickup arrangements can be confirmed.
+7. Keep the carrier's handoff or acceptance evidence and the tracking details after collection.
 
-## Verify the result
+## Expected result
 
-The parcel is packed with the agreed contents and the pickup is coordinated. A label or booking alone does not confirm carrier possession, receipt or repair completion.
+The parcel contains the agreed equipment, has the correct label and is ready for the confirmed pickup. After collection, you have evidence of the carrier handoff. A label or booking alone does not confirm that the carrier has the parcel or that repair is complete.
 
-## When to contact support
+## If something is uncertain
 
-Stop if the contents, power supply, packaging, destination or label are uncertain. Ask for shipment-specific instructions before dispatch. Report missed pickup, carrier exceptions or damaged packaging through the support workflow.
+Contact [EditNew Support](https://support.editnew.ca) through your existing support conversation before dispatch if the equipment list, packaging, destination or label is unclear. Report a missed pickup, carrier exception or damaged packaging with the support reference and tracking details.
 
-Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
+Confirm return charges, warranty coverage and carrier arrangements for your own case.
 
 ## About EditNew
 
