@@ -30,18 +30,16 @@ Gather the details you already have about the affected screen. If you are away f
 
 ## Copy this checklist
 
-```text
-Screen or player name, if known:
-Layout name, if relevant:
-Location and affected screen(s):
-What should be showing:
-What is showing now, including any error message:
-When the issue was first noticed:
-Relevant recent changes or interruptions:
-Checks already tried and the result of each:
-Photo or screenshot attached, if available:
-On-site contact and any access limitations:
-```
+- Screen or player name, if known:
+- Layout name, if relevant:
+- Location and affected screen(s):
+- What should be showing:
+- What is showing now, including any error message:
+- When the issue was first noticed:
+- Relevant recent changes or interruptions:
+- Checks already tried and the result of each:
+- Photo or screenshot attached, if available:
+- On-site contact and any access limitations:
 
 Keep passwords, recovery codes, and private remote-control links out of this checklist and its attachments.
 
