@@ -1,28 +1,23 @@
 ---
 title: "Jeremiah To Do List"
+subheadline: "RunSAM layout 14291"
 date: "2026-08-24"
 slug: "2026-08-24-jeremiah-to-do-list"
 image: "/images/news/placeholder.jpg"
+excerpt: "Reference for RunSAM layout 14291. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam"]
 draft: false
 ---
 
-## Jeremiah To Do List
+Reference for [RunSam.com](https://runsam.com) layout **14291**.
 
-<iframe
- src="https://iframe.wwds.co/?campId=14291"
- title="Jeremiah To Do List"
- loading="lazy"
- allowfullscreen>
-</iframe>
+## Preview temporarily unavailable
 
-<a href="https://www.runsam.com/layouts/rc/14291/E9CDC385-D2DA-4B6B-8823-6E35D874856E">
-  <img
-    src="https://media.wwds.co/u/b23faf3b-d84d-4b85-a12c-8b66c401b3c4.png"
-    alt="QR code for the Jeremiah To Do List remote control"
-    width="150"
-    height="150">
-</a>
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14291**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 
