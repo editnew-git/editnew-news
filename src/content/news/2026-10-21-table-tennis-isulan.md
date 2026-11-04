@@ -1,21 +1,23 @@
 ---
 title: "Table Tennis Isulan"
+subheadline: "RunSAM layout 14481"
 date: "2026-10-21"
 slug: "2026-10-21-table-tennis-isulan"
 image: "/images/news/placeholder.jpg"
-excerpt: "Interactive showcase of the Table Tennis Isulan S.A.M. layout."
+excerpt: "Reference for RunSAM layout 14481. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam"]
 draft: false
 ---
 
-# Table Tennis Isulan
+Reference for [RunSam.com](https://runsam.com) layout **14481**.
 
-<iframe
- src="https://iframe.wwds.co/?campId=14481&orientation=portrait"
- title="Table Tennis Isulan layout"
- loading="lazy"
- allowfullscreen>
-</iframe>
+## Preview temporarily unavailable
+
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14481**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 
