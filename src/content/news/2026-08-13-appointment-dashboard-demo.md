@@ -1,20 +1,23 @@
 ---
 title: "Appointment Dashboard Demo"
+subheadline: "RunSAM layout 14243"
 date: "2026-08-13"
 slug: "2026-08-13-appointment-dashboard-demo"
 image: "/images/news/placeholder.jpg"
+excerpt: "Reference for RunSAM layout 14243. The embedded preview is temporarily unavailable."
 tags: ["runsam", "layouts"]
 draft: false
 ---
 
-<iframe
- src="https://iframe.wwds.co/?campId=14243"
- title="Appointment Dashboard Demo"
- loading="lazy"
- allowfullscreen>
-</iframe>
+Reference for [RunSam.com](https://runsam.com) layout **14243**.
 
-<a href="https://www.runsam.com/layouts/rc/14243/FDEA81F8-B490-4B6B-B82B-DADB2192A4AF"><img src="https://media.wwds.co/u/aa402272-b85f-4aa5-84a7-25dcd0e04e0c.png" alt="Open the Appointment Dashboard remote control" width="150" height="150"></a>
+## Preview temporarily unavailable
+
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14243**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 
