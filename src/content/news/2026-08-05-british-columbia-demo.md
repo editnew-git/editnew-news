@@ -1,26 +1,23 @@
 ---
 title: "British Columbia Demo"
+subheadline: "RunSAM layout 14218"
 date: "2026-08-05"
 slug: "2026-08-05-british-columbia-demo"
 image: "/images/news/placeholder.jpg"
+excerpt: "Reference for RunSAM layout 14218. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam"]
 draft: false
 ---
 
-<iframe
- src="https://iframe.wwds.co/?campId=14218"
- title="British Columbia Demo"
- loading="lazy"
- allowfullscreen>
-</iframe>
+Reference for [RunSam.com](https://runsam.com) layout **14218**.
 
-<a href="https://www.runsam.com/layouts/rc/14218/79A7A9C8-27D6-4FA6-A4A6-41CD51521384">
-  <img
-   src="https://media.wwds.co/u/b52b8369-31aa-4bda-bf26-6694eca1cac4.png"
-   alt="QR code for British Columbia Demo remote control"
-   width="150"
-   height="150">
-</a>
+## Preview temporarily unavailable
+
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14218**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 
