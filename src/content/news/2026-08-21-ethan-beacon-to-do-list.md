@@ -1,22 +1,23 @@
 ---
 title: "ethan Beacon To Do List"
+subheadline: "RunSAM layout 14287"
 date: "2026-08-21"
 slug: "2026-08-21-ethan-beacon-to-do-list"
 image: "/images/news/placeholder.jpg"
+excerpt: "Reference for RunSAM layout 14287. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam"]
 draft: false
 ---
 
-# ethan Beacon To Do List
+Reference for [RunSam.com](https://runsam.com) layout **14287**.
 
-<iframe
- src="https://iframe.wwds.co/?campId=14287"
- title="ethan Beacon To Do List"
- loading="lazy"
- allowfullscreen>
-</iframe>
+## Preview temporarily unavailable
 
-<a href="https://www.runsam.com/layouts/rc/14287/8CBB734D-4326-4FF6-A23C-9F35B8E99BCD"><img src="https://media.wwds.co/u/457592b0-112c-4180-818f-41b21da806a3.png" alt="QR code for ethan Beacon To Do List remote control" width="150" height="150"></a>
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14287**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 
