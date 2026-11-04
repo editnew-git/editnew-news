@@ -1,26 +1,23 @@
 ---
 title: "Uplands Golf Demo"
+subheadline: "RunSAM layout 14220"
 date: "2026-08-05"
 slug: "2026-08-05-uplands-golf-demo"
 image: "/images/news/placeholder.jpg"
+excerpt: "Reference for RunSAM layout 14220. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam"]
 draft: false
 ---
 
-<iframe
- src="https://iframe.wwds.co/?campId=14220"
- title="Uplands Golf Demo"
- loading="lazy"
- allowfullscreen>
-</iframe>
+Reference for [RunSam.com](https://runsam.com) layout **14220**.
 
-<a href="https://www.runsam.com/layouts/rc/14220/CE414D8F-66B4-4891-9E78-A62FA360E816">
-  <img
-   src="https://media.wwds.co/u/02953b87-e6c4-45ef-a48d-ff0295b4d3ce.png"
-   alt="QR code for Uplands Golf Demo remote control"
-   width="150"
-   height="150">
-</a>
+## Preview temporarily unavailable
+
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14220**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 
