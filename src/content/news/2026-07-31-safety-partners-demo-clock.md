@@ -1,22 +1,23 @@
 ---
 title: "Safety Partners Demo Clock"
+subheadline: "RunSAM layout 14206"
 date: "2026-07-31"
 slug: "2026-07-31-safety-partners-demo-clock"
 image: "/images/news/placeholder.jpg"
+excerpt: "Reference for RunSAM layout 14206. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam"]
 draft: false
 ---
 
-# Safety Partners Demo Clock
+Reference for [RunSam.com](https://runsam.com) layout **14206**.
 
-<iframe
- src="https://iframe.wwds.co/?campId=14206"
- title="Safety Partners Demo Clock"
- loading="lazy"
- allowfullscreen>
-</iframe>
+## Preview temporarily unavailable
 
-<a href="https://www.runsam.com/layouts/rc/14206/E22981B6-25DF-4CCE-B0C2-CF4E73B0A9F8"><img src="https://media.wwds.co/u/211f637b-cdcf-496f-bd2b-bf7bb575a9b3.png" alt="Open the Safety Partners Demo Clock remote control" width="150" height="150"></a>
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14206**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 
