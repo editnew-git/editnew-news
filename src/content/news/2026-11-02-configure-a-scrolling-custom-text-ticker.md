@@ -8,32 +8,26 @@ tags: ["training", "layouts", "runsam", "daily-use"]
 draft: false
 ---
 
-Use custom text when the Ticker should display your own message instead of RSS headlines.
+Use **Custom Text** when the Ticker should show your own message. In the inspected form, Custom Text overrides **RSS/Atom URL**.
 
-## When this applies
+## Enter and save the message
 
-These steps apply to a Ticker form with **RSS/Atom URL**, **Custom Text** and an Advanced **Scroll Mode** control. Older forms may differ.
+1. Confirm the layout ID and Ticker type/ID in **gear tab → Module Manager**. Return with the **house tab** and open that module's sidebar entry.
+2. Preserve the existing feed and message if you may need them later.
+3. For a custom-text-only configuration, leave **RSS/Atom URL** empty and enter the message in **Custom Text**.
+4. Open **Advanced** to inspect **Font Size**, **Scroll Speed** and **Scroll Mode**. Choose **Scroll** if the intended behavior is scrolling; **Cycle** is a separate option.
+5. Use a readable size and speed for the actual region. Do not copy example speed values as universal defaults.
+6. Select the module's main green **SAVE**, then reopen Ticker and verify the saved message and options.
 
-## Before you begin
+![Ticker form with RSS/Atom URL, a synthetic Custom Text message and main SAVE](https://media.wwds.co/u/pressly-pr-en-20261102-025-b0bd907c58b00688eb7002eeec25d878f12203abf120384070cfd86bf4009ed4.webp)
 
-Open the intended layout and confirm the Ticker module. Keep the existing feed URL and message if you may need to restore them. Make this change only when you intend to replace the existing ticker content.
+[Open the Ticker form screenshot at full size](https://media.wwds.co/u/pressly-pr-en-20261102-025-b0bd907c58b00688eb7002eeec25d878f12203abf120384070cfd86bf4009ed4.webp). The message is an example; the note under RSS/Atom URL explains the override.
 
-## Set the message
+## Verify the displayed result
 
-1. For a custom-text-only configuration, leave **RSS/Atom URL** empty.
-2. Enter the intended **Custom Text**.
-3. Open **Advanced** and choose a readable font size for the layout.
-4. In the matching form, select **Scroll** for Scroll Mode. Do not copy an unexplained example speed as a universal value.
-5. Select the module's main **SAVE**.
-6. Reopen Ticker and confirm that the message and selected options persisted.
+Reload the layout's Preview and watch the message over time. A still screenshot does not demonstrate movement. Check entry and exit, contrast, clipping and overlap through the whole message, then verify the physical display separately.
 
-## Verify the result
-
-Reload Preview and watch the message enter and move through the ticker region. A still image does not establish motion. Check contrast, clipping and overlap with other modules. Verify physical-display behavior separately.
-
-Contact support if the saved text is absent, the controls differ, or movement remains wrong. Include the layout identity and saved settings. A successful custom-text result does not establish that an RSS feed is working.
-
-Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
+Saving custom text does not establish that an RSS feed works. If the message persists but stays hidden or moves incorrectly, report the layout/module identity, saved settings and observed behavior to [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
 
 ## About EditNew
 

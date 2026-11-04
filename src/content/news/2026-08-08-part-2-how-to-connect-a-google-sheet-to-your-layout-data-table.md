@@ -4,88 +4,47 @@ subheadline: "Use the Data Table module in S.A.M. to control how Google Sheet da
 date: "2026-08-08"
 slug: "2026-08-08-part-2-how-to-connect-a-google-sheet-to-your-layout-data-table"
 image: "/images/news/placeholder.jpg"
-excerpt: "Learn how to connect a Data Table module to a Google Sheet, choose which fields appear, and customize the table with Basic, Advanced, and Expert controls."
+excerpt: "Select a verified Data Source, choose explicit fields and check real rows before styling the Data Table."
 tags: ["training", "layouts", "runsam", "google-sheets", "data-table"]
 draft: false
 ---
 
-Use the Data Table module in [RunSam.com](https://runsam.com) to control how data from a connected Google Sheet appears in your S.A.M. layout.
+Use **Data Table** to choose and format fields from a working **Data Source**. Confirm the real source columns and rows before changing the table's appearance.
 
-## Before you begin
+## Select the source
 
-Make sure your Google Sheet is already connected through the intended Data Source and loads the expected rows. Use only data approved for public access. Hiding a Data Table field does not restrict access to the underlying spreadsheet.
+1. Confirm the layout ID and the Data Table type/ID in **gear tab → Module Manager**.
+2. Return with the **house tab** and open that module's sidebar entry.
+3. In **Source**, select the intended Data Source. A label such as Set Label can be ambiguous; confirm its module identity first.
+4. Select the main green **SAVE** and reopen Data Table to load its field controls. A source can appear selected before the module has saved that choice.
+5. Inspect **Included Fields**. The names must match the real source headers. If the list remains empty or contains HTML/error-page fragments, resolve the connector before formatting or inserting fields.
 
-## 1. Open the Data Table module
+## Configure the table
 
-Open your layout, then select the **Data Table** module.
+| Control | Purpose to verify |
+| --- | --- |
+| Style | Horizontal or Vertical; the inspected selector spells the latter “Veritcal.” |
+| Number of rows per frame | Rows in each displayed group, not the total source-record count. |
+| Time between frames (s) | The configured interval between groups. |
+| Transition | The available visual transition, such as None or Fade. |
+| Show Label as Caption | Whether the module label is used as a caption. |
+| Included Fields | The columns explicitly selected for display. |
 
-![S.A.M. layout editor with the Data Table module highlighted in the sidebar.](https://media.wwds.co/u/2a741a16-cd0e-452f-8f6d-14695460f8bb.webp)
+Select the required fields explicitly, use the main green **SAVE**, and reopen the module to check the stored selection and options. Do not use an all-Off selection as a method of hiding all data; verify the actual rendered result.
 
-## 2. Name the Data Table module
+![Data Table editor with the sample label and value fields switched On, other fields Off, and main SAVE at the top right](https://media.wwds.co/u/pressly-pr-en-20260808-001-452e698663582d8480dbcae6fd52e4f446d0b81212f82ce89a824e6ae535af43.webp)
 
-Enter a clear name for the Data Table module, then select **Save**.
+[Open the Data Table controls at full size](https://media.wwds.co/u/pressly-pr-en-20260808-001-452e698663582d8480dbcae6fd52e4f446d0b81212f82ce89a824e6ae535af43.webp). The selected columns and two-row/two-second settings are examples.
 
-![Data Table module name field and Save button highlighted.](https://media.wwds.co/u/d62a61d9-9771-457d-8ef4-72bda7797b5e.webp)
+Open **Advanced** for position, dimensions, opacity, font, colors and borders. **Expert** exposes CSS controls for authors who understand the layout. Change one layer at a time and reopen it after saving; this guide does not prescribe a universal precedence rule between basic controls and custom CSS.
 
-## 3. Configure the Basic controls
+## Verify rows and presentation
 
-Use the Basic controls to configure how the Google Sheet data is displayed:
+Use the table toolbar's **Preview** to inspect its formatted rows, then reload the complete layout Preview. Compare actual rows with the intended source tab, check both wanted columns and the absence of unwanted columns, and observe later frames where applicable. Inspect clipping, readability and overlap at the intended dimensions.
 
-- **Source:** View and select the Data Source connected to the Data Table module.
-- **Style:** Choose a **Vertical** or **Horizontal** orientation.
-- **Number of rows per frame:** Set how many rows appear at one time.
-- **Time between frames:** Set how long each group of rows remains visible before the next group appears. This is useful when the spreadsheet contains more rows than can fit on screen at once.
-- **Transition:** Choose the visual effect used when the table moves from one frame to the next.
+Field selection is a presentation setting, not a source-data security boundary. Verify physical-display output separately.
 
-When you finish configuring the Basic controls, select **Save**.
-
-![Data Table Basic controls for source, style, rows per frame, timing, and transition.](https://media.wwds.co/u/56114b51-fd06-4d67-84a2-25534efcba0b.webp)
-
-## 4. Verify the data connection
-
-After selecting the intended Source, save and reopen Data Table. Check that real column names appear under **Included Fields**. Their appearance is a useful checkpoint; also verify nonempty rows from the intended Sheet in Preview before considering the connection complete.
-
-![Included Fields section showing a Google Sheet field available in the Data Table module.](https://media.wwds.co/u/f644aa17-5fc3-4b99-a3b2-8fc7e337900b.webp)
-
-## 5. Enable fields and open Advanced settings
-
-Explicitly turn on each field you want to display. Do not use an all-Off selection as a way to hide all data. Save and reopen the module to confirm the selection persists, then select **Advanced** for additional customization.
-
-![Included field enabled and Advanced button highlighted in the Data Table module.](https://media.wwds.co/u/d8173933-fbc3-402a-ab26-61d10a83c1f5.webp)
-
-## 6. Configure the Advanced controls
-
-Use the Advanced controls to customize the appearance and position of the Google Sheet data. Available settings include position, dimensions, opacity, font size, colors, borders, and row height.
-
-These controls help you fit the table to your layout and visual design. The Advanced view also provides access to **Expert** controls for CSS customization.
-
-![Data Table Advanced controls for position, dimensions, colors, borders, and font size.](https://media.wwds.co/u/e4fe0e44-2029-4344-8996-202ca628e2e3.webp)
-
-## 7. Use Expert controls
-
-Select **Expert** to customize the Data Table module with CSS. Use this option for visual changes that are not available through the Basic or Advanced controls.
-
-> **Note:** Expert controls are recommended for users familiar with CSS and web-based styling. Basic settings can override Expert CSS, so configure and save the Basic controls first.
-
-![Data Table Expert controls showing the CSS editor and Save button.](https://media.wwds.co/u/1664ed87-ada8-42f6-acf8-7e896f5ce99f.webp)
-
-## Expected result
-
-Your Data Table should display the selected Google Sheet fields with the orientation, timing, transitions, formatting, and positioning you configured.
-
-The Data Table module provides three levels of customization:
-
-- **Basic controls:** Configure the data source, orientation, number of rows, display timing, and transitions.
-- **Advanced controls:** Adjust formatting, positioning, dimensions, fonts, colors, and borders.
-- **Expert controls:** Use CSS for more advanced customization.
-
-Save your changes, then use **Preview** to confirm that the data displays correctly in the layout.
-
-## Verify the displayed data
-
-Reload Preview and check both the wanted columns and the absence of unwanted columns. Compare actual rows with the intended public Sheet. If the table uses frames, observe later frames too: rows per frame is not the total record count.
-
-If fields or rows remain missing, contact support with the layout identity, selected source, expected fields and warning text. Keep private data and access-bearing links out of public support messages.
+Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca) with the layout/module identity, selected source, expected columns and sanitized warnings if fields or rows remain wrong.
 
 ## About EditNew
 

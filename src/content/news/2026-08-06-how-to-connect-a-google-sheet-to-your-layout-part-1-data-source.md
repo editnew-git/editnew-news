@@ -1,172 +1,56 @@
 ---
-title: "How to Connect a Google Sheet to Your Layout – Part 1 (Data Source)"
-subheadline: "Connect published Google Sheet data to a S.A.M. layout using the Data Source module."
+title: "Configure and verify a Google Sheets Data Source"
+subheadline: "Check connector settings, real field names and rows before relying on a Google Sheets connection."
 date: "2026-08-06"
 slug: "2026-08-06-how-to-connect-a-google-sheet-to-your-layout-part-1-data-source"
 image: "/images/news/placeholder.jpg"
-excerpt: "Learn how to publish a Google Sheet, add Data Source and Data Table modules to a S.A.M. layout, and connect the sheet using its Spreadsheet ID and GID."
+excerpt: "Identify the Google Docs connector fields and verify actual data separately from a successful Save."
 tags: ["training", "layouts", "runsam", "google-sheets"]
 draft: false
 ---
 
-Connect a Google Sheet to your S.A.M. layout using the Data Source module. By the end of this guide, your spreadsheet data will appear in the layout and be ready for display customization in a Data Table.
+Configure **Data Source** first, then verify that the connected data can be read before formatting it in **Data Table**. Saving a connector's fields is not proof of a working connection.
 
-## Before you begin
+## Prepare an approved source
 
-You will need:
+Use a separate sheet containing only data approved for the intended publication. Put clear column headings in the first row and records beneath them. Record the exact tab to display.
 
-- A Google account with access to Google Sheets
-- A Google Sheet containing the data you want to display
-- Access to the S.A.M. Layout Editor on [RunSam.com](https://runsam.com)
+Have the source owner confirm the publication method and access needed by the connector. Publishing content and granting editing access are different actions; do not broaden spreadsheet permissions by guesswork to fix a connection. Hiding a field in RunSAM does not restrict access to the underlying source.
 
-Publishing a spreadsheet to the web makes its contents publicly accessible. Do not include private, personal, confidential, or sensitive information in the sheet.
+## Identify the modules
 
-## 1. Create a Google Sheet
+1. Confirm the layout ID and open **gear tab → Module Manager**.
+2. Inspect existing types and IDs before adding anything. If needed, choose **Data Source**, select **ADD MODULE**, and repeat for **Data Table**.
+3. If you added modules, select the manager's **Save**, reopen it and verify the added types and IDs.
+4. Close the manager after checking it, return with the **house tab**, and open the intended Data Source entry. Its label may be customized.
 
-Create a new Google Sheet and enter your data. Use the first row for your column headings, then enter your data in the rows below the headings.
+## Configure the Google connector
 
-![Google Sheet with a heading row and sample data beneath it](https://media.wwds.co/u/87314c3d-0141-49be-9571-cf438720fac2.webp)
+Select **Google Docs** in **Connector**. The matching form exposes:
 
-## 2. Open the File menu
+| Field | What to confirm |
+| --- | --- |
+| Google Document ID String | The document identifier supported by this connector and publication method. |
+| Google Sheet GID # | The exact numeric ID of the intended tab; do not assume every tab is 0. |
+| Update Frequency (s) | The configured polling value in seconds; it is not a guaranteed end-to-end refresh time. |
 
-In your Google Sheet, select **File**.
+For the tested Google Docs form, use the published identifier beginning with `2PACX-` from the owner's published Google Sheets link: it is the segment after `/spreadsheets/d/e/` and before `/pubhtml`. Enter that identifier in **Google Document ID String** and the intended tab's numeric GID in **Google Sheet GID #**. Select the main green **SAVE**, reopen Data Source and compare the saved values.
 
-![Google Sheets File menu highlighted](https://media.wwds.co/u/a7dca796-8a3c-4fb9-9624-fcc317fbd3f5.webp)
+The normal editable spreadsheet ID is a different identifier. In the current test, that ID saved successfully but returned Google error-page content; the published identifier returned the expected synthetic rows. Check other connector versions against their own verified setup before replacing an existing identifier.
 
-## 3. Open Publish to web
+## Verify actual data
 
-Select **Share**, then select **Publish to web**.
+Open Data Table, select the intended **Source**, use its main **SAVE**, and reopen it. Inspect **Included Fields**: the names must match the source's real column headings. Then select the columns you need, save, and check actual nonempty rows in a fresh Preview against the intended sheet/tab.
 
-![Google Sheets Share submenu with Publish to web highlighted](https://media.wwds.co/u/cc097465-4316-49ed-ae00-73c9b8e8e94a.webp)
+![Data Table editor with sample label and value fields selected after saving the source](https://media.wwds.co/u/pressly-pr-en-20260808-001-452e698663582d8480dbcae6fd52e4f446d0b81212f82ce89a824e6ae535af43.webp)
 
-## 4. Publish the spreadsheet
+[Open the example field-selection controls at full size](https://media.wwds.co/u/pressly-pr-en-20260808-001-452e698663582d8480dbcae6fd52e4f446d0b81212f82ce89a824e6ae535af43.webp).
 
-In the Publish to the web window, select **Publish**.
+Empty fields, HTML/CSS fragments or a Google error page appearing as field names are a failed data-loading checkpoint. Do not insert those strings into Text Block or treat them as a valid connection. Stop and verify the publication/identifier path with the source owner or support.
 
-![Publish to the web dialog with the Publish button highlighted](https://media.wwds.co/u/f9e6087a-1646-44a2-8153-a09690c1f886.webp)
+Data Source holds the connection settings; this form does not promise a visible table of rows. Data Table and field consumers provide separate read-back checkpoints. Physical-display delivery also requires its own verification.
 
-## 5. Confirm the action
-
-Select **OK** to confirm that you want to publish the spreadsheet.
-
-![Publish confirmation dialog with the OK button highlighted](https://media.wwds.co/u/54812339-d7d4-40c8-a894-4f8f71e0a6cc.webp)
-
-## 6. Open your layout
-
-Return to your S.A.M. layout and select the **gear** icon in the upper-right corner of the Layout Editor.
-
-![S.A.M. Layout Editor with the gear icon highlighted](https://media.wwds.co/u/f9fad0d6-e4e3-4e5b-a78c-dcba804b1940.webp)
-
-## 7. Open the Module Manager
-
-Select **Module Manager**.
-
-![S.A.M. Layout Editor with Module Manager highlighted](https://media.wwds.co/u/52b5add4-e9ec-48d3-9f1f-8dcac280c88d.webp)
-
-## 8. Select a module type
-
-Open the **Select type** menu.
-
-![S.A.M. module manager with the module type selector highlighted](https://media.wwds.co/u/a9841798-f2b9-4447-b166-dcbbdc6dea15.webp)
-
-## 9. Add the required modules
-
-Select and add both of these modules:
-
-- **Data Source**
-- **Data Table**
-
-![S.A.M. module type menu with Data Source and Data Table highlighted](https://media.wwds.co/u/4ab05248-763d-41b4-bf1a-2adce26a1cdc.webp)
-
-## 10. Save the modules
-
-Select **Add Module** for each module. Once both modules have been added, select **Save**.
-
-![S.A.M. Module Manager with Add Module and Save controls highlighted](https://media.wwds.co/u/99c7004d-f241-4a73-9ea6-faae9894320a.webp)
-
-## 11. Open the Data Source module
-
-Select the **Data Source** module.
-
-![S.A.M. Layout Editor with the Data Source module highlighted](https://media.wwds.co/u/3faf259d-4fba-4404-b4ef-a47f8045a5a6.webp)
-
-## 12. Name the module
-
-Enter a clear name for your Data Source module.
-
-![S.A.M. Data Source module name field highlighted](https://media.wwds.co/u/a13f62fb-0d48-41cd-8b96-4851dca615c0.webp)
-
-## 13. Choose a connector
-
-Select the **Connector** field to choose a data source.
-
-![S.A.M. Data Source settings with the Connector field highlighted](https://media.wwds.co/u/14bb6b25-f4cb-4a1e-9f99-fc4f9c5b3125.webp)
-
-## 14. Select Google Docs
-
-From the available connectors, select **Google Docs**.
-
-![S.A.M. Connector menu with Google Docs highlighted](https://media.wwds.co/u/6ca40014-60fd-42d4-b371-c6d80a95b633.webp)
-
-## 15. Confirm the connector identifier format
-
-The instructions below describe the editable Spreadsheet ID form. Other documented Google Docs connector screens use a published identifier beginning with `2PACX-`. These identifiers are different; do not substitute one for the other. Have support confirm the form required by your connector before entering or changing it. Keep the exact field labels and connector identity available for that check.
-
-### Editable Spreadsheet ID form
-
-Return to your Google Sheet and copy the Spreadsheet ID from the browser address bar. The Spreadsheet ID is the text between `/d/` and `/edit` in the URL.
-
-For example, in this URL:
-
-`https://docs.google.com/spreadsheets/d/SPREADSHEET_ID/edit`
-
-Copy only `SPREADSHEET_ID`.
-
-
-
-## 16. Paste the Spreadsheet ID
-
-Once the editable-ID form has been confirmed for your connector, paste that Spreadsheet ID into **Google Document ID String**. If your form requires a published identifier, obtain its matching instructions from support instead of following this editable-ID step.
-
-
-
-## 17. Copy the Google Sheet GID
-
-Go back to your Google Sheet and find the `gid` value in the browser address bar. For example, if the URL ends with `gid=0`, copy only `0`.
-
-![Google Sheets address bar with the gid value highlighted](https://media.wwds.co/u/ee57d412-9c06-48ca-acc3-a15a2685558b.webp)
-
-## 18. Enter the GID
-
-Paste the number into the **Google Sheet GID #** field, then select **Save**.
-
-![S.A.M. Data Source settings with the Google Sheet GID field highlighted](https://media.wwds.co/u/07e61771-cf5c-4781-80d3-1f4531511785.webp)
-
-## 19. Verify the connection
-
-Confirm that your spreadsheet data appears in the Data Source module. If it does, the Google Sheet is connected successfully.
-
-![S.A.M. Data Source module displaying imported Google Sheet data](https://media.wwds.co/u/11380fe4-0246-4702-bc76-44075182936e.webp)
-
-## 20. Customize your Data Table
-
-Use the Data Table module to control how your Google Sheet data is displayed, including:
-
-- Font style and size
-- Text colour
-- Row and column formatting
-- Position and layout
-- Other display settings
-
-These options will be covered in **Part 2: How to Connect a Google Sheet to Your Layout (Data Table)**.
-
-## Expected result
-
-Your published Google Sheet data appears in the S.A.M. Data Source module and is ready to be formatted through the Data Table module.
-
-## If the connection does not load rows
-
-Confirm the intended Sheet tab, heading row, connector and exact field labels. Reopen the saved Data Source and compare its values. The document identifier and tab GID are separate values. Stop if the expected identifier format is uncertain; do not alternate formats or broaden sharing permissions by guesswork. A Save confirmation does not by itself establish data loading or physical-display playback.
+Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca) with the layout/module identity, field labels and a sanitized error. Keep private source addresses and access-bearing links out of public messages.
 
 ## About EditNew
 

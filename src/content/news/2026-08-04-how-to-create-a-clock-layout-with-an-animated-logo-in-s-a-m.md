@@ -1,51 +1,43 @@
 ---
-title: "How to Create a Clock Layout with an Animated Logo in S.A.M."
-subheadline: "Add a looping animated logo to a clock template and mute its audio for clean playback."
+title: "Add an animated logo to an Emergency Alert clock layout"
+subheadline: "Find the Add Your Logo Media module and check the animation's fit, audio and playback."
 date: "2026-08-04"
 slug: "2026-08-04-how-to-create-a-clock-layout-with-an-animated-logo-in-s-a-m"
 image: "/images/news/placeholder.jpg"
-excerpt: "A step-by-step guide to creating a clock layout in S.A.M. and replacing the default logo with a looping animated-logo video."
+excerpt: "Find Add Your Logo, upload a video and verify its audio, fit and playback behavior."
 tags: ["training", "layouts", "runsam"]
 draft: false
 ---
 
-## Learning outcome
+Use an animated-logo video in the **Add Your Logo** Media module of a matching clock template. Uploading a video does not by itself establish transparent or seamless looping playback.
 
-Create a clock layout in S.A.M., replace the default logo with an animated-logo video, and configure the video for silent looping playback.
+## Open the matching template and module
 
-## Before you begin
+For a new layout, open **Layouts → New Layout**, select **Layout Templates** and the **Clock** style, then choose **Emergency Alert — Clock Layout with Emergency Alert**. Enter a distinctive Label and Save. Record the new ID and check Attached Devices.
 
-You should already have a transparent, looping-ready animated logo saved as a video file.
+In that layout, select the **house tab**, expand **Media**, then select **Add Your Logo**. Other clock templates can use different names; confirm the Media type and ID in Module Manager when necessary.
 
-## Instructions
+![Clock layout sidebar with the Media group expanded to show Add Your Logo](https://media.wwds.co/u/pressly-pr-en-20260725-002-692d0f192014ca91c6d093210fd7f45b8a77d0c7ca181cfcc6cd30bebfe92310.webp)
 
-1. Open **Layouts** from the left menu, then click **New Layout**.
+[Open the clock-navigation screenshot at full size](https://media.wwds.co/u/pressly-pr-en-20260725-002-692d0f192014ca91c6d093210fd7f45b8a77d0c7ca181cfcc6cd30bebfe92310.webp).
 
-2. Open the **Layout Templates** dropdown and select **Clock**.
+## Upload the animation
 
-3. Choose the clock template, enter a descriptive layout name, and click **Save**.
+1. Select the blue **Content** button in Add Your Logo.
+2. Choose **Upload Video(s)**. Review **Resize Video** and **Include Audio** for the intended content and player.
+3. Select **Your Device**, choose the video and use the upload dialog's green **Save**.
+4. Wait for processing, then reopen the module and verify that the new video exists before retrying or deleting a placeholder.
+5. Open **Advanced** and inspect **Autoplay** and **Mute Audio**. Set the required behavior, use the main **SAVE**, then reopen and verify the saved settings. Mute Audio applies at the Media-module level.
 
-4. In the layout editor, expand **Media** from the right-side menu, then select **Add Your Logo**.
+If the old logo should be removed, identify that exact item and follow its **wrench → Delete → red confirmation** workflow after checking the new content. Adding a new item does not automatically replace the placeholder or preserve its settings.
 
-5. Select the existing logo placeholder and delete it.
+## Check actual playback
 
-6. Select **Add Your Logo** again.
+Reload the layout Preview and watch the animation over several cycles. Check advancing motion, fit, sound and the transition at the loop boundary. A video's source transparency may not survive the chosen upload processing and playback path; do not assume a transparent-background video is supported.
 
-7. Click **Content** at the top of the page.
+Verify the physical display separately. If playback starts only after browser interaction, record that difference rather than treating it as automatic playback.
 
-8. In the **Add Content** window, set **Content Type** to **Upload Video(s)**.
-
-9. Click **Your Device** and select the animated-logo video file. You can also select an existing file from **Library** or **Dropbox**.
-
-10. Click **Save** and wait for the upload to finish.
-
-11. Go to **Advanced**.
-
-12. Turn on **Mute Audio**, then save the changes.
-
-## Expected result
-
-The clock layout displays your animated logo without audio. Preview the layout to confirm that the logo loops smoothly before using it on a display.
+Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca) with the layout, source-file properties, upload settings and observed result if the animation remains wrong.
 
 ## About EditNew
 

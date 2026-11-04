@@ -1,22 +1,23 @@
 ---
 title: "Trouble Ticket Dashboard"
+subheadline: "RunSAM layout 14269"
 date: "2026-08-25"
 slug: "2026-08-25-trouble-ticket-dashboard"
 image: "/images/news/placeholder.jpg"
+excerpt: "Reference for RunSAM layout 14269. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam"]
 draft: false
 ---
 
-# Trouble Ticket Dashboard
+Reference for [RunSam.com](https://runsam.com) layout **14269**.
 
-<iframe
- src="https://iframe.wwds.co/?campId=14269"
- title="Trouble Ticket Dashboard"
- loading="lazy"
- allowfullscreen>
-</iframe>
+## Preview temporarily unavailable
 
-<a href="https://www.runsam.com/layouts/rc/14269/3B864568-08CF-43B3-AD4C-9C48265E88BC"><img src="https://media.wwds.co/u/d2548b7a-5c19-4ce2-86d7-92ef8bc2dc18.png" alt="QR code for Trouble Ticket Dashboard remote control" width="150" height="150"></a>
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14269**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 

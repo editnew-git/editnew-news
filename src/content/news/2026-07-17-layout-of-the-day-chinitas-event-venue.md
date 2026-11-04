@@ -1,24 +1,23 @@
 ---
 title: "Layout of the Day: Chinitas Event Venue"
-subheadline: "Preview and share layout 14149 for Chinitas, an event venue."
+subheadline: "RunSAM layout 14149"
 date: "2026-07-17"
 slug: "2026-07-17-layout-of-the-day-chinitas-event-venue"
 image: "/images/news/2026-07-17-layout-of-the-day-chinitas-event-venue.webp"
-excerpt: "A quick showcase and QR reference for Chinitas event venue layout 14149."
+excerpt: "Reference for RunSAM layout 14149. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam", "daily-use", "support"]
 draft: false
 ---
 
-Use this resource to preview and share layout 14149 for Chinitas, an event venue.
+Reference for [RunSam.com](https://runsam.com) layout **14149**.
 
-<iframe
- src="https://iframe.wwds.co/?campId=14149"
- title="Chinitas event venue layout 14149"
- loading="lazy"
- allowfullscreen>
-</iframe>
+## Preview temporarily unavailable
 
-[![QR code for Chinitas layout 14149](https://api.qrserver.com/v1/create-qr-code/?size=800x800&format=png&data=https%3A%2F%2Fwww.runsam.com%2Flayouts%2Frc%2F14149%2F82F32E82-79B7-4207-B9E5-0B7DE475C4A3)](https://www.runsam.com/layouts/rc/14149/82F32E82-79B7-4207-B9E5-0B7DE475C4A3)
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14149**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 

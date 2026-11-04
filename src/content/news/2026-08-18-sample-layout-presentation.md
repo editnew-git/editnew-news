@@ -1,20 +1,23 @@
 ---
 title: "Sample Layout Presentation"
+subheadline: "RunSAM layout 14267"
 date: "2026-08-18"
 slug: "2026-08-18-sample-layout-presentation"
 image: "/images/news/placeholder.jpg"
+excerpt: "Reference for RunSAM layout 14267. The embedded preview is temporarily unavailable."
 tags: ["runsam", "layouts"]
 draft: false
 ---
 
-<iframe
- src="https://iframe.wwds.co/?campId=14267"
- title="Sample Layout Presentation"
- loading="lazy"
- allowfullscreen>
-</iframe>
+Reference for [RunSam.com](https://runsam.com) layout **14267**.
 
-<a href="https://www.runsam.com/layouts/rc/14267/6174BDF0-008A-4CC8-8A38-963F82C23F8D"><img src="https://media.wwds.co/u/94a86c1c-2002-4550-8bab-ba7911c316fa.png" alt="Open the Sample Layout Presentation remote control" width="150" height="150"></a>
+## Preview temporarily unavailable
+
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14267**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 

@@ -8,29 +8,32 @@ tags: ["troubleshooting", "runsam"]
 draft: false
 ---
 
-If selecting a file does not produce a saved item, or the expected Save control is missing, first check where you are editing and whether the upload has already completed. A missing item can come from an incomplete workflow; a missing control may need support investigation.
+Check which upload form you are using before retrying. An image upload in the current Media dialog has a different save boundary from a separate Text/HTML editor or another source form.
 
-## Before you start
+## Current image-upload path
 
-Use an account authorized to edit the intended layout. If a test is needed, choose approved, non-sensitive content and a suitable test location. Do not move live signs to another layout just to test an upload.
+1. Open the intended layout and confirm its ID.
+2. Find the **Media** entry in the right sidebar. It may appear under **Set Label** with **Media** underneath.
+3. Open Media and select the blue **Content** button in its toolbar.
+4. In **Add Content**, select **Upload Image(s)**, then **Your Device**, and choose the image.
+5. Wait for the selected file to appear. Select the dialog's green **Save** button.
+6. Reopen Media's Content view and check whether the new item is present before uploading again.
 
-## Check the upload
+![Add Content dialog with its green Save button after an image is selected](https://media.wwds.co/u/pressly-pr-en-20260721-001-645d5a088c55115cd105b61097ab10ec766652fc8f1f3efa540c229f79e8add0.webp)
 
-1. **Confirm the layout and media area.** Open **Layouts**, select the layout you intend to edit, and open its relevant media area. Check that you are not only viewing the layouts overview or editing a different layout.
+For this PNG image-upload flow, the green **Save** saves the item; no second main-editor SAVE is needed. Other content editors have their own save controls.
 
-2. **Check for an existing saved item.** Look in the intended media list before retrying. If the file is already present, check its preview or schedule instead of uploading another copy.
+## If the upload does not finish
 
-3. **Confirm the chosen file.** Open **Add Content** or **Plus Content**, choose the appropriate content type, and select the intended file from your device. Use a format approved for that workflow. Selecting a file is not the same as saving the upload.
+Keep the original file. Record the file extension, approximate size, selected content type and exact error. If the page stalls, reopen the Content view to check for a saved item before retrying; this avoids accidental duplicates.
 
-4. **Complete the available Save steps.** Save the selected content, then complete any playlist save required by your normal workflow. Wait for the upload to finish and check the media list again. If the expected content Save control never appears, record that behavior rather than repeatedly selecting the file.
+Check that you chose the upload type matching the file. Do not infer supported video formats, size limits or successful player playback from the image-upload example. Use the separate video procedure for video files, and ask support about a format or limit the form does not explain.
 
-5. **Record a reproducible failure.** Note the layout and media area, file type, browser name and version, the step that fails, and the exact error or missing control. Include a screenshot with credentials and unrelated personal details removed.
+If a standalone source editor opens, use that editor's own save control and verify its result. Do not substitute the image dialog's steps for a different form.
 
-## Expected result
+After the item is present, inspect Preview. A saved playlist item and a working browser preview do not by themselves confirm delivery or playback on the physical display.
 
-The item appears in the intended media list and can be checked in Preview. If it is present but not playing, its schedule or playback may need a separate check.
-
-If the upload still will not save, send the recorded details through your agreed support route or [EditNew Support](https://support.editnew.ca). Ask support to confirm the currently supported browser and file format rather than switching to an obsolete browser or guessing a file-size limit.
+Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca) with the layout ID, module type/ID, error text and file details. Do not send passwords or private controller links.
 
 ## About EditNew
 

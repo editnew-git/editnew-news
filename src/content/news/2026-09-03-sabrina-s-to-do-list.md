@@ -1,20 +1,23 @@
 ---
 title: "Sabrina's To Do List"
+subheadline: "RunSAM layout 14302"
 date: "2026-09-03"
 slug: "2026-09-03-sabrina-s-to-do-list"
 image: "/images/news/placeholder.jpg"
+excerpt: "Reference for RunSAM layout 14302. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam"]
 draft: false
 ---
 
-<iframe
- src="https://iframe.wwds.co/?campId=14302"
- title="Sabrina's To Do List"
- loading="lazy"
- allowfullscreen>
-</iframe>
+Reference for [RunSam.com](https://runsam.com) layout **14302**.
 
-<a href="https://www.runsam.com/layouts/rc/14302/D5C8AE02-CAA9-4C55-9AE2-7718E8F23C1D"><img src="https://media.wwds.co/u/7a4f3285-1586-4411-9d1c-86b5e1d9814a.png" alt="QR code for Sabrina's To Do List remote control" width="150" height="150"></a>
+## Preview temporarily unavailable
+
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14302**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 

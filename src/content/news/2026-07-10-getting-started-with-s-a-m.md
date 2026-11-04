@@ -10,180 +10,83 @@ tags: ["getting-started", "onboarding", "training", "runsam", "layouts", "daily-
 draft: false
 ---
 
-Test This guide explains how to sign in to S.A.M, check your signs, upload an image, preview it, and schedule when it appears.
+This guide introduces the S.A.M. workflow: sign in, identify the correct screen and layout, upload approved content, save it, and verify the result.
 
 ## Before you begin
 
-You need:
+Have your authorized account access, an image approved for display, and the name or identifier of the screen you intend to update. Confirm which layout that screen uses and whether other screens share it.
 
-- Access to the email connected to your S.A.M account
-- Google Chrome or another modern browser
-- An image to display
-- An internet connection
-
-For landscape screens, create content at **1920 x 1080 pixels**.
+Prepare artwork for the actual media area in the layout. A media area can occupy only part of a screen, and custom displays can have different dimensions. Use 1920 × 1080 only when those are the intended area's confirmed dimensions. See [Prepare images that fit your screen](https://support.editnew.ca/news/2026-11-03-prepare-images-that-fit-your-screen/).
 
 ## 1. Sign in
 
-Go to [RunSam.com](https://runsam.com).
+Go to [RunSam.com](https://runsam.com). Enter your email address or username in **Email/Username**, enter your **Password**, and select the blue **Sign In** button.
 
-Enter your email address and password to sign in.
+![S.A.M. login form with Email/Username, Password, Sign In, and Forgot Password controls](https://media.wwds.co/u/pressly-pr-en-20260716-001-180f456adce78d121744e2e5b567472fe24163d7ce96199bde9fe88bf1eab2d8.webp)
 
-If you do not have a password:
+If you need to reset your password, follow [How to Reset Your Password on runsam.com](https://support.editnew.ca/news/2026-07-16-how-to-reset-or-change-your-password-on-runsam/). Use the email associated with your account and check your spam folder if the reset email does not arrive.
 
-1. Select **Forgot Password**.
-2. Enter the email associated with your account.
-3. Open the reset email.
-4. Create a secure password.
-5. Return to [RunSam.com](https://runsam.com) and sign in.
+## 2. Identify the screen and layout
 
-If the email does not arrive, check your spam folder and confirm that you entered the correct address.
+Confirm the intended sign or player and the layout assigned to it. Use the identifier as well as the name when several entries look alike. If you cannot establish the assignment, ask your administrator or support before editing.
 
-**Screenshot pending:** `sam-login-page.png` should show the RunSam.com login page, including the login form and Forgot Password link.
+In the left navigation, expand **Layouts** if needed and select the **Layouts** entry beneath it. In **Grid** view, select the layout's linked title. In **Table** view, select its blue numeric ID button. Match the layout's ID and name to the intended target before opening it.
 
-**Screenshot pending:** `sam-forgot-password-form.png` should show the email field and password-reset submission button.
+![Left navigation with the Layouts menu expanded and its Layouts entry](https://media.wwds.co/u/pressly-pr-en-20261102-001-2d20330a626d8a23b18b15ac6ff4d9b35f4762925fa82fefdd8dc0d62b8d995e.webp)
 
-## 2. Check your signs
+An online indicator describes connection status. It does not establish that the player has received the latest content or that its physical screen is displaying it. See [Understand online status, synchronization, and screen output](https://support.editnew.ca/news/2026-11-03-understand-online-status-synchronization-and-screen-output/).
 
-After signing in, locate the devices assigned to your account.
+## 3. Open the intended Media module
 
-An **online** status means the sign is connected to S.A.M. An offline sign may require a power, internet, or media-player check.
+Open the layout your team is authorized to update, then identify its **Media** module before adding content. The module's display label may be a custom name or **Set Label**; the display label alone does not identify the module type.
 
-Use clear device names such as Main Lobby, East Entrance, or Reception so each sign is easy to identify.
+In the desktop editor shown below, **Media** appears in smaller text under **Set Label** in the right sidebar. Select that entry to open the Media content list; its blue **Content** button with the plus icon opens **Add Content**.
 
-**Screenshot pending:** `sam-device-status.png` should show the device list, device names, and online or offline indicators.
+![Media type below Set Label in the right sidebar and the blue Content button in the Media toolbar](https://media.wwds.co/u/pressly-pr-en-20261102-001-e72375dd21ae45d48530e0173142cfb32f88d175d875d25501d98d9be9e477ba.webp)
 
-## 3. Open a layout
+[Open screenshot at full size](https://media.wwds.co/u/pressly-pr-en-20261102-001-e72375dd21ae45d48530e0173142cfb32f88d175d875d25501d98d9be9e477ba.webp)
 
-A layout controls what appears on one or more signs.
+Use [Find Media and Add Content in the layout editor](https://support.editnew.ca/news/2026-11-02-find-media-and-add-content-in-the-layout-editor/) to match the navigation to your screen. If the described sidebar or toolbar differs from yours, ask support for the matching instructions rather than adding a new module to locate the existing one.
 
-1. Open **Layouts**.
-2. Find the layout assigned to the signs you want to update.
-3. Select the layout.
+## 4. Upload an image and confirm it saved
 
-Before editing, confirm which signs are connected to it. Updating one layout may affect several signs.
+Follow [Upload an image to a S.A.M. layout](https://support.editnew.ca/news/2026-07-21-importing-content-in-runsam-uploading-images-to-a-layout/) from the intended Media module. That guide identifies the upload dialog and its Save step.
 
-**Screenshot pending:** `sam-layouts-navigation.png` should show the Layouts option in the main navigation.
+Selecting a file does not by itself complete the upload. After processing finishes, reopen Media and confirm that the image is present. Check its position, duration, and schedule before uploading another copy or assuming where it was inserted.
 
-**Screenshot pending:** `sam-layout-list.png` should show the layout list and highlight the layout to open.
+## 5. Review order, labels, and image fit
 
-## 4. Upload an image
+Use [Arrange, rename, and time items in a media playlist](https://support.editnew.ca/news/2026-11-03-arrange-rename-and-time-items-in-a-media-playlist/) to check the controls available in your media list. A content label helps identify the item; it does not change text embedded in an image. Playback duration and eligibility dates are separate settings.
 
-Inside the layout:
+Use the layout's actual media-area dimensions to choose artwork and any available fit setting. Review the result for distortion, cropping, and unused space.
 
-1. Select **+ Content**.
-2. Open the content-type menu.
-3. Choose **Upload Images**.
-4. Select **Your Device**.
-5. Choose an image from your computer.
-6. Select **Open**.
-7. Select the green **Save** button.
+Uploading an image does not require deleting existing content. If you also need to remove an item, identify it separately and follow [Delete one photo or video from Media](https://support.editnew.ca/news/2026-11-02-delete-one-photo-or-video-from-media/). Do not assume leaving the editor without Save will undo a confirmed deletion.
 
-The image will appear in the layout's content list.
+## 6. Check Preview after saving
 
-**Screenshot pending:** `sam-add-content-button.png` should show the open layout and highlight the + Content button.
+Open the layout's own **Preview**, then reload it after saving. Wait for the image's place in the playlist and check the full picture, order, readability, and proportions.
 
-**Screenshot pending:** `sam-upload-images-content-type.png` should show the content-type menu with Upload Images selected.
+An already-open Preview can retain older content. If it differs from the saved editor, follow [Check why Preview still shows old content](https://support.editnew.ca/news/2026-11-02-check-why-preview-still-shows-old-content/).
 
-**Screenshot pending:** `sam-save-uploaded-image.png` should show the selected image and green Save button.
+Save controls belong to the form being edited. For example, saving a source-code dialog and saving the containing text editor are separate stages. See [Understand Save and Republish in the Media editor](https://support.editnew.ca/news/2026-11-02-understand-save-and-republish-in-the-media-editor/) before using Republish as a troubleshooting action.
 
-## 5. Arrange or remove content
+## 7. Check scheduling separately
 
-To change the playback order, drag an item to the desired position and save the layout.
+Before changing dates or hours, confirm which scheduling form applies and what time basis it uses. Do not assume an item's start/end window and a recurring weekly rule use the same time zone.
 
-To remove default content:
+For missing scheduled content, use [Check why scheduled media is missing](https://support.editnew.ca/news/2026-11-02-check-why-scheduled-media-is-missing/). For a new recurring plan, use [Plan recurring weekly content schedules](https://support.editnew.ca/news/2026-11-03-plan-recurring-weekly-content-schedules/) with your administrator or support.
 
-1. Select the unwanted item.
-2. Choose **Delete Selected**.
-3. Confirm the deletion.
-4. Save the layout.
+## 8. Verify the physical screen
 
-**Screenshot pending:** `sam-reorder-layout-content.png` should show multiple items, the drag direction, and the layout Save button.
+Confirm the intended screen uses the layout you changed, allow the player to receive the update, and check the actual display. A correct Preview does not establish physical playback.
 
-**Screenshot pending:** `sam-delete-selected-content.png` should show a selected item and the Delete Selected button.
+If a player screenshot is available, check its capture time against your update time. A stored screenshot from before the edit cannot verify the change, and a player screenshot does not establish that the physical display is powered and showing it.
 
-## 6. Rename content
-
-Use clear names so content is easy to find later.
-
-1. Select the item's **Config** or wrench icon.
-2. Change the name.
-3. Select **Save**.
-
-Examples include Weekend Event, Safety Reminder, or Lobby Welcome.
-
-Renaming an item does not add visible text to the image.
-
-**Screenshot pending:** `sam-rename-content-item.png` should show the content-name field and Save button.
-
-## 7. Choose Stretch or Scale
-
-**Stretch** fills the entire content area but may distort an image.
-
-**Scale** keeps the image's original proportions but may leave blank space.
-
-For the best result, match the content orientation to the screen:
-
-- Landscape: **1920 x 1080**
-- Portrait: **1080 x 1920**
-
-**Screenshot pending:** `sam-stretch-scale-controls.png` should show the Stretch and Scale controls and the currently selected option.
-
-## 8. Preview the layout
-
-1. Save your changes.
-2. Select **Preview**.
-3. Check the content order, readability, cropping, and image proportions.
-4. Return to the editor if changes are needed.
-
-**Screenshot pending:** `sam-layout-preview.png` should show the Preview button and the rendered layout.
-
-## 9. Schedule content
-
-To control when an item appears:
-
-1. Open the item's **Config**.
-2. Open **Schedule**.
-3. Set the start and end dates.
-4. Set the start and end times.
-5. Select the days of the week.
-6. Save the schedule and layout.
-
-Check the sign's time zone when exact timing is important.
-
-**Screenshot pending:** `sam-schedule-settings.png` should show the date fields, time fields, weekday options, and Save button.
-
-## 10. Confirm the update
-
-Allow time for the sign to download the updated layout.
-
-If the content does not appear:
-
-1. Confirm that the layout was saved.
-2. Confirm that the correct signs use the layout.
-3. Check that the signs are online.
-4. Review the content schedule.
-5. Confirm that the current date and time are included.
-
-When remote screenshots are enabled, use them to confirm what is playing without visiting the location.
-
-**Screenshot pending:** `sam-remote-screen-preview.png` should show a recent device screenshot and its timestamp.
-
-## Creating content
-
-Canva and PowerPoint work well for creating digital-signage images.
-
-In Canva, create a custom design at **1920 x 1080 pixels**.
-
-In PowerPoint, use **Widescreen 16:9** and export the slide as PNG or JPEG.
-
-Keep text large, use strong contrast, avoid overcrowding, and keep important content away from the edges.
+Follow [Verify a saved update on the physical display](https://support.editnew.ca/news/2026-11-02-verify-a-saved-update-on-the-physical-display/) for the final checks.
 
 ## Need help?
 
-Contact [EditNew Support](https://support.editnew.ca) if you cannot access your account, a sign is offline, content is not appearing, or you need help creating a custom branded layout.
-
-Include the device name, layout name, and a description of what you expected to appear.
+Contact [EditNew Support](https://support.editnew.ca) if access, the target layout, a control, or the result is unclear. Include the screen and layout identifiers where available, the step you reached, and what you expected compared with what appeared. Hide account details and private content in any screenshot you send.
 
 ## About EditNew
 
@@ -191,6 +94,6 @@ Editnew Inc. is a technology company specializing in new media, with a focus on 
 
 ## Media Contact
 
-Jeremiah Archambault
+Jeremiah Archembault
 info@editnew.ca
 +1 250 999 9368

@@ -8,40 +8,31 @@ tags: ["troubleshooting", "runsam", "support"]
 draft: false
 ---
 
-Check the saved editor and a freshly loaded Preview separately to find where an update stopped.
+Compare the saved editor, a fresh layout Preview and the physical display separately to find where an update stopped.
 
-## When this applies
+## Check the saved content first
 
-Use this guide after editing a layout when its browser Preview appears unchanged. It does not establish a physical screen's synchronization status.
+1. Confirm the layout ID. A copy has a different ID even if its name is similar.
+2. Reopen the affected item or module and inspect the actual saved content.
+3. For Media Text/HTML and Text Block source edits, use source-dialog **Save** when applicable, then the editor's main **SAVE**.
+4. For an image added through **Content → Upload Image(s)**, check for the item after the upload dialog's green **Save**. That upload flow does not require the Text/HTML two-save sequence.
 
-## Before you begin
+## Open the correct Preview
 
-Have the intended layout ID, the expected change and the time you saved it. Preserve unsaved work before leaving an editor.
+Select the **house tab at the top of the right sidebar**, then **Preview** in the outer layout editor. Reload the opened Preview normally. Do not confuse it with the Preview button inside a rich-text toolbar.
 
-## Check the update
+Watch for the intended playlist item's turn, and compare its content with the reopened editor.
 
-1. Confirm you edited the intended layout. Copies have different IDs.
-2. Reopen the affected item and inspect its actual saved content.
-3. For Media Text/HTML edits, finish both the source-dialog Save, if used, and main **SAVE**.
-4. Open **Preview** from that same layout and use a normal page reload.
-5. Wait for the intended item to rotate into view. Compare its content with the saved editor.
+| Observation | Next check |
+| --- | --- |
+| Reopened editor still contains the old content | Verify layout/item identity, finish the correct Save and record any error. |
+| Saved editor and reloaded Preview are correct | The earlier view was stale; this does not identify the cause. |
+| Saved item never appears in Preview | Inspect order, duration and eligibility settings, including the form's timezone labels. |
+| Preview is correct but the physical display differs | Record the assigned layout, device status, observation time and screenshot age for support. |
 
-## Follow the result
+Do not repeatedly Republish or change global refresh settings as a guessed remedy. Republish does not save an unfinished draft, and this procedure promises no fixed delivery delay.
 
-- **The editor still has old content:** focus on saving and identifying the correct item. Record any Save error.
-- **The editor is correct and the reloaded Preview is correct:** the previous tab was stale. This does not establish why it remained stale.
-- **The editor is correct but the item never appears:** inspect its schedule, duration and position in the playlist. Confirm the applicable timezone before changing schedule times.
-- **Preview is correct but the physical screen is wrong:** record the assigned layout, device status and age of any screenshot for support. A browser result does not prove physical playback.
-
-## Expected result
-
-You can identify the first checkpoint that disagrees with the intended update: saved content, fresh Preview or physical display.
-
-## When to contact support
-
-Send the layout ID, Save time and timezone, expected content, saved-editor result and fresh-Preview result. Do not repeatedly Republish or change global refresh settings as a guessed remedy. Republish is not a substitute for saving a draft, and no fixed delivery delay is established here.
-
-Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
+Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca) with the layout ID, Save time and timezone, expected change and each observed result.
 
 ## About EditNew
 

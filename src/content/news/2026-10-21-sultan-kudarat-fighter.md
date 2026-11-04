@@ -1,21 +1,23 @@
 ---
 title: "Sultan Kudarat Fighter"
+subheadline: "RunSAM layout 14482"
 date: "2026-10-21"
 slug: "2026-10-21-sultan-kudarat-fighter"
 image: "/images/news/placeholder.jpg"
-excerpt: "Interactive showcase of the Sultan Kudarat Fighter S.A.M. layout."
+excerpt: "Reference for RunSAM layout 14482. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam"]
 draft: false
 ---
 
-# Sultan Kudarat Fighter
+Reference for [RunSam.com](https://runsam.com) layout **14482**.
 
-<iframe
- src="https://iframe.wwds.co/?campId=14482"
- title="Sultan Kudarat Fighter layout"
- loading="lazy"
- allowfullscreen>
-</iframe>
+## Preview temporarily unavailable
+
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14482**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 

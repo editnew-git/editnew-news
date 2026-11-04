@@ -9,45 +9,35 @@ tags: ["training", "runsam", "support", "troubleshooting"]
 draft: false
 ---
 
-If you forgot your password, you can request a reset link from the [RunSam.com](https://runsam.com) login screen and use that link to create a new password.
+Request a password-reset email from the [RunSam.com](https://runsam.com) login screen, then follow the instructions in that email to choose a new password.
 
-## Forgot Your Password
+## Before you begin
 
-1. Go to [RunSam.com](https://runsam.com).
+Use this process for your own account. You need access to the email address associated with it. If you no longer have access to that mailbox, contact support rather than creating another account to recover it.
 
-![runSAM sign-in page with the Forgot Password button indicated](https://media.wwds.co/u/6fe2c8b2-cc3d-40c4-8f1a-3aebf5912982.webp)
+## 1. Open Forgot Password
 
-2. Click **Forgot Password** on the login screen.
-3. Enter the email address connected to your runsam.com account.
-4. Click **Reset Password**.
+Open the RunSam.com login screen. Below the blue **Sign In** button, select **Forgot Password**. It is the left button in the row that also contains **Register**.
 
-![runSAM reset password page with the email field indicated](https://media.wwds.co/u/ae134d07-be22-466c-b1bb-8a48ee9c16c8.webp)
+![S.A.M. login form with Email/Username, Password, Sign In, and Forgot Password controls](https://media.wwds.co/u/pressly-pr-en-20260716-001-180f456adce78d121744e2e5b567472fe24163d7ce96199bde9fe88bf1eab2d8.webp)
 
-5. When the confirmation message appears, check your email inbox for the password reset link.
+## 2. Request the reset email
 
-![runSAM reset password screen showing an email sent confirmation](https://media.wwds.co/u/41a9fcaa-cada-4248-ab35-55704338e21f.webp)
+The next screen is headed **Reset Password**. Enter your account email in **Email Address**, then select the green **Reset Password** button directly below that field.
 
-6. Open the reset link from the email.
-7. Enter your email address, enter a new password, and confirm the new password.
-8. Click **Reset password**.
+![Reset Password form with Email Address field and green Reset Password button](https://media.wwds.co/u/pressly-pr-en-20260716-001-4fa15e3591ac86f12d8f38cafb5799e9cba0c11a4c8b459a94b0dc2551fd2765.webp)
 
-![runSAM reset password form with email, new password, and confirm password fields highlighted](https://media.wwds.co/u/af174a98-8780-4f32-89c6-7f7abe784de8.webp)
+## 3. Complete the reset
 
-9. Return to the login page and sign in with your updated password.
+Check the account's inbox for the reset email and follow its instructions to set a new password. If the form or link reports an error, record the error text without sharing the reset link.
 
-## If You Do Not Receive the Reset Email
+Return to the login screen. Enter your email or username in **Email/Username**, enter your new **Password**, and select **Sign In**. Successful sign-in to the intended account confirms that you can access it again.
 
-Check your spam or junk folder first. If the email still does not arrive, confirm that you are using the correct account email.
+## If the email does not arrive
 
-If you are still unable to access your account, contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
+Check spam or junk mail and confirm that you used the email associated with the account. If the message still does not arrive, or the reset link or sign-in fails, contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
 
-## Password Tips
-
-Use a password that is unique to runsam.com, avoid reusing passwords from other accounts, and store it somewhere secure.
-
-## When to contact support
-
-Use this process for your own account. If you cannot access the account email, the reset link fails, or sign-in still fails, contact support. Account ownership transfers require a separate process. Do not include passwords or password-reset links in your support report. Successful sign-in to the intended account confirms completion.
+Do not include passwords or password-reset links in a support report. Account ownership transfers require a separate process.
 
 ## About EditNew
 

@@ -8,37 +8,32 @@ tags: ["troubleshooting", "runsam", "support"]
 draft: false
 ---
 
-Check the feed and any Custom Text override before changing the rest of the layout.
+Start with the Ticker's saved feed and **Custom Text** fields. Custom Text overrides the RSS feed in the inspected form.
 
-## When this applies
+## Find the Ticker
 
-Use the Ticker form with **RSS/Atom URL** and **Custom Text** fields. The checks below concern RSS; they do not certify every feed provider or Atom variant.
+Confirm the layout ID. Use **gear tab → Module Manager** to identify the Ticker by type and ID, then return with the **house tab** and open its sidebar entry. A customized label may hide the word Ticker.
 
-## Before you begin
+## Check the source and save
 
-Open the correct layout and Ticker module. Have the intended public feed URL and retain any useful custom message before changing it.
+1. Confirm that **RSS/Atom URL** contains the intended feed URL, rather than an ordinary website page.
+2. Check that the feed can be read without a private browser login. A successful HTTP response alone does not prove that RunSAM can parse its headlines.
+3. Inspect **Custom Text**. Preserve a useful message before clearing it for an authorized RSS test.
+4. Select the module's main green **SAVE**.
+5. Reopen Ticker and verify the exact feed URL and Custom Text state.
+6. Reload the layout's Preview and look for actual headlines. Observe movement separately if scrolling is required.
 
-## Check the feed
+![Ticker fields showing the Custom Text override note beneath RSS/Atom URL](https://media.wwds.co/u/pressly-pr-en-20261102-025-b0bd907c58b00688eb7002eeec25d878f12203abf120384070cfd86bf4009ed4.webp)
 
-1. Confirm that the URL points to an actual RSS feed, rather than a normal website page.
-2. Check whether that feed is accessible without your private browser login.
-3. Inspect **Custom Text**. For an RSS test, preserve the existing message, then clear the override if you are authorized to replace it with feed content.
-4. Save and reopen Ticker. Verify the exact feed URL and Custom Text state.
-5. Reload Preview and look for real headlines. Observe movement separately; a still image does not confirm scrolling.
+[Open the Ticker form screenshot at full size](https://media.wwds.co/u/pressly-pr-en-20261102-025-b0bd907c58b00688eb7002eeec25d878f12203abf120384070cfd86bf4009ed4.webp). This example has a custom message, so it illustrates the override fields rather than a successful RSS feed.
 
-## If the ticker stays empty
+## If no headlines appear
 
-Test an approved, independently valid alternate feed in a test layout. If custom text works but RSS does not, that narrows the issue to the feed path. A saved URL or HTTP success code alone does not establish that headlines loaded.
+Use an approved, independently valid alternate feed on a separate test layout. If a custom message works while feeds remain blank, the difference narrows the investigation but does not identify the cause or certify the connector.
 
-## Verify the result
+Keep any custom-message fallback clearly identified as temporary content. It is not a successful RSS result. Feed-provider compatibility, freshness and physical-player behavior require their own checks.
 
-The intended headlines appear in the reloaded Preview and the saved URL remains correct. Watch for movement separately if scrolling is required. Record a custom-text fallback as temporary content, not as a successful RSS result.
-
-## When to contact support
-
-Send the layout/module identity, public feed URL, observed time and timezone, saved-field check and alternate-feed result. Remove private tokens from shared reports. An approved custom message can be temporary content, but it does not repair the RSS failure or establish its cause.
-
-Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
+Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca) with the layout/module identity, public feed address, observation time and timezone, saved-field check and alternate-feed result. Remove private tokens from reports.
 
 ## About EditNew
 

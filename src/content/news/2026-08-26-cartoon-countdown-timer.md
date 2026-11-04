@@ -1,20 +1,23 @@
 ---
 title: "Cartoon Countdown Timer"
+subheadline: "RunSAM layout 14426"
 date: "2026-08-26"
 slug: "2026-08-26-cartoon-countdown-timer"
 image: "/images/news/placeholder.jpg"
+excerpt: "Reference for RunSAM layout 14426. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam"]
 draft: false
 ---
 
-<iframe
- src="https://iframe.wwds.co/?campId=14426"
- title="Cartoon Countdown Timer"
- loading="lazy"
- allowfullscreen>
-</iframe>
+Reference for [RunSam.com](https://runsam.com) layout **14426**.
 
-<a href="https://www.runsam.com/layouts/rc/14426/21627D73-AC35-46D0-B415-D66B8417A1B7"><img src="https://media.wwds.co/u/d776ee6b-99d2-41ea-9cd0-dc1a685a31b6.png" alt="Remote control QR code for Cartoon Countdown Timer" width="150" height="150"></a>
+## Preview temporarily unavailable
+
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14426**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 

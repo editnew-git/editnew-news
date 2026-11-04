@@ -8,29 +8,31 @@ tags: ["training", "layouts", "runsam", "daily-use"]
 draft: false
 ---
 
-Configure the city and display options, then check that actual forecast content appears.
+The Weather module separates adding a location from saving its display options. Check both the saved city and the rendered forecast.
 
-## When this applies
+## Add the intended city
 
-Use the Weather form with **Add Item**, an **Add City** dialog and **Days In Forecast**. The documented example uses Environment Canada with Celsius units. Other providers or older forms may differ.
+1. Confirm the layout ID and Weather type/ID in **gear tab → Module Manager**. Return with the **house tab** and open that module's sidebar entry.
+2. Select **Add Item** in the Weather toolbar. The **Add City** dialog opens.
+3. Choose **Service**, **Units** and **Location**. The inspected Canadian form offers **Environment Canada** and **Metric (Celsius)**. Select your actual supported location; an example city is not a required value.
+4. Wait for the dialog's **Save** to become available, then select it once.
+5. Check the city list before repeating a slow request so you do not add the same location twice.
 
-## Add the city
+## Save the display options
 
-1. Open the intended layout and confirm the Weather module's type.
-2. Select **Add Item** and confirm that the Add City dialog opens.
-3. Select the appropriate service, units and supported city. For the documented Canadian form, the service is **Environment Canada** and the units are **Metric (Celsius)**.
-4. Wait for **Save** to become enabled, then select it once.
-5. Confirm that the intended city appears in the module. Recheck the list before repeating a slow request so that you do not add the city twice.
-6. Set the forecast days, units, language and presentation options needed for your layout.
-7. Select the module's main **SAVE**, reopen Weather, and confirm that the city and settings persisted.
+Set **Days In Forecast**, **Units**, **Language (EC Only)**, **Orientation** and **Icon Theme** as needed. Select the module's main green **SAVE**, reopen Weather, and confirm the city and saved options.
 
-## Verify the forecast
+The dialog's units label uses **Metric (Celsius)**; the main form uses **Metric (C)**. Follow the label in the form you have open.
 
-Reload Preview. Check the city name, units, forecast-day labels and loaded icons. A saved city alone does not establish that a forecast rendered. Check physical output separately.
+![Weather editor showing forecast days, Celsius units, orientation and a saved Victoria location beneath Add Item and SAVE](https://media.wwds.co/u/pressly-pr-en-20261102-019-dcb40a22a995582d2e6a3e2cfe4afde6f4d46166c57a8516109dd8e0ad11d490.webp)
 
-Contact support if the city is absent, settings do not persist or Preview remains empty. Include the selected provider, city and observation time. No forecast-accuracy or refresh-time guarantee is implied by these checks.
+[Open the Weather controls at full size](https://media.wwds.co/u/pressly-pr-en-20261102-019-dcb40a22a995582d2e6a3e2cfe4afde6f4d46166c57a8516109dd8e0ad11d490.webp). Victoria is an example location.
 
-Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
+## Check the forecast
+
+Reload the layout Preview. Inspect the city name, units, forecast-day labels and icons. A city saved in the editor does not prove that forecast data loaded, remains fresh or is accurate. Check physical output separately.
+
+If the location is missing, a save fails or the forecast stays blank, contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca) with the provider, city, layout/module identity and observation time. Other providers can expose different controls.
 
 ## About EditNew
 

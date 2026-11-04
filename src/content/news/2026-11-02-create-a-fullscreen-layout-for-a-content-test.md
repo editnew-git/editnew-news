@@ -8,26 +8,25 @@ tags: ["training", "layouts", "runsam", "daily-use"]
 draft: false
 ---
 
-Use a separate layout to try a content change without editing the layout currently used by a live display.
+Use a separate layout for a trial change, and check that it is not assigned to a live display before editing it.
 
-## When this applies
+## Create a Fullscreen test layout
 
-These steps apply when your template library includes **[Responsive] Fullscreen (Full Screen Images/Videos)** in the Simple category. Template names and availability may differ; do not substitute another template without checking its purpose.
+1. Open **Layouts**, then select **New Layout**.
+2. Set **Choose a style** to **Simple** and the category to **Layout Templates**. These are separate selectors.
+3. Find **[Responsive] Fullscreen**, described as **Full Screen Images/Videos**. Template availability can vary by account.
+4. Select that template. In the creation dialog, enter a distinctive **Label** and select **Save**.
+5. Return to Layouts if needed and record the new layout's name and ID. Open that exact layout.
+6. Select the **display-shaped tab** at the top of the right sidebar and check **Attached Devices**. Keep a research layout unassigned.
+7. Select the **house tab**, then **Preview**, and inspect the supplied content. A template can contain a sample image; it need not start empty.
 
-## Create the layout
+![Template chooser with Layout Templates and Simple selected, showing the Responsive Fullscreen card](https://media.wwds.co/u/pressly-pr-en-20261102-017-61bc7e9c22f58ba0316754caa6c9755dbcf2b77c86547d4c67e966d12dbabba5.webp)
 
-1. Open **Layouts**, then **New Layout**.
-2. In the template chooser, select **Simple** and find **[Responsive] Fullscreen (Full Screen Images/Videos)**.
-3. Select that template. In the creation dialog, enter a descriptive label and select **Save**.
-4. Record the new layout's ID and label. Confirm that you are editing this new layout rather than a similarly named existing one.
-5. Open its **Preview** and inspect the initial content. A template can include a sample image; do not assume it starts empty.
-6. Before making a test change, check the layout's Attached Devices information and keep the test separate from live display assignments.
+[Open the template-chooser screenshot at full size](https://media.wwds.co/u/pressly-pr-en-20261102-017-61bc7e9c22f58ba0316754caa6c9755dbcf2b77c86547d4c67e966d12dbabba5.webp).
 
-## Verify the result
+Add or edit content only after identifying the new layout and its modules. In **Module Manager**, confirm the type and ID before adding another module.
 
-The saved layout has its own identity and opens its own Preview. Add or edit content only after those checks. Creation and browser Preview do not establish physical-device playback or automatically authorize assigning the test layout to a display.
-
-Contact support if the template is unavailable, the new layout identity is unclear, or the Preview fails to open.
+Creation and browser Preview do not confirm physical-display playback or assign a layout to a sign. Contact support if the template is unavailable, the new ID is unclear or Preview does not open.
 
 Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
 

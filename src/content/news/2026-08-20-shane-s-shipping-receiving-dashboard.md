@@ -1,22 +1,23 @@
 ---
-title: "Shipping and Receiving Dashboard"
+title: "Layout 14319 Reference"
+subheadline: "RunSAM layout 14319"
 date: "2026-08-20"
 slug: "2026-08-20-shane-s-shipping-receiving-dashboard"
 image: "/images/news/placeholder.jpg"
+excerpt: "Reference for RunSAM layout 14319. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam"]
 draft: false
 ---
 
-## Sabrina's Shipping & Receiving Dashboard
+Reference for [RunSam.com](https://runsam.com) layout **14319**.
 
-<iframe
- src="https://iframe.wwds.co/?campId=14319"
- title="Sabrina's Shipping & Receiving Dashboard"
- loading="lazy"
- allowfullscreen>
-</iframe>
+## Preview temporarily unavailable
 
-<a href="https://www.runsam.com/layouts/rc/14319/CA0C5BF3-1EAC-4271-BE05-99B367397855"><img src="https://media.wwds.co/u/f221f5ec-984a-42f9-92d5-51ae1015c4f1.png" alt="QR code for Sabrina's Shipping & Receiving Dashboard remote control" width="150" height="150"></a>
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14319**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 

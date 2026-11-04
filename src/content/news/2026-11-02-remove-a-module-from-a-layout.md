@@ -8,32 +8,30 @@ tags: ["training", "layouts", "runsam", "daily-use"]
 draft: false
 ---
 
-Confirm the target module and preserve needed content before committing its removal.
-
-## When this applies
-
-Use Module Manager in the desktop editor. Removing an entire module differs from deleting a single Media item.
+Module Manager removes an entire module. Deleting one photo, video or Text/HTML item from Media uses a different procedure and commit point.
 
 ## Before you begin
 
-Confirm the layout ID and module type/ID. Preserve needed content and check a backup copy before proceeding. Do not assume a committed removal can be undone.
+Confirm the layout ID and the exact module type and ID. Preserve needed content and verify a separate layout copy before removing anything. A copy has its own ID; it does not establish one-click recovery into the original layout or recovery of sign assignments.
 
-## Remove the module
+## Remove the intended module
 
-1. Open the Settings gear, then **Module Manager**.
-2. Identify the intended module by type and ID. A Set Label name alone is insufficient.
-3. Select that module tile and choose **Remove**.
-4. Review the staged module list. If you do not intend to commit, close the dialog without saving and reopen it to confirm the module remains.
-5. To commit the intended removal, select Module Manager's **Save**.
-6. Reopen Module Manager and confirm the intended module is absent while required modules remain.
+1. Select the **gear tab at the top of the right sidebar**.
+2. Open **Module Manager — Add/Remove Modules**.
+3. Review the existing type/ID tiles. A customized label or the heading **Set Label** is insufficient to identify the target.
+4. Select the intended tile. Review the selected module, then select **Remove**.
+5. Check the staged list carefully. Select the manager's green **Save** only when the removal is intended.
+6. Reopen Module Manager and verify that the target module is absent and the required modules remain.
 
-## Verify the result
+![Module Manager showing existing type and ID tiles](https://media.wwds.co/u/pressly-pr-en-20260722-001-26e9eb3dd69c0132fdfc6ea5d00324daaeb1f9420f4b71c486b663ae02e91e3b.webp)
 
-Reload Preview and inspect the remaining layout. The documented cancel-before-Save branch does not establish recovery after Save.
+The screenshot is an identification example. Use the IDs in your own layout.
 
-## When to contact support
+In the current verified module workflow, **Remove** staged the change and the manager's **Save** committed it. If you close a staged dialog without saving, reopen it and inspect the actual module list before assuming the operation was cancelled. Do not treat closing the editor as an undo after Save.
 
-Stop if module identity, dependencies or recovery requirements are unclear. Do not follow these steps to delete an individual Media item; that has a different confirmation and commit point.
+Reload Preview and inspect the remaining layout separately. A correct module list does not certify the result on a physical display.
+
+Stop and contact support if the target, dependencies or recovery requirements are unclear. Recovery of a committed module deletion into its original ID has not been established by this procedure.
 
 Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
 

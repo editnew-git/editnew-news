@@ -1,18 +1,23 @@
 ---
 title: "Pocket Wrecking Crew"
+subheadline: "RunSAM layout 14462"
 date: "2026-10-13"
 slug: "2026-10-13-pocket-wrecking-crew"
 image: "/images/news/placeholder.jpg"
+excerpt: "Reference for RunSAM layout 14462. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam"]
 draft: false
 ---
 
-<iframe
- src="https://iframe.wwds.co/?campId=14462"
- title="Pocket Wrecking Crew"
- loading="lazy"
- allowfullscreen>
-</iframe>
+Reference for [RunSam.com](https://runsam.com) layout **14462**.
+
+## Preview temporarily unavailable
+
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14462**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 

@@ -8,37 +8,30 @@ tags: ["training", "layouts", "runsam", "daily-use"]
 draft: false
 ---
 
-Update an existing Media announcement without creating a second item.
+Edit the existing Text/HTML item in **Media** when an announcement should keep its place in the playlist. A fixed **Text Block** is a different module.
 
-## When this applies
+## Find and edit the announcement
 
-This procedure is for a rotating **Text/HTML** item in Media. A fixed **Text Block** uses a separate module.
+1. Open the intended layout and confirm its ID. Use **gear tab → Module Manager** to confirm the Media module's type and ID if its sidebar label is unclear.
+2. Return to the **house tab** and open that Media entry.
+3. Find the intended item by its content. Open its blue **wrench menu**, then **Edit Text**. This edits the item; **Content** starts an addition.
+4. Update the words and formatting. If you open **Source code**, select that dialog's **Save** to return to the text editor.
+5. Select the main green **SAVE** at the top of the Media editor. The source-dialog Save alone accepts the draft; it does not replace this action.
+6. Wait for the Media list, reopen the same item's **Edit Text** and check the saved words.
 
-## Before you begin
+![Media Text/HTML editor with a synthetic announcement and its main green SAVE at the top right](https://media.wwds.co/u/pressly-pr-en-20261102-003-705a31302a713cf6562149ddef528a05ed59c5e1cff101ed8432fca2d3b94108.webp)
 
-Open the intended layout and Media module. Identify the announcement by its content, not just its label.
+[Open the Media text-editor screenshot at full size](https://media.wwds.co/u/pressly-pr-en-20261102-003-705a31302a713cf6562149ddef528a05ed59c5e1cff101ed8432fca2d3b94108.webp).
 
-## Edit the announcement
+## Check the layout Preview
 
-1. Open the intended item's wrench menu and choose **Edit Text**.
-2. Edit the message and formatting.
-3. If you use **Source code**, select **Save** in that dialog to return the edit to the text editor.
-4. Select the main green **SAVE** in the Media editor. The source dialog's Save alone does not commit the announcement.
-5. Wait for the Media list to return, then reopen the same item and read the saved text.
+Select the **house tab → Preview** in the outer layout editor. Reload that Preview and wait for the announcement's turn. The small Preview control inside the text editor is a different view.
 
-## Verify the result
+Check the wording, contrast and formatting. A new text body does not necessarily rename the item's display label, so check the actual saved content.
 
-Open the layout's own **Preview**, reload it and wait for the announcement's turn. Confirm the changed words and formatting. The text editor's toolbar Preview is a different control.
+If the reopened editor is still old, check the layout/item identity and any Save error. If it is correct but a freshly reloaded Preview remains wrong, record both results for support. Check physical-display delivery separately.
 
-## Troubleshooting
-
-If the reopened item still has old text, check the layout and item identity and finish the main SAVE. If the editor is correct but Preview is old, reload Preview and observe the playlist before trying another change.
-
-## When to contact support
-
-Stop if saved text does not persist or a fresh Preview remains wrong. Provide the layout ID, time of Save with timezone, expected text and the observed result. A correct browser Preview does not confirm delivery to a physical display.
-
-Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
+Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca) with the layout ID, Save time and timezone, expected message and observed result.
 
 ## About EditNew
 

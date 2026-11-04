@@ -8,26 +8,29 @@ tags: ["training", "layouts", "runsam", "daily-use"]
 draft: false
 ---
 
-Descriptive labels help another editor find the right content. Labels are display names; they do not replace the module's underlying type and ID.
+Use descriptive module labels to help another editor find routine updates. Labels remain display names; the underlying type and ID identify the module.
 
-## Review the labels
+## Identify the modules first
 
-1. Open the intended layout and inspect its existing module types.
-2. Identify placeholder labels such as **Set Label** and labels that describe the wrong content.
-3. Use names that explain each module's purpose, such as **Lobby photos**, **Daily announcements** or **City weather**. These are examples, not required product values.
-4. Use the module's supported label control and save the change. Reopen it to verify the label. If the control is unclear in your interface, ask support rather than altering unrelated content.
+1. Confirm the layout ID.
+2. Select **gear tab → Module Manager — Add/Remove Modules**.
+3. Record each required module's type and ID. Review the complete list; **Set Label** does not mean a module is absent.
+4. Close the manager without changes and select the **house tab** to return to the module panel.
 
-## Review the content
+Use names that describe the purpose, such as Lobby photos, Daily announcements or City weather. These are examples, not required product values.
 
-- Confirm that weather uses the intended location and that a forecast renders.
-- Check that ticker content stays within its region throughout movement.
-- Inspect text contrast, overlap, background layering and module boundaries.
-- Verify that expected content remains readable at the intended dimensions.
-- Check relevant schedules and external sources through their own procedures.
+In the inspected module form, select the **Set Label** heading at the top to turn it into a text field. Enter the descriptive name, select the main green **SAVE**, then reopen the module and verify the new heading. This was checked on the Weather module; use it when your form exposes the same editable heading. If the control differs, ask support rather than changing content or adding another module to obtain a different name.
 
-## Complete the handoff
+## Review the actual content
 
-Record the layout ID and any specific issues needing correction. Have another editor identify the modules needed for routine updates. Verify the physical display separately before describing the layout as deployed. Clear labels support navigation; they do not prove that a remote-control transport or external integration is working.
+- Check the selected weather location and whether a forecast renders.
+- Watch the ticker through its movement; inspect clipping and overlap.
+- Check text contrast, background layering and module boundaries at the intended dimensions.
+- Verify relevant schedules and external-source fields through their own procedures.
+
+Have another editor identify the modules needed for routine changes using the labels together with the type/ID record. Note unresolved issues in the handoff.
+
+Verify the physical display separately before describing the layout as deployed. Clear labels do not prove remote controls, data connections or emergency integrations work.
 
 Contact [EditNew Support](https://support.editnew.ca) at [info@editnew.ca](mailto:info@editnew.ca).
 

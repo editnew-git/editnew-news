@@ -1,28 +1,23 @@
 ---
 title: "Hooria To Do List"
+subheadline: "RunSAM layout 14282"
 date: "2026-08-21"
 slug: "2026-08-21-hooria-to-do-list"
 image: "/images/news/placeholder.jpg"
+excerpt: "Reference for RunSAM layout 14282. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam"]
 draft: false
 ---
 
-## Hooria To Do List
+Reference for [RunSam.com](https://runsam.com) layout **14282**.
 
-<iframe
- src="https://iframe.wwds.co/?campId=14282"
- title="Hooria To Do List"
- loading="lazy"
- allowfullscreen>
-</iframe>
+## Preview temporarily unavailable
 
-<a href="https://www.runsam.com/layouts/rc/14282/B0F26764-1BA6-4C38-9A48-B5F2C0EE91FE">
-  <img
-    src="https://media.wwds.co/u/72433bf2-d2e6-4896-a2db-9f2d6b8124c1.png"
-    alt="QR code for the Hooria To Do List remote control"
-    width="150"
-    height="150">
-</a>
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14282**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 

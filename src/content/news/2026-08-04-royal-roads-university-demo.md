@@ -1,26 +1,23 @@
 ---
 title: "Royal Roads University Demo"
+subheadline: "RunSAM layout 14214"
 date: "2026-08-04"
 slug: "2026-08-04-royal-roads-university-demo"
 image: "/images/news/placeholder.jpg"
+excerpt: "Reference for RunSAM layout 14214. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam"]
 draft: false
 ---
 
-<iframe
- src="https://iframe.wwds.co/?campId=14214"
- title="Royal Roads University Demo"
- loading="lazy"
- allowfullscreen>
-</iframe>
+Reference for [RunSam.com](https://runsam.com) layout **14214**.
 
-<a href="https://www.runsam.com/layouts/rc/14214/F3336F88-A91F-4251-89CB-1A1858CC2511">
-  <img
-   src="https://media.wwds.co/u/4e3d7116-3708-44b4-a974-1e75b299794c.png"
-   alt="QR code for Royal Roads University Demo remote control"
-   width="150"
-   height="150">
-</a>
+## Preview temporarily unavailable
+
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14214**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 

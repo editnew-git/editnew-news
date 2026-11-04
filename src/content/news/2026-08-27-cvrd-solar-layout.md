@@ -1,28 +1,23 @@
 ---
 title: "CVRD Solar Layout"
+subheadline: "RunSAM layout 13019"
 date: "2026-08-27"
 slug: "2026-08-27-cvrd-solar-layout"
 image: "/images/news/placeholder.jpg"
+excerpt: "Reference for RunSAM layout 13019. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam"]
 draft: false
 ---
 
-## CVRD Solar Layout
+Reference for [RunSam.com](https://runsam.com) layout **13019**.
 
-<iframe
- src="https://iframe.wwds.co/?campId=13019"
- title="CVRD Solar Layout"
- loading="lazy"
- allowfullscreen>
-</iframe>
+## Preview temporarily unavailable
 
-<a href="https://www.runsam.com/layouts/rc/13019/49C23D51-B09D-41F6-845A-2FCE1672A3FE" aria-label="Open the CVRD Solar Layout remote control">
-  <img
-    src="https://media.wwds.co/u/a4f760b9-e885-4c8b-bb81-0d9b2f782a2b.png"
-    alt="QR code linking to the CVRD Solar Layout remote control"
-    width="150"
-    height="150">
-</a>
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **13019**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 

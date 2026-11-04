@@ -19,8 +19,13 @@ These steps apply to the Media item menu with **Delete** and a red **Are you sur
 ## Delete the item
 
 1. Open the correct layout and its Media module.
-2. Identify the photo or video by its content. Open that item's wrench menu and select **Delete**.
-3. Review the red confirmation. Cancel if the item is not the intended target.
+2. Identify the photo or video by its content. Open that item's wrench menu.
+
+![Media item wrench dropdown showing Config/Schedule and Delete for the sample image](https://media.wwds.co/u/pressly-pr-en-20261102-015-3fe22d363faec6470dbefeedb5231b599a7078b0077370ecb6c204fed1d9f8e6.webp)
+
+[Open screenshot at full size](https://media.wwds.co/u/pressly-pr-en-20261102-015-3fe22d363faec6470dbefeedb5231b599a7078b0077370ecb6c204fed1d9f8e6.webp)
+
+3. Select **Delete**, then review the red confirmation. Cancel if the item is not the intended target.
 4. Confirm only when you intend to remove that item. In this interface, that confirmation commits the deletion without a separate main SAVE. Leaving the editor without saving does not undo it.
 5. Reopen Media and confirm that the item is gone and the expected remaining items are present.
 6. Reload Preview and observe the remaining playlist. Check a physical display separately when applicable.

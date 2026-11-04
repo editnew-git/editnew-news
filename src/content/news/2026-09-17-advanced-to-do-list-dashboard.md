@@ -1,20 +1,23 @@
 ---
 title: "Advanced To-do List Dashboard"
+subheadline: "RunSAM layout 14352"
 date: "2026-09-17"
 slug: "2026-09-17-advanced-to-do-list-dashboard"
 image: "/images/news/placeholder.jpg"
+excerpt: "Reference for RunSAM layout 14352. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam"]
 draft: false
 ---
 
-<iframe
- src="https://iframe.wwds.co/?campId=14352"
- title="Advanced To-do List Dashboard"
- loading="lazy"
- allowfullscreen>
-</iframe>
+Reference for [RunSam.com](https://runsam.com) layout **14352**.
 
-<a href="https://www.runsam.com/layouts/rc/14352/EFBE216D-A3B2-4108-A574-BE6435B4BB52"><img src="https://media.wwds.co/u/48170ff4-d209-48e1-9099-950a77ea8a14.png" alt="Open the Advanced To-do List Dashboard remote control" width="150" height="150"></a>
+## Preview temporarily unavailable
+
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14352**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 

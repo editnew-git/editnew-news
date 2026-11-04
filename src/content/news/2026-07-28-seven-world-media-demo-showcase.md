@@ -1,47 +1,23 @@
 ---
-title: "HPMC Demo Showcase"
-subheadline: "Explore the showcase and open its remote control from your phone."
+title: "Layout 14205 Reference"
+subheadline: "RunSAM layout 14205"
 date: "2026-07-28"
 slug: "2026-07-28-seven-world-media-demo-showcase"
 image: "/images/news/placeholder.jpg"
-excerpt: "View the Seven World Media demo showcase and use the linked QR code to open its remote control."
+excerpt: "Reference for RunSAM layout 14205. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam", "training"]
 draft: false
 ---
 
-## Explore the showcase
+Reference for [RunSam.com](https://runsam.com) layout **14205**.
 
-This interactive Seven World Media demo lets you view the showcase and open its remote control on a separate device.
+## Preview temporarily unavailable
 
-### What you need
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
 
-- A web browser to view the showcase
-- A phone or tablet with a camera to scan the QR code
+## Get help with this layout
 
-<iframe
- src="https://iframe.wwds.co/?campId=14205"
- title="Seven World Media demo showcase"
- loading="lazy"
- allowfullscreen>
-</iframe>
-
-<a href="https://www.runsam.com/layouts/rc/14205/009B10BB-38BA-4469-8370-76909B175969" aria-label="Open the Seven World Media demo remote control">
-  <img
-    src="https://media.wwds.co/u/1fe3843a-eeaa-44a3-9173-1cd0baeda884.png"
-    alt="QR code linking to the Seven World Media demo remote control"
-    width="150"
-    height="150">
-</a>
-
-### Use the remote control
-
-1. Scan the QR code with your phone or tablet.
-2. Tap the link shown by your camera.
-3. Use the remote control that opens to interact with the showcase.
-
-### Expected result
-
-The showcase remains visible in your browser while its remote control opens on your phone or tablet.
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14205**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 
