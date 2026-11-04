@@ -1,28 +1,23 @@
 ---
 title: "Arvie To Do List (Beacon)"
+subheadline: "RunSAM layout 14281"
 date: "2026-08-20"
 slug: "2026-08-20-arvie-to-do-list-beacon"
 image: "/images/news/placeholder.jpg"
+excerpt: "Reference for RunSAM layout 14281. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam"]
 draft: false
 ---
 
-## Arvie To Do List (Beacon)
+Reference for [RunSam.com](https://runsam.com) layout **14281**.
 
-<iframe
- src="https://iframe.wwds.co/?campId=14281"
- title="Arvie To Do List (Beacon)"
- loading="lazy"
- allowfullscreen>
-</iframe>
+## Preview temporarily unavailable
 
-<a href="https://www.runsam.com/layouts/rc/14281/9C702721-D58E-4C63-ADA5-022D7BA604E4">
-  <img
-    src="https://media.wwds.co/u/c3ea5524-2f8d-4819-b6b0-b56c7bbf7fc7.png"
-    alt="QR code for the Arvie To Do List Beacon remote control"
-    width="150"
-    height="150">
-</a>
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14281**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 
