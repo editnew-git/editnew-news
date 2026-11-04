@@ -1,6 +1,7 @@
 import DOMPurify from 'dompurify';
 import { createMessageRenderer, readChatStream, visibleAnswer } from './chatMessages.js';
 import { chatResponseError, classifyChatError } from './chatErrors.js';
+import { initializeSupportRequest } from './supportRequest.js';
 
 const storage = {
   get(key) { try { return localStorage.getItem(key); } catch { return null; } },
@@ -18,10 +19,9 @@ export function initializeSupportChat(root) {
   root.dataset.ready = 'true';
   const find = name => root.querySelector(`[data-${name}]`);
   const panel = root.querySelector('.chat-panel');
-  const readingArea = root.querySelector('.chat-reading-area');
   const launcher = find('launcher'), input = find('input'), scroll = find('scroll');
   const messagesNode = find('messages'), followups = find('followups'), status = find('status');
-  const errorBox = find('error'), draft = find('draft'), form = find('form');
+  const errorBox = find('error'), form = find('form');
   const embedId = root.dataset.embedId;
   const endpoint = `https://ai.support.editnew.ca/api/embed/${embedId}`;
   const sessionKey = `allm_${embedId}_session_id`;
@@ -30,6 +30,7 @@ export function initializeSupportChat(root) {
   storage.set(sessionKey, sessionId);
   const render = createMessageRenderer(JSON.parse(root.dataset.guides));
   let messages = [], busy = false, historyReady = false, loadingHistory = false;
+  const supportRequest = initializeSupportRequest(root, () => messages);
   let followTail = true, retryAction = null, lastFailed = null, frame = 0;
   let cooldownUntil = 0, cooldownTimer = null, retryLabel = 'Retry reply';
   const cooldownRemaining = () => Math.max(0, Math.ceil((cooldownUntil - Date.now()) / 1000));
@@ -162,7 +163,7 @@ export function initializeSupportChat(root) {
     if (open) {
       updateViewport();
       loadHistory();
-      if (focus) (matchMedia('(max-width: 540px)').matches ? find('close') : input).focus({ preventScroll: true });
+      if (focus) (supportRequest.isOpen() ? find('request-panel').querySelector('h2') : matchMedia('(max-width: 540px)').matches ? find('close') : input).focus({ preventScroll: true });
     } else if (focus) launcher.focus({ preventScroll: true });
   };
   const send = async (text, retry = false) => {
@@ -276,41 +277,6 @@ export function initializeSupportChat(root) {
     announce('Add the step number you would like explained.');
   });
 
-  const updateEmailLink = () => {
-    find('email-draft').href = `mailto:info@editnew.ca?subject=${encodeURIComponent('Help with S.A.M. / RunSam')}&body=${encodeURIComponent(find('draft-text').value)}`;
-  };
-  const closeDraft = () => {
-    draft.hidden = true;
-    readingArea.hidden = false;
-    form.hidden = false;
-    find('support').focus({ preventScroll: true });
-    updateInput();
-  };
-  find('support').addEventListener('click', () => {
-    if (!draft.hidden) { find('draft-text').focus(); return; }
-    const firstQuestion = messages.find(message => message.role === 'user')?.content || '[Describe your issue]';
-    const recent = messages.slice(-6).map(message => `${message.role === 'user' ? 'Me' : 'Sam AI'}: ${visibleAnswer(message.content).slice(0, 650)}`).join('\n\n');
-    find('draft-text').value = `Hello Editnew support,\n\nI need help with: ${firstQuestion.slice(0, 700)}\n\nDevice / screen name and location: [add details]\nSteps I have already tried: [add details]\n\n${recent ? `Recent conversation (Sam AI suggestions may not have been tried):\n${recent}\n\n` : ''}Thank you.`.slice(0, 5000);
-    updateEmailLink();
-    readingArea.hidden = true;
-    form.hidden = true;
-    draft.hidden = false;
-    find('draft-text').focus({ preventScroll: true });
-  });
-  find('draft-text').addEventListener('input', updateEmailLink);
-  find('close-draft').addEventListener('click', closeDraft);
-  find('copy-draft').addEventListener('click', async () => {
-    try {
-      await navigator.clipboard.writeText(find('draft-text').value);
-      find('copy-draft').textContent = 'Copied';
-    } catch {
-      find('draft-text').focus();
-      find('draft-text').select();
-      find('copy-draft').textContent = 'Select text to copy';
-    }
-    setTimeout(() => { find('copy-draft').textContent = 'Copy draft'; }, 2500);
-  });
-
   const closeReset = () => { find('reset-confirm').hidden = true; find('reset').focus({ preventScroll: true }); };
   find('reset').addEventListener('click', () => {
     find('reset-confirm').hidden = false;
@@ -334,7 +300,7 @@ export function initializeSupportChat(root) {
       find('choices-panel').hidden = true;
       find('notice').hidden = true;
       followups.hidden = true;
-      if (!draft.hidden) closeDraft();
+      if (supportRequest.isOpen()) supportRequest.close();
       announce('Conversation cleared.');
       input.focus({ preventScroll: true });
     } catch { showError('The conversation could not be cleared. Please try Reset chat again.', null); }
@@ -344,7 +310,7 @@ export function initializeSupportChat(root) {
     if (event.key !== 'Escape') return;
     event.preventDefault();
     if (!find('reset-confirm').hidden) closeReset();
-    else if (!draft.hidden) closeDraft();
+    else if (supportRequest.isOpen()) supportRequest.close();
     else setOpen(false);
   });
   function updateViewport() {

@@ -32,7 +32,7 @@ async function open(page) {
   await expect(page.getByRole('button', { name: 'Reset password', exact: true })).toBeEnabled();
 }
 
-test('named links, readable steps, guide cards, followups and email review', async ({ page }) => {
+test('named links, readable steps, guide cards and followups', async ({ page }) => {
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
   const requests = await mockAPI(page);
@@ -49,13 +49,6 @@ test('named links, readable steps, guide cards, followups and email review', asy
   await page.screenshot({ path: 'test-results/chat-desktop-answer.png' });
   await page.getByRole('button', { name: 'Explain this step', exact: true }).click();
   await expect(page.getByRole('textbox', { name: 'Your support question' })).toHaveValue('Please explain step ');
-  await page.getByRole('button', { name: 'Email support ↗', exact: true }).click();
-  const draft = page.getByRole('textbox', { name: 'Support email draft' });
-  await expect(draft).toHaveValue(/How do I reset my RunSam password/);
-  await draft.fill('My screen is offline. I already checked the power.');
-  await expect(page.getByRole('link', { name: 'Open email app' })).toHaveAttribute('href', /body=My%20screen%20is%20offline/);
-  await page.keyboard.press('Escape');
-  await expect(draft).toBeHidden();
   await page.getByRole('button', { name: 'That worked', exact: true }).click();
   await expect(page.locator('[data-notice]')).toBeVisible();
   expect(requests).toHaveLength(1);
@@ -91,7 +84,7 @@ for (const [name, quota, expected] of [
     await expect(page.getByRole('alert')).toContainText('24 hours');
     await expect(page.locator('[data-retry]')).toBeHidden();
     await expect(page.locator('.chat-user-text')).toHaveCount(1);
-    await expect(page.getByRole('button', { name: 'Email support ↗', exact: true })).toBeEnabled();
+    await expect(page.getByRole('button', { name: 'Request support', exact: true })).toBeEnabled();
     expect(requests).toHaveLength(1);
   });
 }

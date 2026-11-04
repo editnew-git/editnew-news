@@ -4,6 +4,8 @@ import '../styles/supportChat.css';
 const guides = (await getCollection('news', ({ data }) => !data.draft)).map(({ data }) => ({
   title: data.title, url: `https://support.editnew.ca/news/${data.slug}/`,
 }));
+const turnstileSiteKey = import.meta.env.PUBLIC_SUPPORT_TURNSTILE_SITE_KEY?.trim() || '';
+const requestsEnabled = import.meta.env.PUBLIC_SUPPORT_REQUESTS_ENABLED === 'true' && Boolean(turnstileSiteKey);
 ---
 <!-- Public embed ID only. Chat authorization and limits remain on the server. -->
 <div class="support-chat" data-support-chat data-guides={JSON.stringify(guides)} data-embed-id="86c54a7e-8c04-48f8-b17c-9a4fe247ef24">
@@ -42,13 +44,49 @@ const guides = (await getCollection('news', ({ data }) => !data.draft)).map(({ d
       <p data-error-text role="alert"></p>
       <button data-retry>Retry reply</button>
     </div>
-    <div class="chat-draft" data-draft hidden>
-      <div class="chat-draft-heading"><strong>Review your email</strong><button class="chat-icon-button" data-close-draft aria-label="Close email draft">×</button></div>
-      <p>Edit the details below, then open your email app to send them.</p>
-      <label for="sam-support-draft" class="sr-only">Support email draft</label>
-      <textarea id="sam-support-draft" data-draft-text rows="7" maxlength="5000"></textarea>
-      <div><button data-copy-draft>Copy draft</button><a class="chat-primary" data-email-draft href="mailto:info@editnew.ca">Open email app ↗</a></div>
-    </div>
+    {requestsEnabled && <section class="chat-request" data-request-panel data-sitekey={turnstileSiteKey} aria-labelledby="sam-request-heading" hidden>
+      <div class="chat-request-heading"><h2 id="sam-request-heading" tabindex="-1">Request support</h2><button class="chat-icon-button" data-close-request aria-label="Back to chat">×</button></div>
+      <form data-request-form>
+        <fieldset data-request-fields>
+          <legend class="sr-only">Support request details</legend>
+          <p>Our team will review your request and follow up by email. Fields marked * are required.</p>
+          <label for="sam-request-name">Your name *</label>
+          <input id="sam-request-name" name="name" autocomplete="name" maxlength="120" required />
+          <label for="sam-request-email">Email *</label>
+          <input id="sam-request-email" name="email" type="email" autocomplete="email" maxlength="254" required />
+          <label for="sam-request-company">Company / location *</label>
+          <input id="sam-request-company" name="company" autocomplete="organization" maxlength="200" required />
+          <label for="sam-request-problem">What is the problem? *</label>
+          <textarea id="sam-request-problem" name="problem" rows="4" maxlength="4000" required></textarea>
+          <label for="sam-request-steps">Steps you have already tried (optional)</label>
+          <textarea id="sam-request-steps" name="steps_attempted" rows="3" maxlength="2000"></textarea>
+          <details>
+            <summary>Add phone, product, or sign details</summary>
+            <label for="sam-request-phone">Phone (optional)</label>
+            <input id="sam-request-phone" name="phone" type="tel" autocomplete="tel" maxlength="50" />
+            <label for="sam-request-product">Product (optional)</label>
+            <input id="sam-request-product" name="product" maxlength="120" placeholder="S.A.M. or RunSam" />
+            <label for="sam-request-sign">Sign number (optional)</label>
+            <input id="sam-request-sign" name="reported_sign" maxlength="80" />
+          </details>
+          <label class="chat-request-check" for="sam-request-include-chat"><input id="sam-request-include-chat" type="checkbox" data-request-include-chat /> Include recent chat messages</label>
+          <div data-request-chat-review hidden>
+            <p id="sam-request-excerpt-help">Review what will be shared. Sam AI suggestions are not steps you have necessarily tried. Remove any private account details.</p>
+            <label for="sam-request-excerpt">Conversation excerpt</label>
+            <textarea id="sam-request-excerpt" name="conversation_excerpt" rows="5" maxlength="4000" aria-describedby="sam-request-excerpt-help"></textarea>
+          </div>
+          <div class="chat-request-trap" aria-hidden="true"><label for="sam-request-website">Website</label><input id="sam-request-website" name="website" tabindex="-1" autocomplete="off" /></div>
+          <p>Please do not include passwords or payment details. Submitting shares these details with the Editnew support team.</p>
+          <div data-request-challenge></div>
+          <p class="chat-request-status" data-request-challenge-status role="status"></p>
+          <button type="button" data-retry-challenge hidden>Retry verification</button>
+          <button class="chat-primary" type="submit" data-request-submit disabled>Submit request</button>
+        </fieldset>
+        <p class="chat-request-error" data-request-error role="alert" hidden></p>
+        <div class="chat-request-receipt" data-request-receipt tabindex="-1" role="status" hidden></div>
+      </form>
+      <p class="chat-request-fallback">You can also email <a href="mailto:info@editnew.ca">info@editnew.ca</a>.</p>
+    </section>}
     <form class="chat-composer" data-form>
       <label for="sam-question" class="sr-only">Your support question</label>
       <div class="chat-input-row">
@@ -58,7 +96,7 @@ const guides = (await getCollection('news', ({ data }) => !data.draft)).map(({ d
       <div class="chat-input-help" id="sam-input-help"><span data-status role="status" aria-live="polite">Enter to send · Shift + Enter for a new line</span><span data-count hidden></span></div>
     </form>
     <footer class="chat-footer">
-      <div><button data-support>Email support ↗</button><button data-reset>Reset chat</button></div>
+      <div>{requestsEnabled ? <button data-support>Request support</button> : <a href="mailto:info@editnew.ca">Email support ↗</a>}<button data-reset>Reset chat</button></div>
       <p>AI answers from our guides can make mistakes.<br />Please don’t share passwords or private account details.</p>
     </footer>
     <div class="chat-reset-confirm" data-reset-confirm hidden>
