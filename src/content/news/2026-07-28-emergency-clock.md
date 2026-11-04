@@ -1,29 +1,23 @@
 ---
-title: "Emergency Clock"
+title: "Cartoon Countdown Timer Preview"
+subheadline: "RunSAM layout 14426"
 date: "2026-07-28"
 slug: "2026-07-28-emergency-clock"
 image: "/images/news/placeholder.jpg"
-excerpt: "Explore the Emergency Clock showcase and use the remote control to interact with it."
+excerpt: "Reference for RunSAM layout 14426. The embedded preview is temporarily unavailable."
 tags: ["layouts", "runsam", "training"]
 draft: false
 ---
 
-## Explore the Emergency Clock
+Reference for [RunSam.com](https://runsam.com) layout **14426**.
 
-<iframe
- src="https://iframe.wwds.co/?campId=14426"
- title="Emergency Clock interactive showcase"
- loading="lazy"
- allowfullscreen>
-</iframe>
+## Preview temporarily unavailable
 
-<a href="https://www.runsam.com/layouts/rc/14426/21627D73-AC35-46D0-B415-D66B8417A1B7">
-  <img
-    src="https://media.wwds.co/u/a7d4b6b7-f863-4a20-8edc-2ba03ff79661.png"
-    alt="QR code for the Emergency Clock remote control"
-    width="150"
-    height="150">
-</a>
+The embedded preview is temporarily unavailable while its viewing access is reviewed.
+
+## Get help with this layout
+
+Contact [EditNew Support](https://support.editnew.ca) and include layout number **14426**. If you are reporting a problem, describe what you expected to see and what appeared in your browser or on the display.
 
 ## About EditNew
 
